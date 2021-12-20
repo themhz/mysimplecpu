@@ -1,0 +1,9 @@
+vendor_name = ModelSim
+source_file = 1, S:/EAP/PLHPSI2/projects/half_adder.bdf
+source_file = 1, S:/EAP/PLHPSI2/projects/db/half_adder.cbx.xml
+design_name = hard_block
+design_name = half_adder
+instance = comp, \C~output\, C~output, half_adder, 1
+instance = comp, \S~output\, S~output, half_adder, 1
+instance = comp, \A~input\, A~input, half_adder, 1
+instance = comp, \B~input\, B~input, half_adder, 1

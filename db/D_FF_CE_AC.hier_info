@@ -1,0 +1,8 @@
+|D_FF_CE_AC
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst3.IN0
+D => inst.DATAIN
+CLK => inst.CLK
+CE => inst.ENA
+
+

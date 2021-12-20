@@ -1,0 +1,7 @@
+|D_FF_AC
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst2.IN0
+CLK => inst.CLK
+D => inst.DATAIN
+
+

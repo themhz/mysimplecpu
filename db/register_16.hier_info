@@ -1,0 +1,311 @@
+|register_16
+Q0 <= register_8:inst.Q0
+D0 => register_8:inst.D0
+D1 => register_8:inst.D1
+D2 => register_8:inst.D2
+D3 => register_8:inst.D3
+D4 => register_8:inst.D4
+D5 => register_8:inst.D5
+D6 => register_8:inst.D6
+D7 => register_8:inst.D7
+CLK => register_8:inst.CLK
+CLK => register_8:inst1.CLK
+CE => register_8:inst.CE
+CE => register_8:inst1.CE
+CLR => register_8:inst.CLR
+CLR => register_8:inst1.CLR
+Q1 <= register_8:inst.Q1
+Q2 <= register_8:inst.Q2
+Q3 <= register_8:inst.Q3
+Q4 <= register_8:inst.Q4
+Q5 <= register_8:inst.Q5
+Q6 <= register_8:inst.Q6
+Q7 <= register_8:inst.Q7
+Q8 <= register_8:inst1.Q0
+D8 => register_8:inst1.D0
+D9 => register_8:inst1.D1
+D10 => register_8:inst1.D2
+D11 => register_8:inst1.D3
+D12 => register_8:inst1.D4
+D13 => register_8:inst1.D5
+D14 => register_8:inst1.D6
+D15 => register_8:inst1.D7
+Q9 <= register_8:inst1.Q1
+Q10 <= register_8:inst1.Q2
+Q11 <= register_8:inst1.Q3
+Q12 <= register_8:inst1.Q4
+Q13 <= register_8:inst1.Q5
+Q14 <= register_8:inst1.Q6
+Q15 <= register_8:inst1.Q7
+
+
+|register_16|register_8:inst
+D0 => register_4:b2v_inst.D0
+D1 => register_4:b2v_inst.D1
+D2 => register_4:b2v_inst.D2
+D3 => register_4:b2v_inst.D3
+D4 => register_4:b2v_inst1.D0
+D5 => register_4:b2v_inst1.D1
+D6 => register_4:b2v_inst1.D2
+D7 => register_4:b2v_inst1.D3
+CLK => register_4:b2v_inst.CLK
+CLK => register_4:b2v_inst1.CLK
+CE => register_4:b2v_inst.CE
+CE => register_4:b2v_inst1.CE
+CLR => register_4:b2v_inst.CLR
+CLR => register_4:b2v_inst1.CLR
+Q0 <= register_4:b2v_inst.Q0
+Q1 <= register_4:b2v_inst.Q1
+Q2 <= register_4:b2v_inst.Q2
+Q3 <= register_4:b2v_inst.Q3
+Q4 <= register_4:b2v_inst1.Q0
+Q5 <= register_4:b2v_inst1.Q1
+Q6 <= register_4:b2v_inst1.Q2
+Q7 <= register_4:b2v_inst1.Q3
+
+
+|register_16|register_8:inst|register_4:b2v_inst
+D0 => d_ff_ce_ac:b2v_inst.D
+D1 => d_ff_ce_ac:b2v_inst1.D
+D2 => d_ff_ce_ac:b2v_inst2.D
+D3 => d_ff_ce_ac:b2v_inst3.D
+CLK => d_ff_ce_ac:b2v_inst.CLK
+CLK => d_ff_ce_ac:b2v_inst1.CLK
+CLK => d_ff_ce_ac:b2v_inst2.CLK
+CLK => d_ff_ce_ac:b2v_inst3.CLK
+CE => d_ff_ce_ac:b2v_inst.CE
+CE => d_ff_ce_ac:b2v_inst1.CE
+CE => d_ff_ce_ac:b2v_inst2.CE
+CE => d_ff_ce_ac:b2v_inst3.CE
+CLR => d_ff_ce_ac:b2v_inst.CLR
+CLR => d_ff_ce_ac:b2v_inst1.CLR
+CLR => d_ff_ce_ac:b2v_inst2.CLR
+CLR => d_ff_ce_ac:b2v_inst3.CLR
+Q0 <= d_ff_ce_ac:b2v_inst.Q
+Q1 <= d_ff_ce_ac:b2v_inst1.Q
+Q2 <= d_ff_ce_ac:b2v_inst2.Q
+Q3 <= d_ff_ce_ac:b2v_inst3.Q
+
+
+|register_16|register_8:inst|register_4:b2v_inst|d_ff_ce_ac:b2v_inst
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+CE => Q~reg0.ENA
+CLR => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register_16|register_8:inst|register_4:b2v_inst|d_ff_ce_ac:b2v_inst1
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+CE => Q~reg0.ENA
+CLR => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register_16|register_8:inst|register_4:b2v_inst|d_ff_ce_ac:b2v_inst2
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+CE => Q~reg0.ENA
+CLR => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register_16|register_8:inst|register_4:b2v_inst|d_ff_ce_ac:b2v_inst3
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+CE => Q~reg0.ENA
+CLR => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register_16|register_8:inst|register_4:b2v_inst1
+D0 => d_ff_ce_ac:b2v_inst.D
+D1 => d_ff_ce_ac:b2v_inst1.D
+D2 => d_ff_ce_ac:b2v_inst2.D
+D3 => d_ff_ce_ac:b2v_inst3.D
+CLK => d_ff_ce_ac:b2v_inst.CLK
+CLK => d_ff_ce_ac:b2v_inst1.CLK
+CLK => d_ff_ce_ac:b2v_inst2.CLK
+CLK => d_ff_ce_ac:b2v_inst3.CLK
+CE => d_ff_ce_ac:b2v_inst.CE
+CE => d_ff_ce_ac:b2v_inst1.CE
+CE => d_ff_ce_ac:b2v_inst2.CE
+CE => d_ff_ce_ac:b2v_inst3.CE
+CLR => d_ff_ce_ac:b2v_inst.CLR
+CLR => d_ff_ce_ac:b2v_inst1.CLR
+CLR => d_ff_ce_ac:b2v_inst2.CLR
+CLR => d_ff_ce_ac:b2v_inst3.CLR
+Q0 <= d_ff_ce_ac:b2v_inst.Q
+Q1 <= d_ff_ce_ac:b2v_inst1.Q
+Q2 <= d_ff_ce_ac:b2v_inst2.Q
+Q3 <= d_ff_ce_ac:b2v_inst3.Q
+
+
+|register_16|register_8:inst|register_4:b2v_inst1|d_ff_ce_ac:b2v_inst
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+CE => Q~reg0.ENA
+CLR => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register_16|register_8:inst|register_4:b2v_inst1|d_ff_ce_ac:b2v_inst1
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+CE => Q~reg0.ENA
+CLR => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register_16|register_8:inst|register_4:b2v_inst1|d_ff_ce_ac:b2v_inst2
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+CE => Q~reg0.ENA
+CLR => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register_16|register_8:inst|register_4:b2v_inst1|d_ff_ce_ac:b2v_inst3
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+CE => Q~reg0.ENA
+CLR => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register_16|register_8:inst1
+D0 => register_4:b2v_inst.D0
+D1 => register_4:b2v_inst.D1
+D2 => register_4:b2v_inst.D2
+D3 => register_4:b2v_inst.D3
+D4 => register_4:b2v_inst1.D0
+D5 => register_4:b2v_inst1.D1
+D6 => register_4:b2v_inst1.D2
+D7 => register_4:b2v_inst1.D3
+CLK => register_4:b2v_inst.CLK
+CLK => register_4:b2v_inst1.CLK
+CE => register_4:b2v_inst.CE
+CE => register_4:b2v_inst1.CE
+CLR => register_4:b2v_inst.CLR
+CLR => register_4:b2v_inst1.CLR
+Q0 <= register_4:b2v_inst.Q0
+Q1 <= register_4:b2v_inst.Q1
+Q2 <= register_4:b2v_inst.Q2
+Q3 <= register_4:b2v_inst.Q3
+Q4 <= register_4:b2v_inst1.Q0
+Q5 <= register_4:b2v_inst1.Q1
+Q6 <= register_4:b2v_inst1.Q2
+Q7 <= register_4:b2v_inst1.Q3
+
+
+|register_16|register_8:inst1|register_4:b2v_inst
+D0 => d_ff_ce_ac:b2v_inst.D
+D1 => d_ff_ce_ac:b2v_inst1.D
+D2 => d_ff_ce_ac:b2v_inst2.D
+D3 => d_ff_ce_ac:b2v_inst3.D
+CLK => d_ff_ce_ac:b2v_inst.CLK
+CLK => d_ff_ce_ac:b2v_inst1.CLK
+CLK => d_ff_ce_ac:b2v_inst2.CLK
+CLK => d_ff_ce_ac:b2v_inst3.CLK
+CE => d_ff_ce_ac:b2v_inst.CE
+CE => d_ff_ce_ac:b2v_inst1.CE
+CE => d_ff_ce_ac:b2v_inst2.CE
+CE => d_ff_ce_ac:b2v_inst3.CE
+CLR => d_ff_ce_ac:b2v_inst.CLR
+CLR => d_ff_ce_ac:b2v_inst1.CLR
+CLR => d_ff_ce_ac:b2v_inst2.CLR
+CLR => d_ff_ce_ac:b2v_inst3.CLR
+Q0 <= d_ff_ce_ac:b2v_inst.Q
+Q1 <= d_ff_ce_ac:b2v_inst1.Q
+Q2 <= d_ff_ce_ac:b2v_inst2.Q
+Q3 <= d_ff_ce_ac:b2v_inst3.Q
+
+
+|register_16|register_8:inst1|register_4:b2v_inst|d_ff_ce_ac:b2v_inst
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+CE => Q~reg0.ENA
+CLR => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register_16|register_8:inst1|register_4:b2v_inst|d_ff_ce_ac:b2v_inst1
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+CE => Q~reg0.ENA
+CLR => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register_16|register_8:inst1|register_4:b2v_inst|d_ff_ce_ac:b2v_inst2
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+CE => Q~reg0.ENA
+CLR => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register_16|register_8:inst1|register_4:b2v_inst|d_ff_ce_ac:b2v_inst3
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+CE => Q~reg0.ENA
+CLR => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register_16|register_8:inst1|register_4:b2v_inst1
+D0 => d_ff_ce_ac:b2v_inst.D
+D1 => d_ff_ce_ac:b2v_inst1.D
+D2 => d_ff_ce_ac:b2v_inst2.D
+D3 => d_ff_ce_ac:b2v_inst3.D
+CLK => d_ff_ce_ac:b2v_inst.CLK
+CLK => d_ff_ce_ac:b2v_inst1.CLK
+CLK => d_ff_ce_ac:b2v_inst2.CLK
+CLK => d_ff_ce_ac:b2v_inst3.CLK
+CE => d_ff_ce_ac:b2v_inst.CE
+CE => d_ff_ce_ac:b2v_inst1.CE
+CE => d_ff_ce_ac:b2v_inst2.CE
+CE => d_ff_ce_ac:b2v_inst3.CE
+CLR => d_ff_ce_ac:b2v_inst.CLR
+CLR => d_ff_ce_ac:b2v_inst1.CLR
+CLR => d_ff_ce_ac:b2v_inst2.CLR
+CLR => d_ff_ce_ac:b2v_inst3.CLR
+Q0 <= d_ff_ce_ac:b2v_inst.Q
+Q1 <= d_ff_ce_ac:b2v_inst1.Q
+Q2 <= d_ff_ce_ac:b2v_inst2.Q
+Q3 <= d_ff_ce_ac:b2v_inst3.Q
+
+
+|register_16|register_8:inst1|register_4:b2v_inst1|d_ff_ce_ac:b2v_inst
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+CE => Q~reg0.ENA
+CLR => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register_16|register_8:inst1|register_4:b2v_inst1|d_ff_ce_ac:b2v_inst1
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+CE => Q~reg0.ENA
+CLR => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register_16|register_8:inst1|register_4:b2v_inst1|d_ff_ce_ac:b2v_inst2
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+CE => Q~reg0.ENA
+CLR => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register_16|register_8:inst1|register_4:b2v_inst1|d_ff_ce_ac:b2v_inst3
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+CE => Q~reg0.ENA
+CLR => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

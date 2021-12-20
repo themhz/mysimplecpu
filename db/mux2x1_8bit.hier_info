@@ -1,0 +1,99 @@
+|mux2x1_8bit
+Yout[0] <= mux2x1_1bit:inst2x1.oOut
+Yout[1] <= mux2x1_1bit:inst2x2.oOut
+Yout[2] <= mux2x1_1bit:inst2x3.oOut
+Yout[3] <= mux2x1_1bit:inst2x4.oOut
+Yout[4] <= mux2x1_1bit:inst2x5.oOut
+Yout[5] <= mux2x1_1bit:inst2x6.oOut
+Yout[6] <= mux2x1_1bit:inst2x7.oOut
+Yout[7] <= mux2x1_1bit:inst2x8.oOut
+SEL => mux2x1_1bit:inst2x8.SEL
+SEL => mux2x1_1bit:inst2x7.SEL
+SEL => mux2x1_1bit:inst2x6.SEL
+SEL => mux2x1_1bit:inst2x5.SEL
+SEL => mux2x1_1bit:inst2x4.SEL
+SEL => mux2x1_1bit:inst2x3.SEL
+SEL => mux2x1_1bit:inst2x2.SEL
+SEL => mux2x1_1bit:inst2x1.SEL
+B[0] => mux2x1_1bit:inst2x1.Bin
+B[1] => mux2x1_1bit:inst2x2.Bin
+B[2] => mux2x1_1bit:inst2x3.Bin
+B[3] => mux2x1_1bit:inst2x4.Bin
+B[4] => mux2x1_1bit:inst2x5.Bin
+B[5] => mux2x1_1bit:inst2x6.Bin
+B[6] => mux2x1_1bit:inst2x7.Bin
+B[7] => mux2x1_1bit:inst2x8.Bin
+A[0] => mux2x1_1bit:inst2x1.Ain
+A[1] => mux2x1_1bit:inst2x2.Ain
+A[2] => mux2x1_1bit:inst2x3.Ain
+A[3] => mux2x1_1bit:inst2x4.Ain
+A[4] => mux2x1_1bit:inst2x5.Ain
+A[5] => mux2x1_1bit:inst2x6.Ain
+A[6] => mux2x1_1bit:inst2x7.Ain
+A[7] => mux2x1_1bit:inst2x8.Ain
+
+
+|mux2x1_8bit|mux2x1_1bit:inst2x8
+oOut <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SEL => inst1.IN0
+SEL => inst3.IN0
+Bin => inst1.IN1
+Ain => inst.IN1
+
+
+|mux2x1_8bit|mux2x1_1bit:inst2x7
+oOut <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SEL => inst1.IN0
+SEL => inst3.IN0
+Bin => inst1.IN1
+Ain => inst.IN1
+
+
+|mux2x1_8bit|mux2x1_1bit:inst2x6
+oOut <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SEL => inst1.IN0
+SEL => inst3.IN0
+Bin => inst1.IN1
+Ain => inst.IN1
+
+
+|mux2x1_8bit|mux2x1_1bit:inst2x5
+oOut <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SEL => inst1.IN0
+SEL => inst3.IN0
+Bin => inst1.IN1
+Ain => inst.IN1
+
+
+|mux2x1_8bit|mux2x1_1bit:inst2x4
+oOut <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SEL => inst1.IN0
+SEL => inst3.IN0
+Bin => inst1.IN1
+Ain => inst.IN1
+
+
+|mux2x1_8bit|mux2x1_1bit:inst2x3
+oOut <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SEL => inst1.IN0
+SEL => inst3.IN0
+Bin => inst1.IN1
+Ain => inst.IN1
+
+
+|mux2x1_8bit|mux2x1_1bit:inst2x2
+oOut <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SEL => inst1.IN0
+SEL => inst3.IN0
+Bin => inst1.IN1
+Ain => inst.IN1
+
+
+|mux2x1_8bit|mux2x1_1bit:inst2x1
+oOut <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SEL => inst1.IN0
+SEL => inst3.IN0
+Bin => inst1.IN1
+Ain => inst.IN1
+
+

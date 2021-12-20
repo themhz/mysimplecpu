@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, S:/EAP/PLHPSI2/projects/replicate.bdf
+source_file = 1, S:/EAP/PLHPSI2/projects/db/replicate.cbx.xml
+design_name = hard_block
+design_name = replicate
+instance = comp, \Z[7]~output\, Z[7]~output, replicate, 1
+instance = comp, \Z[6]~output\, Z[6]~output, replicate, 1
+instance = comp, \Z[5]~output\, Z[5]~output, replicate, 1
+instance = comp, \Z[4]~output\, Z[4]~output, replicate, 1
+instance = comp, \Z[3]~output\, Z[3]~output, replicate, 1
+instance = comp, \Z[2]~output\, Z[2]~output, replicate, 1
+instance = comp, \Z[1]~output\, Z[1]~output, replicate, 1
+instance = comp, \Z[0]~output\, Z[0]~output, replicate, 1
+instance = comp, \A~input\, A~input, replicate, 1

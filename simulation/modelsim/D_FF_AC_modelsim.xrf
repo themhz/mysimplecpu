@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/D_FF_AC.bdf
+source_file = 1, C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/db/D_FF_AC.cbx.xml
+design_name = hard_block
+design_name = D_FF_AC
+instance = comp, \Q~output\, Q~output, D_FF_AC, 1
+instance = comp, \CLK~input\, CLK~input, D_FF_AC, 1
+instance = comp, \D~input\, D~input, D_FF_AC, 1
+instance = comp, \inst~feeder\, inst~feeder, D_FF_AC, 1
+instance = comp, \CLR~input\, CLR~input, D_FF_AC, 1

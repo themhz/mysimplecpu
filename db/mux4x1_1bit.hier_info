@@ -1,0 +1,35 @@
+|mux4x1_1bit
+Z <= mux2x1_1bit:inst2.oOut
+SEL1 => mux2x1_1bit:inst2.SEL
+SEL0 => mux2x1_1bit:inst1.SEL
+SEL0 => mux2x1_1bit:inst.SEL
+D => mux2x1_1bit:inst1.Bin
+C => mux2x1_1bit:inst1.Ain
+B => mux2x1_1bit:inst.Bin
+A => mux2x1_1bit:inst.Ain
+
+
+|mux4x1_1bit|mux2x1_1bit:inst2
+oOut <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SEL => inst1.IN0
+SEL => inst3.IN0
+Bin => inst1.IN1
+Ain => inst.IN1
+
+
+|mux4x1_1bit|mux2x1_1bit:inst1
+oOut <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SEL => inst1.IN0
+SEL => inst3.IN0
+Bin => inst1.IN1
+Ain => inst.IN1
+
+
+|mux4x1_1bit|mux2x1_1bit:inst
+oOut <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SEL => inst1.IN0
+SEL => inst3.IN0
+Bin => inst1.IN1
+Ain => inst.IN1
+
+

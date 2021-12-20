@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat Dec 18 15:46:51 2021
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : ripple_adder_8bit
+Top-level Entity Name : ripple_adder_8bit
+Family : Cyclone IV E
+Total logic elements : 20
+    Total combinational functions : 20
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 26
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

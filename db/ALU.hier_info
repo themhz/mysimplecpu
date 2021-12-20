@@ -1,0 +1,749 @@
+|ALU
+Cout <= ripple_adder_8bit:inst4.Cout
+S2 => ripple_adder_8bit:inst4.Cin
+A[0] => ripple_adder_8bit:inst4.A[0]
+A[0] => bitwise_and:inst5.A[0]
+A[0] => mux4x1_8bit:inst1.C[0]
+A[1] => ripple_adder_8bit:inst4.A[1]
+A[1] => bitwise_and:inst5.A[1]
+A[1] => mux4x1_8bit:inst1.C[1]
+A[2] => ripple_adder_8bit:inst4.A[2]
+A[2] => bitwise_and:inst5.A[2]
+A[2] => mux4x1_8bit:inst1.C[2]
+A[3] => ripple_adder_8bit:inst4.A[3]
+A[3] => bitwise_and:inst5.A[3]
+A[3] => mux4x1_8bit:inst1.C[3]
+A[4] => ripple_adder_8bit:inst4.A[4]
+A[4] => bitwise_and:inst5.A[4]
+A[4] => mux4x1_8bit:inst1.C[4]
+A[5] => ripple_adder_8bit:inst4.A[5]
+A[5] => bitwise_and:inst5.A[5]
+A[5] => mux4x1_8bit:inst1.C[5]
+A[6] => ripple_adder_8bit:inst4.A[6]
+A[6] => bitwise_and:inst5.A[6]
+A[6] => mux4x1_8bit:inst1.C[6]
+A[7] => ripple_adder_8bit:inst4.A[7]
+A[7] => bitwise_and:inst5.A[7]
+A[7] => mux4x1_8bit:inst1.C[7]
+S4 => inst6.IN0
+S3 => bitwise_inv:inst2.EN
+B[0] => bitwise_inv:inst2.A[0]
+B[0] => bitwise_and:inst5.B[0]
+B[0] => mux4x1_8bit:inst1.D[0]
+B[1] => bitwise_inv:inst2.A[1]
+B[1] => bitwise_and:inst5.B[1]
+B[1] => mux4x1_8bit:inst1.D[1]
+B[2] => bitwise_inv:inst2.A[2]
+B[2] => bitwise_and:inst5.B[2]
+B[2] => mux4x1_8bit:inst1.D[2]
+B[3] => bitwise_inv:inst2.A[3]
+B[3] => bitwise_and:inst5.B[3]
+B[3] => mux4x1_8bit:inst1.D[3]
+B[4] => bitwise_inv:inst2.A[4]
+B[4] => bitwise_and:inst5.B[4]
+B[4] => mux4x1_8bit:inst1.D[4]
+B[5] => bitwise_inv:inst2.A[5]
+B[5] => bitwise_and:inst5.B[5]
+B[5] => mux4x1_8bit:inst1.D[5]
+B[6] => bitwise_inv:inst2.A[6]
+B[6] => bitwise_and:inst5.B[6]
+B[6] => mux4x1_8bit:inst1.D[6]
+B[7] => bitwise_inv:inst2.A[7]
+B[7] => bitwise_and:inst5.B[7]
+B[7] => mux4x1_8bit:inst1.D[7]
+Sum[0] <= ripple_adder_8bit:inst4.Sum[0]
+Sum[1] <= ripple_adder_8bit:inst4.Sum[1]
+Sum[2] <= ripple_adder_8bit:inst4.Sum[2]
+Sum[3] <= ripple_adder_8bit:inst4.Sum[3]
+Sum[4] <= ripple_adder_8bit:inst4.Sum[4]
+Sum[5] <= ripple_adder_8bit:inst4.Sum[5]
+Sum[6] <= ripple_adder_8bit:inst4.Sum[6]
+Sum[7] <= ripple_adder_8bit:inst4.Sum[7]
+Z[0] <= mux4x1_8bit:inst1.Z[0]
+Z[1] <= mux4x1_8bit:inst1.Z[1]
+Z[2] <= mux4x1_8bit:inst1.Z[2]
+Z[3] <= mux4x1_8bit:inst1.Z[3]
+Z[4] <= mux4x1_8bit:inst1.Z[4]
+Z[5] <= mux4x1_8bit:inst1.Z[5]
+Z[6] <= mux4x1_8bit:inst1.Z[6]
+Z[7] <= mux4x1_8bit:inst1.Z[7]
+S1 => mux4x1_8bit:inst1.S1
+S0 => mux4x1_8bit:inst1.S0
+
+
+|ALU|ripple_adder_8bit:inst4
+Cin => full_adder:b2v_inst.Cin
+A[0] => full_adder:b2v_inst.A
+A[1] => full_adder:b2v_inst1.A
+A[2] => full_adder:b2v_inst2.A
+A[3] => full_adder:b2v_inst3.A
+A[4] => full_adder:b2v_inst4.A
+A[5] => full_adder:b2v_inst5.A
+A[6] => full_adder:b2v_inst6.A
+A[7] => full_adder:b2v_inst7.A
+B[0] => full_adder:b2v_inst.B
+B[1] => full_adder:b2v_inst1.B
+B[2] => full_adder:b2v_inst2.B
+B[3] => full_adder:b2v_inst3.B
+B[4] => full_adder:b2v_inst4.B
+B[5] => full_adder:b2v_inst5.B
+B[6] => full_adder:b2v_inst6.B
+B[7] => full_adder:b2v_inst7.B
+Cout <= full_adder:b2v_inst7.Cout
+Sum[0] <= full_adder:b2v_inst.Sum
+Sum[1] <= full_adder:b2v_inst1.Sum
+Sum[2] <= full_adder:b2v_inst2.Sum
+Sum[3] <= full_adder:b2v_inst3.Sum
+Sum[4] <= full_adder:b2v_inst4.Sum
+Sum[5] <= full_adder:b2v_inst5.Sum
+Sum[6] <= full_adder:b2v_inst6.Sum
+Sum[7] <= full_adder:b2v_inst7.Sum
+
+
+|ALU|ripple_adder_8bit:inst4|full_adder:b2v_inst
+A => half_adder:b2v_inst.A
+B => half_adder:b2v_inst.B
+Cin => half_adder:b2v_inst1.B
+Sum <= half_adder:b2v_inst1.S
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|ripple_adder_8bit:inst4|full_adder:b2v_inst|half_adder:b2v_inst
+A => C.IN0
+A => S.IN0
+B => C.IN1
+B => S.IN1
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|ripple_adder_8bit:inst4|full_adder:b2v_inst|half_adder:b2v_inst1
+A => C.IN0
+A => S.IN0
+B => C.IN1
+B => S.IN1
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|ripple_adder_8bit:inst4|full_adder:b2v_inst1
+A => half_adder:b2v_inst.A
+B => half_adder:b2v_inst.B
+Cin => half_adder:b2v_inst1.B
+Sum <= half_adder:b2v_inst1.S
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|ripple_adder_8bit:inst4|full_adder:b2v_inst1|half_adder:b2v_inst
+A => C.IN0
+A => S.IN0
+B => C.IN1
+B => S.IN1
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|ripple_adder_8bit:inst4|full_adder:b2v_inst1|half_adder:b2v_inst1
+A => C.IN0
+A => S.IN0
+B => C.IN1
+B => S.IN1
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|ripple_adder_8bit:inst4|full_adder:b2v_inst2
+A => half_adder:b2v_inst.A
+B => half_adder:b2v_inst.B
+Cin => half_adder:b2v_inst1.B
+Sum <= half_adder:b2v_inst1.S
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|ripple_adder_8bit:inst4|full_adder:b2v_inst2|half_adder:b2v_inst
+A => C.IN0
+A => S.IN0
+B => C.IN1
+B => S.IN1
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|ripple_adder_8bit:inst4|full_adder:b2v_inst2|half_adder:b2v_inst1
+A => C.IN0
+A => S.IN0
+B => C.IN1
+B => S.IN1
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|ripple_adder_8bit:inst4|full_adder:b2v_inst3
+A => half_adder:b2v_inst.A
+B => half_adder:b2v_inst.B
+Cin => half_adder:b2v_inst1.B
+Sum <= half_adder:b2v_inst1.S
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|ripple_adder_8bit:inst4|full_adder:b2v_inst3|half_adder:b2v_inst
+A => C.IN0
+A => S.IN0
+B => C.IN1
+B => S.IN1
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|ripple_adder_8bit:inst4|full_adder:b2v_inst3|half_adder:b2v_inst1
+A => C.IN0
+A => S.IN0
+B => C.IN1
+B => S.IN1
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|ripple_adder_8bit:inst4|full_adder:b2v_inst4
+A => half_adder:b2v_inst.A
+B => half_adder:b2v_inst.B
+Cin => half_adder:b2v_inst1.B
+Sum <= half_adder:b2v_inst1.S
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|ripple_adder_8bit:inst4|full_adder:b2v_inst4|half_adder:b2v_inst
+A => C.IN0
+A => S.IN0
+B => C.IN1
+B => S.IN1
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|ripple_adder_8bit:inst4|full_adder:b2v_inst4|half_adder:b2v_inst1
+A => C.IN0
+A => S.IN0
+B => C.IN1
+B => S.IN1
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|ripple_adder_8bit:inst4|full_adder:b2v_inst5
+A => half_adder:b2v_inst.A
+B => half_adder:b2v_inst.B
+Cin => half_adder:b2v_inst1.B
+Sum <= half_adder:b2v_inst1.S
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|ripple_adder_8bit:inst4|full_adder:b2v_inst5|half_adder:b2v_inst
+A => C.IN0
+A => S.IN0
+B => C.IN1
+B => S.IN1
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|ripple_adder_8bit:inst4|full_adder:b2v_inst5|half_adder:b2v_inst1
+A => C.IN0
+A => S.IN0
+B => C.IN1
+B => S.IN1
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|ripple_adder_8bit:inst4|full_adder:b2v_inst6
+A => half_adder:b2v_inst.A
+B => half_adder:b2v_inst.B
+Cin => half_adder:b2v_inst1.B
+Sum <= half_adder:b2v_inst1.S
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|ripple_adder_8bit:inst4|full_adder:b2v_inst6|half_adder:b2v_inst
+A => C.IN0
+A => S.IN0
+B => C.IN1
+B => S.IN1
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|ripple_adder_8bit:inst4|full_adder:b2v_inst6|half_adder:b2v_inst1
+A => C.IN0
+A => S.IN0
+B => C.IN1
+B => S.IN1
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|ripple_adder_8bit:inst4|full_adder:b2v_inst7
+A => half_adder:b2v_inst.A
+B => half_adder:b2v_inst.B
+Cin => half_adder:b2v_inst1.B
+Sum <= half_adder:b2v_inst1.S
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|ripple_adder_8bit:inst4|full_adder:b2v_inst7|half_adder:b2v_inst
+A => C.IN0
+A => S.IN0
+B => C.IN1
+B => S.IN1
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|ripple_adder_8bit:inst4|full_adder:b2v_inst7|half_adder:b2v_inst1
+A => C.IN0
+A => S.IN0
+B => C.IN1
+B => S.IN1
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|bitwise_and:inst3
+A[0] => Z_ALTERA_SYNTHESIZED.IN0
+A[1] => Z_ALTERA_SYNTHESIZED.IN0
+A[2] => Z_ALTERA_SYNTHESIZED.IN0
+A[3] => Z_ALTERA_SYNTHESIZED.IN0
+A[4] => Z_ALTERA_SYNTHESIZED.IN0
+A[5] => Z_ALTERA_SYNTHESIZED.IN0
+A[6] => Z_ALTERA_SYNTHESIZED.IN0
+A[7] => Z_ALTERA_SYNTHESIZED.IN0
+B[0] => Z_ALTERA_SYNTHESIZED.IN1
+B[1] => Z_ALTERA_SYNTHESIZED.IN1
+B[2] => Z_ALTERA_SYNTHESIZED.IN1
+B[3] => Z_ALTERA_SYNTHESIZED.IN1
+B[4] => Z_ALTERA_SYNTHESIZED.IN1
+B[5] => Z_ALTERA_SYNTHESIZED.IN1
+B[6] => Z_ALTERA_SYNTHESIZED.IN1
+B[7] => Z_ALTERA_SYNTHESIZED.IN1
+Z[0] <= Z_ALTERA_SYNTHESIZED.DB_MAX_OUTPUT_PORT_TYPE
+Z[1] <= Z_ALTERA_SYNTHESIZED.DB_MAX_OUTPUT_PORT_TYPE
+Z[2] <= Z_ALTERA_SYNTHESIZED.DB_MAX_OUTPUT_PORT_TYPE
+Z[3] <= Z_ALTERA_SYNTHESIZED.DB_MAX_OUTPUT_PORT_TYPE
+Z[4] <= Z_ALTERA_SYNTHESIZED.DB_MAX_OUTPUT_PORT_TYPE
+Z[5] <= Z_ALTERA_SYNTHESIZED.DB_MAX_OUTPUT_PORT_TYPE
+Z[6] <= Z_ALTERA_SYNTHESIZED.DB_MAX_OUTPUT_PORT_TYPE
+Z[7] <= Z_ALTERA_SYNTHESIZED.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|replicate:inst
+Z[0] <= A.DB_MAX_OUTPUT_PORT_TYPE
+Z[1] <= A.DB_MAX_OUTPUT_PORT_TYPE
+Z[2] <= A.DB_MAX_OUTPUT_PORT_TYPE
+Z[3] <= A.DB_MAX_OUTPUT_PORT_TYPE
+Z[4] <= A.DB_MAX_OUTPUT_PORT_TYPE
+Z[5] <= A.DB_MAX_OUTPUT_PORT_TYPE
+Z[6] <= A.DB_MAX_OUTPUT_PORT_TYPE
+Z[7] <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => Z[7].DATAIN
+A => Z[6].DATAIN
+A => Z[5].DATAIN
+A => Z[4].DATAIN
+A => Z[3].DATAIN
+A => Z[2].DATAIN
+A => Z[1].DATAIN
+A => Z[0].DATAIN
+
+
+|ALU|bitwise_inv:inst2
+EN => Z_ALTERA_SYNTHESIZED.IN0
+EN => Z_ALTERA_SYNTHESIZED.IN0
+EN => Z_ALTERA_SYNTHESIZED.IN0
+EN => Z_ALTERA_SYNTHESIZED.IN0
+EN => Z_ALTERA_SYNTHESIZED.IN0
+EN => Z_ALTERA_SYNTHESIZED.IN0
+EN => Z_ALTERA_SYNTHESIZED.IN0
+EN => Z_ALTERA_SYNTHESIZED.IN0
+A[0] => Z_ALTERA_SYNTHESIZED.IN1
+A[1] => Z_ALTERA_SYNTHESIZED.IN1
+A[2] => Z_ALTERA_SYNTHESIZED.IN1
+A[3] => Z_ALTERA_SYNTHESIZED.IN1
+A[4] => Z_ALTERA_SYNTHESIZED.IN1
+A[5] => Z_ALTERA_SYNTHESIZED.IN1
+A[6] => Z_ALTERA_SYNTHESIZED.IN1
+A[7] => Z_ALTERA_SYNTHESIZED.IN1
+Z[0] <= Z_ALTERA_SYNTHESIZED.DB_MAX_OUTPUT_PORT_TYPE
+Z[1] <= Z_ALTERA_SYNTHESIZED.DB_MAX_OUTPUT_PORT_TYPE
+Z[2] <= Z_ALTERA_SYNTHESIZED.DB_MAX_OUTPUT_PORT_TYPE
+Z[3] <= Z_ALTERA_SYNTHESIZED.DB_MAX_OUTPUT_PORT_TYPE
+Z[4] <= Z_ALTERA_SYNTHESIZED.DB_MAX_OUTPUT_PORT_TYPE
+Z[5] <= Z_ALTERA_SYNTHESIZED.DB_MAX_OUTPUT_PORT_TYPE
+Z[6] <= Z_ALTERA_SYNTHESIZED.DB_MAX_OUTPUT_PORT_TYPE
+Z[7] <= Z_ALTERA_SYNTHESIZED.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|mux4x1_8bit:inst1
+S0 => mux4x1_1bit:b2v_inst.SEL0
+S0 => mux4x1_1bit:b2v_inst1.SEL0
+S0 => mux4x1_1bit:b2v_inst2.SEL0
+S0 => mux4x1_1bit:b2v_inst3.SEL0
+S0 => mux4x1_1bit:b2v_inst4.SEL0
+S0 => mux4x1_1bit:b2v_inst5.SEL0
+S0 => mux4x1_1bit:b2v_inst6.SEL0
+S0 => mux4x1_1bit:b2v_inst7.SEL0
+S1 => mux4x1_1bit:b2v_inst.SEL1
+S1 => mux4x1_1bit:b2v_inst1.SEL1
+S1 => mux4x1_1bit:b2v_inst2.SEL1
+S1 => mux4x1_1bit:b2v_inst3.SEL1
+S1 => mux4x1_1bit:b2v_inst4.SEL1
+S1 => mux4x1_1bit:b2v_inst5.SEL1
+S1 => mux4x1_1bit:b2v_inst6.SEL1
+S1 => mux4x1_1bit:b2v_inst7.SEL1
+A[0] => mux4x1_1bit:b2v_inst.A
+A[1] => mux4x1_1bit:b2v_inst1.A
+A[2] => mux4x1_1bit:b2v_inst2.A
+A[3] => mux4x1_1bit:b2v_inst3.A
+A[4] => mux4x1_1bit:b2v_inst4.A
+A[5] => mux4x1_1bit:b2v_inst5.A
+A[6] => mux4x1_1bit:b2v_inst6.A
+A[7] => mux4x1_1bit:b2v_inst7.A
+B[0] => mux4x1_1bit:b2v_inst.B
+B[1] => mux4x1_1bit:b2v_inst1.B
+B[2] => mux4x1_1bit:b2v_inst2.B
+B[3] => mux4x1_1bit:b2v_inst3.B
+B[4] => mux4x1_1bit:b2v_inst4.B
+B[5] => mux4x1_1bit:b2v_inst5.B
+B[6] => mux4x1_1bit:b2v_inst6.B
+B[7] => mux4x1_1bit:b2v_inst7.B
+C[0] => mux4x1_1bit:b2v_inst.C
+C[1] => mux4x1_1bit:b2v_inst1.C
+C[2] => mux4x1_1bit:b2v_inst2.C
+C[3] => mux4x1_1bit:b2v_inst3.C
+C[4] => mux4x1_1bit:b2v_inst4.C
+C[5] => mux4x1_1bit:b2v_inst5.C
+C[6] => mux4x1_1bit:b2v_inst6.C
+C[7] => mux4x1_1bit:b2v_inst7.C
+D[0] => mux4x1_1bit:b2v_inst.D
+D[1] => mux4x1_1bit:b2v_inst1.D
+D[2] => mux4x1_1bit:b2v_inst2.D
+D[3] => mux4x1_1bit:b2v_inst3.D
+D[4] => mux4x1_1bit:b2v_inst4.D
+D[5] => mux4x1_1bit:b2v_inst5.D
+D[6] => mux4x1_1bit:b2v_inst6.D
+D[7] => mux4x1_1bit:b2v_inst7.D
+Z[0] <= mux4x1_1bit:b2v_inst.Z
+Z[1] <= mux4x1_1bit:b2v_inst1.Z
+Z[2] <= mux4x1_1bit:b2v_inst2.Z
+Z[3] <= mux4x1_1bit:b2v_inst3.Z
+Z[4] <= mux4x1_1bit:b2v_inst4.Z
+Z[5] <= mux4x1_1bit:b2v_inst5.Z
+Z[6] <= mux4x1_1bit:b2v_inst6.Z
+Z[7] <= mux4x1_1bit:b2v_inst7.Z
+
+
+|ALU|mux4x1_8bit:inst1|mux4x1_1bit:b2v_inst
+SEL0 => mux2x1_1bit:b2v_inst.SEL
+SEL0 => mux2x1_1bit:b2v_inst1.SEL
+SEL1 => mux2x1_1bit:b2v_inst2.SEL
+A => mux2x1_1bit:b2v_inst.Ain
+B => mux2x1_1bit:b2v_inst.Bin
+C => mux2x1_1bit:b2v_inst1.Ain
+D => mux2x1_1bit:b2v_inst1.Bin
+Z <= mux2x1_1bit:b2v_inst2.oOut
+
+
+|ALU|mux4x1_8bit:inst1|mux4x1_1bit:b2v_inst|mux2x1_1bit:b2v_inst
+oOut <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SEL => inst1.IN0
+SEL => inst3.IN0
+Bin => inst1.IN1
+Ain => inst.IN1
+
+
+|ALU|mux4x1_8bit:inst1|mux4x1_1bit:b2v_inst|mux2x1_1bit:b2v_inst1
+oOut <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SEL => inst1.IN0
+SEL => inst3.IN0
+Bin => inst1.IN1
+Ain => inst.IN1
+
+
+|ALU|mux4x1_8bit:inst1|mux4x1_1bit:b2v_inst|mux2x1_1bit:b2v_inst2
+oOut <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SEL => inst1.IN0
+SEL => inst3.IN0
+Bin => inst1.IN1
+Ain => inst.IN1
+
+
+|ALU|mux4x1_8bit:inst1|mux4x1_1bit:b2v_inst1
+SEL0 => mux2x1_1bit:b2v_inst.SEL
+SEL0 => mux2x1_1bit:b2v_inst1.SEL
+SEL1 => mux2x1_1bit:b2v_inst2.SEL
+A => mux2x1_1bit:b2v_inst.Ain
+B => mux2x1_1bit:b2v_inst.Bin
+C => mux2x1_1bit:b2v_inst1.Ain
+D => mux2x1_1bit:b2v_inst1.Bin
+Z <= mux2x1_1bit:b2v_inst2.oOut
+
+
+|ALU|mux4x1_8bit:inst1|mux4x1_1bit:b2v_inst1|mux2x1_1bit:b2v_inst
+oOut <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SEL => inst1.IN0
+SEL => inst3.IN0
+Bin => inst1.IN1
+Ain => inst.IN1
+
+
+|ALU|mux4x1_8bit:inst1|mux4x1_1bit:b2v_inst1|mux2x1_1bit:b2v_inst1
+oOut <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SEL => inst1.IN0
+SEL => inst3.IN0
+Bin => inst1.IN1
+Ain => inst.IN1
+
+
+|ALU|mux4x1_8bit:inst1|mux4x1_1bit:b2v_inst1|mux2x1_1bit:b2v_inst2
+oOut <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SEL => inst1.IN0
+SEL => inst3.IN0
+Bin => inst1.IN1
+Ain => inst.IN1
+
+
+|ALU|mux4x1_8bit:inst1|mux4x1_1bit:b2v_inst2
+SEL0 => mux2x1_1bit:b2v_inst.SEL
+SEL0 => mux2x1_1bit:b2v_inst1.SEL
+SEL1 => mux2x1_1bit:b2v_inst2.SEL
+A => mux2x1_1bit:b2v_inst.Ain
+B => mux2x1_1bit:b2v_inst.Bin
+C => mux2x1_1bit:b2v_inst1.Ain
+D => mux2x1_1bit:b2v_inst1.Bin
+Z <= mux2x1_1bit:b2v_inst2.oOut
+
+
+|ALU|mux4x1_8bit:inst1|mux4x1_1bit:b2v_inst2|mux2x1_1bit:b2v_inst
+oOut <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SEL => inst1.IN0
+SEL => inst3.IN0
+Bin => inst1.IN1
+Ain => inst.IN1
+
+
+|ALU|mux4x1_8bit:inst1|mux4x1_1bit:b2v_inst2|mux2x1_1bit:b2v_inst1
+oOut <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SEL => inst1.IN0
+SEL => inst3.IN0
+Bin => inst1.IN1
+Ain => inst.IN1
+
+
+|ALU|mux4x1_8bit:inst1|mux4x1_1bit:b2v_inst2|mux2x1_1bit:b2v_inst2
+oOut <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SEL => inst1.IN0
+SEL => inst3.IN0
+Bin => inst1.IN1
+Ain => inst.IN1
+
+
+|ALU|mux4x1_8bit:inst1|mux4x1_1bit:b2v_inst3
+SEL0 => mux2x1_1bit:b2v_inst.SEL
+SEL0 => mux2x1_1bit:b2v_inst1.SEL
+SEL1 => mux2x1_1bit:b2v_inst2.SEL
+A => mux2x1_1bit:b2v_inst.Ain
+B => mux2x1_1bit:b2v_inst.Bin
+C => mux2x1_1bit:b2v_inst1.Ain
+D => mux2x1_1bit:b2v_inst1.Bin
+Z <= mux2x1_1bit:b2v_inst2.oOut
+
+
+|ALU|mux4x1_8bit:inst1|mux4x1_1bit:b2v_inst3|mux2x1_1bit:b2v_inst
+oOut <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SEL => inst1.IN0
+SEL => inst3.IN0
+Bin => inst1.IN1
+Ain => inst.IN1
+
+
+|ALU|mux4x1_8bit:inst1|mux4x1_1bit:b2v_inst3|mux2x1_1bit:b2v_inst1
+oOut <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SEL => inst1.IN0
+SEL => inst3.IN0
+Bin => inst1.IN1
+Ain => inst.IN1
+
+
+|ALU|mux4x1_8bit:inst1|mux4x1_1bit:b2v_inst3|mux2x1_1bit:b2v_inst2
+oOut <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SEL => inst1.IN0
+SEL => inst3.IN0
+Bin => inst1.IN1
+Ain => inst.IN1
+
+
+|ALU|mux4x1_8bit:inst1|mux4x1_1bit:b2v_inst4
+SEL0 => mux2x1_1bit:b2v_inst.SEL
+SEL0 => mux2x1_1bit:b2v_inst1.SEL
+SEL1 => mux2x1_1bit:b2v_inst2.SEL
+A => mux2x1_1bit:b2v_inst.Ain
+B => mux2x1_1bit:b2v_inst.Bin
+C => mux2x1_1bit:b2v_inst1.Ain
+D => mux2x1_1bit:b2v_inst1.Bin
+Z <= mux2x1_1bit:b2v_inst2.oOut
+
+
+|ALU|mux4x1_8bit:inst1|mux4x1_1bit:b2v_inst4|mux2x1_1bit:b2v_inst
+oOut <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SEL => inst1.IN0
+SEL => inst3.IN0
+Bin => inst1.IN1
+Ain => inst.IN1
+
+
+|ALU|mux4x1_8bit:inst1|mux4x1_1bit:b2v_inst4|mux2x1_1bit:b2v_inst1
+oOut <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SEL => inst1.IN0
+SEL => inst3.IN0
+Bin => inst1.IN1
+Ain => inst.IN1
+
+
+|ALU|mux4x1_8bit:inst1|mux4x1_1bit:b2v_inst4|mux2x1_1bit:b2v_inst2
+oOut <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SEL => inst1.IN0
+SEL => inst3.IN0
+Bin => inst1.IN1
+Ain => inst.IN1
+
+
+|ALU|mux4x1_8bit:inst1|mux4x1_1bit:b2v_inst5
+SEL0 => mux2x1_1bit:b2v_inst.SEL
+SEL0 => mux2x1_1bit:b2v_inst1.SEL
+SEL1 => mux2x1_1bit:b2v_inst2.SEL
+A => mux2x1_1bit:b2v_inst.Ain
+B => mux2x1_1bit:b2v_inst.Bin
+C => mux2x1_1bit:b2v_inst1.Ain
+D => mux2x1_1bit:b2v_inst1.Bin
+Z <= mux2x1_1bit:b2v_inst2.oOut
+
+
+|ALU|mux4x1_8bit:inst1|mux4x1_1bit:b2v_inst5|mux2x1_1bit:b2v_inst
+oOut <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SEL => inst1.IN0
+SEL => inst3.IN0
+Bin => inst1.IN1
+Ain => inst.IN1
+
+
+|ALU|mux4x1_8bit:inst1|mux4x1_1bit:b2v_inst5|mux2x1_1bit:b2v_inst1
+oOut <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SEL => inst1.IN0
+SEL => inst3.IN0
+Bin => inst1.IN1
+Ain => inst.IN1
+
+
+|ALU|mux4x1_8bit:inst1|mux4x1_1bit:b2v_inst5|mux2x1_1bit:b2v_inst2
+oOut <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SEL => inst1.IN0
+SEL => inst3.IN0
+Bin => inst1.IN1
+Ain => inst.IN1
+
+
+|ALU|mux4x1_8bit:inst1|mux4x1_1bit:b2v_inst6
+SEL0 => mux2x1_1bit:b2v_inst.SEL
+SEL0 => mux2x1_1bit:b2v_inst1.SEL
+SEL1 => mux2x1_1bit:b2v_inst2.SEL
+A => mux2x1_1bit:b2v_inst.Ain
+B => mux2x1_1bit:b2v_inst.Bin
+C => mux2x1_1bit:b2v_inst1.Ain
+D => mux2x1_1bit:b2v_inst1.Bin
+Z <= mux2x1_1bit:b2v_inst2.oOut
+
+
+|ALU|mux4x1_8bit:inst1|mux4x1_1bit:b2v_inst6|mux2x1_1bit:b2v_inst
+oOut <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SEL => inst1.IN0
+SEL => inst3.IN0
+Bin => inst1.IN1
+Ain => inst.IN1
+
+
+|ALU|mux4x1_8bit:inst1|mux4x1_1bit:b2v_inst6|mux2x1_1bit:b2v_inst1
+oOut <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SEL => inst1.IN0
+SEL => inst3.IN0
+Bin => inst1.IN1
+Ain => inst.IN1
+
+
+|ALU|mux4x1_8bit:inst1|mux4x1_1bit:b2v_inst6|mux2x1_1bit:b2v_inst2
+oOut <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SEL => inst1.IN0
+SEL => inst3.IN0
+Bin => inst1.IN1
+Ain => inst.IN1
+
+
+|ALU|mux4x1_8bit:inst1|mux4x1_1bit:b2v_inst7
+SEL0 => mux2x1_1bit:b2v_inst.SEL
+SEL0 => mux2x1_1bit:b2v_inst1.SEL
+SEL1 => mux2x1_1bit:b2v_inst2.SEL
+A => mux2x1_1bit:b2v_inst.Ain
+B => mux2x1_1bit:b2v_inst.Bin
+C => mux2x1_1bit:b2v_inst1.Ain
+D => mux2x1_1bit:b2v_inst1.Bin
+Z <= mux2x1_1bit:b2v_inst2.oOut
+
+
+|ALU|mux4x1_8bit:inst1|mux4x1_1bit:b2v_inst7|mux2x1_1bit:b2v_inst
+oOut <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SEL => inst1.IN0
+SEL => inst3.IN0
+Bin => inst1.IN1
+Ain => inst.IN1
+
+
+|ALU|mux4x1_8bit:inst1|mux4x1_1bit:b2v_inst7|mux2x1_1bit:b2v_inst1
+oOut <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SEL => inst1.IN0
+SEL => inst3.IN0
+Bin => inst1.IN1
+Ain => inst.IN1
+
+
+|ALU|mux4x1_8bit:inst1|mux4x1_1bit:b2v_inst7|mux2x1_1bit:b2v_inst2
+oOut <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SEL => inst1.IN0
+SEL => inst3.IN0
+Bin => inst1.IN1
+Ain => inst.IN1
+
+
+|ALU|bitwise_and:inst5
+A[0] => Z_ALTERA_SYNTHESIZED.IN0
+A[1] => Z_ALTERA_SYNTHESIZED.IN0
+A[2] => Z_ALTERA_SYNTHESIZED.IN0
+A[3] => Z_ALTERA_SYNTHESIZED.IN0
+A[4] => Z_ALTERA_SYNTHESIZED.IN0
+A[5] => Z_ALTERA_SYNTHESIZED.IN0
+A[6] => Z_ALTERA_SYNTHESIZED.IN0
+A[7] => Z_ALTERA_SYNTHESIZED.IN0
+B[0] => Z_ALTERA_SYNTHESIZED.IN1
+B[1] => Z_ALTERA_SYNTHESIZED.IN1
+B[2] => Z_ALTERA_SYNTHESIZED.IN1
+B[3] => Z_ALTERA_SYNTHESIZED.IN1
+B[4] => Z_ALTERA_SYNTHESIZED.IN1
+B[5] => Z_ALTERA_SYNTHESIZED.IN1
+B[6] => Z_ALTERA_SYNTHESIZED.IN1
+B[7] => Z_ALTERA_SYNTHESIZED.IN1
+Z[0] <= Z_ALTERA_SYNTHESIZED.DB_MAX_OUTPUT_PORT_TYPE
+Z[1] <= Z_ALTERA_SYNTHESIZED.DB_MAX_OUTPUT_PORT_TYPE
+Z[2] <= Z_ALTERA_SYNTHESIZED.DB_MAX_OUTPUT_PORT_TYPE
+Z[3] <= Z_ALTERA_SYNTHESIZED.DB_MAX_OUTPUT_PORT_TYPE
+Z[4] <= Z_ALTERA_SYNTHESIZED.DB_MAX_OUTPUT_PORT_TYPE
+Z[5] <= Z_ALTERA_SYNTHESIZED.DB_MAX_OUTPUT_PORT_TYPE
+Z[6] <= Z_ALTERA_SYNTHESIZED.DB_MAX_OUTPUT_PORT_TYPE
+Z[7] <= Z_ALTERA_SYNTHESIZED.DB_MAX_OUTPUT_PORT_TYPE
+
+

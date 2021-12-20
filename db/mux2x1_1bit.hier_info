@@ -1,0 +1,8 @@
+|mux2x1_1bit
+oOut <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SEL => inst1.IN0
+SEL => inst3.IN0
+Bin => inst1.IN1
+Ain => inst.IN1
+
+

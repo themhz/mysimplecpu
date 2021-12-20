@@ -1,0 +1,237 @@
+|ripple_adder_8bit
+Cout <= full_adder:inst7.Cout
+A[0] => full_adder:inst.A
+A[1] => full_adder:inst1.A
+A[2] => full_adder:inst2.A
+A[3] => full_adder:inst3.A
+A[4] => full_adder:inst4.A
+A[5] => full_adder:inst5.A
+A[6] => full_adder:inst6.A
+A[7] => full_adder:inst7.A
+B[0] => full_adder:inst.B
+B[1] => full_adder:inst1.B
+B[2] => full_adder:inst2.B
+B[3] => full_adder:inst3.B
+B[4] => full_adder:inst4.B
+B[5] => full_adder:inst5.B
+B[6] => full_adder:inst6.B
+B[7] => full_adder:inst7.B
+Cin => full_adder:inst.Cin
+Sum[0] <= full_adder:inst.Sum
+Sum[1] <= full_adder:inst1.Sum
+Sum[2] <= full_adder:inst2.Sum
+Sum[3] <= full_adder:inst3.Sum
+Sum[4] <= full_adder:inst4.Sum
+Sum[5] <= full_adder:inst5.Sum
+Sum[6] <= full_adder:inst6.Sum
+Sum[7] <= full_adder:inst7.Sum
+
+
+|ripple_adder_8bit|full_adder:inst7
+A => half_adder:b2v_inst.A
+B => half_adder:b2v_inst.B
+Cin => half_adder:b2v_inst1.B
+Sum <= half_adder:b2v_inst1.S
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_adder_8bit|full_adder:inst7|half_adder:b2v_inst
+A => C.IN0
+A => S.IN0
+B => C.IN1
+B => S.IN1
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_adder_8bit|full_adder:inst7|half_adder:b2v_inst1
+A => C.IN0
+A => S.IN0
+B => C.IN1
+B => S.IN1
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_adder_8bit|full_adder:inst6
+A => half_adder:b2v_inst.A
+B => half_adder:b2v_inst.B
+Cin => half_adder:b2v_inst1.B
+Sum <= half_adder:b2v_inst1.S
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_adder_8bit|full_adder:inst6|half_adder:b2v_inst
+A => C.IN0
+A => S.IN0
+B => C.IN1
+B => S.IN1
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_adder_8bit|full_adder:inst6|half_adder:b2v_inst1
+A => C.IN0
+A => S.IN0
+B => C.IN1
+B => S.IN1
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_adder_8bit|full_adder:inst5
+A => half_adder:b2v_inst.A
+B => half_adder:b2v_inst.B
+Cin => half_adder:b2v_inst1.B
+Sum <= half_adder:b2v_inst1.S
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_adder_8bit|full_adder:inst5|half_adder:b2v_inst
+A => C.IN0
+A => S.IN0
+B => C.IN1
+B => S.IN1
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_adder_8bit|full_adder:inst5|half_adder:b2v_inst1
+A => C.IN0
+A => S.IN0
+B => C.IN1
+B => S.IN1
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_adder_8bit|full_adder:inst4
+A => half_adder:b2v_inst.A
+B => half_adder:b2v_inst.B
+Cin => half_adder:b2v_inst1.B
+Sum <= half_adder:b2v_inst1.S
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_adder_8bit|full_adder:inst4|half_adder:b2v_inst
+A => C.IN0
+A => S.IN0
+B => C.IN1
+B => S.IN1
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_adder_8bit|full_adder:inst4|half_adder:b2v_inst1
+A => C.IN0
+A => S.IN0
+B => C.IN1
+B => S.IN1
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_adder_8bit|full_adder:inst3
+A => half_adder:b2v_inst.A
+B => half_adder:b2v_inst.B
+Cin => half_adder:b2v_inst1.B
+Sum <= half_adder:b2v_inst1.S
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_adder_8bit|full_adder:inst3|half_adder:b2v_inst
+A => C.IN0
+A => S.IN0
+B => C.IN1
+B => S.IN1
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_adder_8bit|full_adder:inst3|half_adder:b2v_inst1
+A => C.IN0
+A => S.IN0
+B => C.IN1
+B => S.IN1
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_adder_8bit|full_adder:inst2
+A => half_adder:b2v_inst.A
+B => half_adder:b2v_inst.B
+Cin => half_adder:b2v_inst1.B
+Sum <= half_adder:b2v_inst1.S
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_adder_8bit|full_adder:inst2|half_adder:b2v_inst
+A => C.IN0
+A => S.IN0
+B => C.IN1
+B => S.IN1
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_adder_8bit|full_adder:inst2|half_adder:b2v_inst1
+A => C.IN0
+A => S.IN0
+B => C.IN1
+B => S.IN1
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_adder_8bit|full_adder:inst1
+A => half_adder:b2v_inst.A
+B => half_adder:b2v_inst.B
+Cin => half_adder:b2v_inst1.B
+Sum <= half_adder:b2v_inst1.S
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_adder_8bit|full_adder:inst1|half_adder:b2v_inst
+A => C.IN0
+A => S.IN0
+B => C.IN1
+B => S.IN1
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_adder_8bit|full_adder:inst1|half_adder:b2v_inst1
+A => C.IN0
+A => S.IN0
+B => C.IN1
+B => S.IN1
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_adder_8bit|full_adder:inst
+A => half_adder:b2v_inst.A
+B => half_adder:b2v_inst.B
+Cin => half_adder:b2v_inst1.B
+Sum <= half_adder:b2v_inst1.S
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_adder_8bit|full_adder:inst|half_adder:b2v_inst
+A => C.IN0
+A => S.IN0
+B => C.IN1
+B => S.IN1
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_adder_8bit|full_adder:inst|half_adder:b2v_inst1
+A => C.IN0
+A => S.IN0
+B => C.IN1
+B => S.IN1
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,55 @@
+|register_4
+Q0 <= D_FF_CE_AC:inst.Q
+D0 => D_FF_CE_AC:inst.D
+CLK => D_FF_CE_AC:inst.CLK
+CLK => D_FF_CE_AC:inst1.CLK
+CLK => D_FF_CE_AC:inst2.CLK
+CLK => D_FF_CE_AC:inst3.CLK
+CE => D_FF_CE_AC:inst.CE
+CE => D_FF_CE_AC:inst1.CE
+CE => D_FF_CE_AC:inst2.CE
+CE => D_FF_CE_AC:inst3.CE
+CLR => D_FF_CE_AC:inst.CLR
+CLR => D_FF_CE_AC:inst1.CLR
+CLR => D_FF_CE_AC:inst2.CLR
+CLR => D_FF_CE_AC:inst3.CLR
+Q1 <= D_FF_CE_AC:inst1.Q
+D1 => D_FF_CE_AC:inst1.D
+Q2 <= D_FF_CE_AC:inst2.Q
+D2 => D_FF_CE_AC:inst2.D
+Q3 <= D_FF_CE_AC:inst3.Q
+D3 => D_FF_CE_AC:inst3.D
+
+
+|register_4|D_FF_CE_AC:inst
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+CE => Q~reg0.ENA
+CLR => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register_4|D_FF_CE_AC:inst1
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+CE => Q~reg0.ENA
+CLR => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register_4|D_FF_CE_AC:inst2
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+CE => Q~reg0.ENA
+CLR => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register_4|D_FF_CE_AC:inst3
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+CE => Q~reg0.ENA
+CLR => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

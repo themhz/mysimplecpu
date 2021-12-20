@@ -1,0 +1,966 @@
+vsim -gui work.ripple_adder_8bit_tb
+# vsim -gui work.ripple_adder_8bit_tb 
+# Start time: 16:23:50 on Dec 18,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.ripple_adder_8bit_tb(tb)
+# Loading work.ripple_adder_8bit(bdf_type)
+# ** Warning: (vsim-3473) Component instance "b2v_inst : full_adder" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ripple_adder_8bit_tb/TB File: S:/EAP/PLHPSI2/projects/ripple_adder_8bit.vhd
+# ** Warning: (vsim-3473) Component instance "b2v_inst1 : full_adder" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ripple_adder_8bit_tb/TB File: S:/EAP/PLHPSI2/projects/ripple_adder_8bit.vhd
+# ** Warning: (vsim-3473) Component instance "b2v_inst2 : full_adder" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ripple_adder_8bit_tb/TB File: S:/EAP/PLHPSI2/projects/ripple_adder_8bit.vhd
+# ** Warning: (vsim-3473) Component instance "b2v_inst3 : full_adder" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ripple_adder_8bit_tb/TB File: S:/EAP/PLHPSI2/projects/ripple_adder_8bit.vhd
+# ** Warning: (vsim-3473) Component instance "b2v_inst4 : full_adder" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ripple_adder_8bit_tb/TB File: S:/EAP/PLHPSI2/projects/ripple_adder_8bit.vhd
+# ** Warning: (vsim-3473) Component instance "b2v_inst5 : full_adder" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ripple_adder_8bit_tb/TB File: S:/EAP/PLHPSI2/projects/ripple_adder_8bit.vhd
+# ** Warning: (vsim-3473) Component instance "b2v_inst6 : full_adder" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ripple_adder_8bit_tb/TB File: S:/EAP/PLHPSI2/projects/ripple_adder_8bit.vhd
+# ** Warning: (vsim-3473) Component instance "b2v_inst7 : full_adder" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ripple_adder_8bit_tb/TB File: S:/EAP/PLHPSI2/projects/ripple_adder_8bit.vhd
+# ** Warning: (vsim-8684) No drivers exist on out port /ripple_adder_8bit_tb/TB/Cout, and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /ripple_adder_8bit_tb/Cout.
+add wave -position insertpoint  \
+sim:/ripple_adder_8bit_tb/Cin \
+sim:/ripple_adder_8bit_tb/Cout \
+sim:/ripple_adder_8bit_tb/A \
+sim:/ripple_adder_8bit_tb/B \
+sim:/ripple_adder_8bit_tb/Sum
+run
+run
+quit -sim
+# End time: 16:25:29 on Dec 18,2021, Elapsed time: 0:01:39
+# Errors: 0, Warnings: 10
+# Compile of full_adder.vhd was successful.
+# Compile of half_adder.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.ripple_adder_8bit_tb
+# vsim -gui work.ripple_adder_8bit_tb 
+# Start time: 16:26:32 on Dec 18,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.ripple_adder_8bit_tb(tb)
+# Loading work.ripple_adder_8bit(bdf_type)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+add wave -position insertpoint  \
+sim:/ripple_adder_8bit_tb/Cin \
+sim:/ripple_adder_8bit_tb/Cout \
+sim:/ripple_adder_8bit_tb/A \
+sim:/ripple_adder_8bit_tb/B \
+sim:/ripple_adder_8bit_tb/Sum
+run
+run
+force -freeze sim:/ripple_adder_8bit_tb/Cin 1 0
+run
+run
+quit -sim
+# End time: 22:27:52 on Dec 18,2021, Elapsed time: 6:01:20
+# Errors: 0, Warnings: 3
+# Compile of ripple_adder_8bit_tb.vhd was successful.
+# Compile of ripple_adder_8bit_tb.vhd was successful.
+restart -f
+# No Design Loaded!
+vsim -gui work.ripple_adder_8bit_tb
+# vsim -gui work.ripple_adder_8bit_tb 
+# Start time: 22:29:01 on Dec 18,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.ripple_adder_8bit_tb(tb)
+# Loading work.ripple_adder_8bit(bdf_type)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+run
+add wave -position insertpoint  \
+sim:/ripple_adder_8bit_tb/Cin \
+sim:/ripple_adder_8bit_tb/Cout \
+sim:/ripple_adder_8bit_tb/A \
+sim:/ripple_adder_8bit_tb/B \
+sim:/ripple_adder_8bit_tb/Sum
+run
+quit -sim
+# End time: 00:34:19 on Dec 19,2021, Elapsed time: 2:05:18
+# Errors: 0, Warnings: 3
+# Compile of ripple_adder_8bit.vhd was successful.
+# Compile of ripple_adder_8bit.vhd was successful.
+# Compile of ripple_adder_8bit_tb.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of half_adder.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of bitwise_and.vhd was successful.
+# Compile of bitwise_inv.vhd was successful.
+# Compile of mux2x1_1bit.vhd was successful.
+# Compile of mux2x1_8bit.vhd was successful.
+# Compile of mux4x1_1bit.vhd was successful.
+# Compile of mux4x1_8bit.vhd was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.alu
+# vsim -gui work.alu 
+# Start time: 18:19:51 on Dec 19,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu(bdf_type)
+# ** Warning: (vsim-3473) Component instance "b2v_inst : replicate" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /alu File: S:/EAP/PLHPSI2/projects/ALU.vhd
+# Loading work.mux4x1_8bit(bdf_type)
+# Loading work.mux4x1_1bit(bdf_type)
+# Loading work.mux2x1_1bit(bdf_type)
+# Loading work.bitwise_inv(bdf_type)
+# Loading work.bitwise_and(bdf_type)
+# Loading work.ripple_adder_8bit(bdf_type)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+add wave -position insertpoint  \
+sim:/alu/S4 \
+sim:/alu/S3 \
+sim:/alu/S2 \
+sim:/alu/S1 \
+sim:/alu/S0 \
+sim:/alu/A \
+sim:/alu/B \
+sim:/alu/Cout \
+sim:/alu/Z
+force -freeze sim:/alu/A 00111111 0
+force -freeze sim:/alu/B 00001111 0
+force -freeze sim:/alu/S4 0 0
+force -freeze sim:/alu/S3 0 0
+force -freeze sim:/alu/S2 0 0
+force -freeze sim:/alu/S2 0 0
+force -freeze sim:/alu/S1 0 0
+force -freeze sim:/alu/S0 0 0
+# Compile of ALU.vhd was successful.
+run
+quit -sim
+# End time: 18:22:58 on Dec 19,2021, Elapsed time: 0:03:07
+# Errors: 0, Warnings: 6
+# Load canceled
+# Compile of ALU_tb.vhd failed with 2 errors.
+# Compile of ALU_tb.vhd was successful.
+vsim -gui work.alu_tb
+# vsim -gui work.alu_tb 
+# Start time: 23:57:34 on Dec 19,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu_tb(tb)
+# Loading work.alu(bdf_type)
+# ** Warning: (vsim-3473) Component instance "b2v_inst : replicate" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/TB File: S:/EAP/PLHPSI2/projects/ALU.vhd
+# Loading work.mux4x1_8bit(bdf_type)
+# Loading work.mux4x1_1bit(bdf_type)
+# Loading work.mux2x1_1bit(bdf_type)
+# Loading work.bitwise_inv(bdf_type)
+# Loading work.bitwise_and(bdf_type)
+# Loading work.ripple_adder_8bit(bdf_type)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+view -new wave
+# -new not supported on PE
+add wave -position insertpoint  \
+sim:/alu_tb/S4 \
+sim:/alu_tb/S3 \
+sim:/alu_tb/S2 \
+sim:/alu_tb/S1 \
+sim:/alu_tb/S0 \
+sim:/alu_tb/Cout \
+sim:/alu_tb/A \
+sim:/alu_tb/B \
+sim:/alu_tb/Z
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/alu_tb/S1 0 0
+force -freeze sim:/alu_tb/S0 0 0
+run
+quit -sim
+# End time: 00:01:16 on Dec 20,2021, Elapsed time: 0:03:42
+# Errors: 0, Warnings: 5
+vsim -gui work.alu_tb
+# vsim -gui work.alu_tb 
+# Start time: 00:13:29 on Dec 20,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu_tb(tb)
+# Loading work.alu(bdf_type)
+# ** Warning: (vsim-3473) Component instance "b2v_inst : replicate" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/TB File: S:/EAP/PLHPSI2/projects/ALU.vhd
+# Loading work.mux4x1_8bit(bdf_type)
+# Loading work.mux4x1_1bit(bdf_type)
+# Loading work.mux2x1_1bit(bdf_type)
+# Loading work.bitwise_inv(bdf_type)
+# Loading work.bitwise_and(bdf_type)
+# Loading work.ripple_adder_8bit(bdf_type)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+add wave -position insertpoint  \
+sim:/alu_tb/S4 \
+sim:/alu_tb/S3 \
+sim:/alu_tb/S2 \
+sim:/alu_tb/S1 \
+sim:/alu_tb/S0 \
+sim:/alu_tb/Cout \
+sim:/alu_tb/A \
+sim:/alu_tb/B \
+sim:/alu_tb/Z
+run
+quit -sim
+# End time: 00:15:36 on Dec 20,2021, Elapsed time: 0:02:07
+# Errors: 0, Warnings: 2
+# Compile of half_adder_tb.vhd was successful.
+vsim -gui work.half_adder_tb
+# vsim -gui work.half_adder_tb 
+# Start time: 00:32:13 on Dec 20,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.half_adder_tb(tb)
+# Loading work.half_adder(bdf_type)
+add wave -position insertpoint  \
+sim:/half_adder_tb/A \
+sim:/half_adder_tb/B \
+sim:/half_adder_tb/C \
+sim:/half_adder_tb/S
+run
+run
+run
+# Compile of ripple_adder_8bit.vhd was successful.
+# Compile of ripple_adder_8bit_tb.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of half_adder.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of bitwise_and.vhd was successful.
+# Compile of bitwise_inv.vhd was successful.
+# Compile of mux2x1_1bit.vhd was successful.
+# Compile of mux2x1_8bit.vhd was successful.
+# Compile of mux4x1_1bit.vhd was successful.
+# Compile of mux4x1_8bit.vhd was successful.
+# Compile of ALU_tb.vhd was successful.
+# Compile of half_adder_tb.vhd was successful.
+# 13 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.half_adder_tb(tb)
+# Loading work.half_adder(bdf_type)
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 00:41:53 on Dec 20,2021, Elapsed time: 0:09:40
+# Errors: 0, Warnings: 1
+# Compile of half_adder_tb.vhd was successful.
+# Compile of full_adder_tb.vhd was successful.
+vsim -gui work.full_adder_tb
+# vsim -gui work.full_adder_tb 
+# Start time: 00:42:39 on Dec 20,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.full_adder_tb(tb)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+add wave -position insertpoint  \
+sim:/full_adder_tb/A \
+sim:/full_adder_tb/B \
+sim:/full_adder_tb/Cin \
+sim:/full_adder_tb/Sum \
+sim:/full_adder_tb/Cout
+run
+run
+run
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+quit -sim
+# End time: 00:44:23 on Dec 20,2021, Elapsed time: 0:01:44
+# Errors: 0, Warnings: 1
+# Compile of ripple_adder_8bit_tb.vhd was successful.
+vsim -gui work.ripple_adder_8bit_tb
+# vsim -gui work.ripple_adder_8bit_tb 
+# Start time: 00:46:53 on Dec 20,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.ripple_adder_8bit_tb(tb)
+# Loading work.ripple_adder_8bit(bdf_type)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+run -all
+add wave -position insertpoint  \
+sim:/ripple_adder_8bit_tb/Cin \
+sim:/ripple_adder_8bit_tb/Cout \
+sim:/ripple_adder_8bit_tb/A \
+sim:/ripple_adder_8bit_tb/B \
+sim:/ripple_adder_8bit_tb/Sum
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+run
+# Compile of ripple_adder_8bit.vhd was successful.
+# Compile of ripple_adder_8bit_tb.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of half_adder.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of bitwise_and.vhd was successful.
+# Compile of bitwise_inv.vhd was successful.
+restart -f
+# Loading work.ripple_adder_8bit_tb(tb)
+# Loading work.ripple_adder_8bit(bdf_type)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+# Compile of mux2x1_1bit.vhd was successful.
+# Compile of mux2x1_8bit.vhd was successful.
+# Compile of mux4x1_1bit.vhd was successful.
+# Compile of mux4x1_8bit.vhd was successful.
+# Compile of ALU_tb.vhd was successful.
+# Compile of half_adder_tb.vhd was successful.
+# Compile of full_adder_tb.vhd was successful.
+# 14 compiles, 0 failed with no errors.
+run -all
+run
+run
+quit -sim
+# End time: 00:53:09 on Dec 20,2021, Elapsed time: 0:06:16
+# Errors: 0, Warnings: 2
+# Compile of bitwise_and_tb.vhd was successful.
+vsim -gui work.bitwise_and_tb
+# vsim -gui work.bitwise_and_tb 
+# Start time: 01:00:27 on Dec 20,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.bitwise_and_tb(tb)
+# Loading work.bitwise_and(bdf_type)
+add wave -position insertpoint  \
+sim:/bitwise_and_tb/A \
+sim:/bitwise_and_tb/B \
+sim:/bitwise_and_tb/Z
+run
+run
+run
+run
+run
+quit -sim
+# End time: 01:04:44 on Dec 20,2021, Elapsed time: 0:04:17
+# Errors: 0, Warnings: 3
+# Compile of bitwise_inv_tb.vhd was successful.
+vsim -gui work.bitwise_inv_tb
+# vsim -gui work.bitwise_inv_tb 
+# Start time: 01:05:46 on Dec 20,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.bitwise_inv_tb(tb)
+# Loading work.bitwise_inv(bdf_type)
+add wave -position insertpoint  \
+sim:/bitwise_inv_tb/EN \
+sim:/bitwise_inv_tb/A \
+sim:/bitwise_inv_tb/Z
+run -all
+run
+run
+quit -sim
+# End time: 01:06:54 on Dec 20,2021, Elapsed time: 0:01:08
+# Errors: 0, Warnings: 3
+vsim -gui work.alu
+# vsim -gui work.alu 
+# Start time: 01:08:15 on Dec 20,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu(bdf_type)
+# ** Warning: (vsim-3473) Component instance "b2v_inst : replicate" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /alu File: S:/EAP/PLHPSI2/projects/ALU.vhd
+# Loading work.mux4x1_8bit(bdf_type)
+# Loading work.mux4x1_1bit(bdf_type)
+# Loading work.mux2x1_1bit(bdf_type)
+# Loading work.bitwise_inv(bdf_type)
+# Loading work.bitwise_and(bdf_type)
+# Loading work.ripple_adder_8bit(bdf_type)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+add wave -position insertpoint  \
+sim:/alu/S4 \
+sim:/alu/S3 \
+sim:/alu/S2 \
+sim:/alu/S1 \
+sim:/alu/S0 \
+sim:/alu/A \
+sim:/alu/B \
+sim:/alu/Cout \
+sim:/alu/Z
+force -freeze sim:/alu/S4 0 0
+force -freeze sim:/alu/S3 0 0
+force -freeze sim:/alu/S2 0 0
+force -freeze sim:/alu/S1 0 0
+force -freeze sim:/alu/S0 0 0
+force -freeze sim:/alu/A 00000001 0
+force -freeze sim:/alu/B 00000001 0
+run
+run
+force -freeze sim:/alu/B 00000010 0
+run
+run
+force -freeze sim:/alu/B 00000011 0
+run
+force -freeze sim:/alu/B 00000000 0
+run
+quit -sim
+# End time: 01:23:09 on Dec 20,2021, Elapsed time: 0:14:54
+# Errors: 0, Warnings: 2
+# Compile of ALU.vhd was successful.
+vsim -gui work.alu
+# vsim -gui work.alu 
+# Start time: 01:23:25 on Dec 20,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu(bdf_type)
+# ** Warning: (vsim-3473) Component instance "b2v_inst : replicate" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /alu File: S:/EAP/PLHPSI2/projects/ALU.vhd
+# Loading work.mux4x1_8bit(bdf_type)
+# Loading work.mux4x1_1bit(bdf_type)
+# Loading work.mux2x1_1bit(bdf_type)
+# Loading work.bitwise_inv(bdf_type)
+# Loading work.bitwise_and(bdf_type)
+# Loading work.ripple_adder_8bit(bdf_type)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+add wave -position insertpoint  \
+sim:/alu/S4 \
+sim:/alu/S3 \
+sim:/alu/S2 \
+sim:/alu/S1 \
+sim:/alu/S0 \
+sim:/alu/A \
+sim:/alu/B \
+sim:/alu/Cout \
+sim:/alu/Sum \
+sim:/alu/Z
+force -freeze sim:/alu/S4 0 0
+force -freeze sim:/alu/S3 0 0
+force -freeze sim:/alu/S2 0 0
+force -freeze sim:/alu/S1 0 0
+force -freeze sim:/alu/S0 0 0
+force -freeze sim:/alu/A 00000001 0
+force -freeze sim:/alu/B 00000001 0
+run
+force -freeze sim:/alu/B 00000000 0
+run
+quit -sim
+# End time: 01:28:31 on Dec 20,2021, Elapsed time: 0:05:06
+# Errors: 0, Warnings: 3
+vsim -gui work.ripple_adder_8bit
+# vsim -gui work.ripple_adder_8bit 
+# Start time: 01:29:23 on Dec 20,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.ripple_adder_8bit(bdf_type)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+add wave -position insertpoint  \
+sim:/ripple_adder_8bit/Sum \
+sim:/ripple_adder_8bit/Cout \
+sim:/ripple_adder_8bit/Cin \
+sim:/ripple_adder_8bit/B \
+sim:/ripple_adder_8bit/A
+force -freeze sim:/ripple_adder_8bit/B 00000001 0
+force -freeze sim:/ripple_adder_8bit/A 00000000 0
+run
+force -freeze sim:/ripple_adder_8bit/Cin 0 0
+run
+restart -f
+# Compile of ripple_adder_8bit.vhd was successful.
+# Compile of ripple_adder_8bit_tb.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of half_adder.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of bitwise_and.vhd was successful.
+# Compile of bitwise_inv.vhd was successful.
+# Compile of mux2x1_1bit.vhd was successful.
+# Compile of mux2x1_8bit.vhd was successful.
+# Compile of mux4x1_1bit.vhd was successful.
+# Compile of mux4x1_8bit.vhd was successful.
+# Compile of ALU_tb.vhd was successful.
+# Compile of half_adder_tb.vhd was successful.
+# Compile of full_adder_tb.vhd was successful.
+# Compile of bitwise_and_tb.vhd was successful.
+# Compile of bitwise_inv_tb.vhd was successful.
+# 16 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ripple_adder_8bit(bdf_type)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+force -freeze sim:/ripple_adder_8bit/Cin 0 0
+force -freeze sim:/ripple_adder_8bit/B 00001101 0
+force -freeze sim:/ripple_adder_8bit/A 00000000 0
+# Compile of ripple_adder_8bit.vhd was successful.
+# Compile of ripple_adder_8bit.vhd was successful.
+run
+quit -sim
+# End time: 01:37:44 on Dec 20,2021, Elapsed time: 0:08:21
+# Errors: 0, Warnings: 3
+vsim -gui work.alu_tb
+# vsim -gui work.alu_tb 
+# Start time: 01:38:06 on Dec 20,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu_tb(tb)
+# Loading work.alu(bdf_type)
+# ** Warning: (vsim-3473) Component instance "b2v_inst : replicate" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/TB File: S:/EAP/PLHPSI2/projects/ALU.vhd
+# Loading work.mux4x1_8bit(bdf_type)
+# Loading work.mux4x1_1bit(bdf_type)
+# Loading work.mux2x1_1bit(bdf_type)
+# Loading work.bitwise_inv(bdf_type)
+# Loading work.bitwise_and(bdf_type)
+# Loading work.ripple_adder_8bit(bdf_type)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+add wave -position insertpoint  \
+sim:/alu_tb/Z \
+sim:/alu_tb/S4 \
+sim:/alu_tb/S3 \
+sim:/alu_tb/S2 \
+sim:/alu_tb/S1 \
+sim:/alu_tb/S0 \
+sim:/alu_tb/Cout \
+sim:/alu_tb/B \
+sim:/alu_tb/A
+run
+quit -sim
+# End time: 01:38:56 on Dec 20,2021, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 2
+# Compile of ALU.vhd was successful.
+vsim -gui work.alu
+# vsim -gui work.alu 
+# Start time: 01:47:01 on Dec 20,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu(bdf_type)
+# ** Warning: (vsim-3473) Component instance "b2v_inst : replicate" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /alu File: S:/EAP/PLHPSI2/projects/ALU.vhd
+# Loading work.mux4x1_8bit(bdf_type)
+# Loading work.mux4x1_1bit(bdf_type)
+# Loading work.mux2x1_1bit(bdf_type)
+# Loading work.bitwise_inv(bdf_type)
+# Loading work.bitwise_and(bdf_type)
+# Loading work.ripple_adder_8bit(bdf_type)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+add wave -position insertpoint  \
+sim:/alu/Z \
+sim:/alu/Sum \
+sim:/alu/S4 \
+sim:/alu/S3 \
+sim:/alu/S2 \
+sim:/alu/S1 \
+sim:/alu/S0 \
+sim:/alu/Cout \
+sim:/alu/B \
+sim:/alu/A
+force -freeze sim:/alu/S4 0 0
+force -freeze sim:/alu/S3 0 0
+force -freeze sim:/alu/S2 0 0
+force -freeze sim:/alu/S1 0 0
+force -freeze sim:/alu/S0 0 0
+force -freeze sim:/alu/B 00000000 0
+force -freeze sim:/alu/A 00000001 0
+run
+force -freeze sim:/alu/B 00000001 0
+run
+quit -sim
+# End time: 01:48:58 on Dec 20,2021, Elapsed time: 0:01:57
+# Errors: 0, Warnings: 3
+vsim -gui work.ripple_adder_8bit
+# vsim -gui work.ripple_adder_8bit 
+# Start time: 01:49:15 on Dec 20,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.ripple_adder_8bit(bdf_type)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+add wave -position insertpoint  \
+sim:/ripple_adder_8bit/Sum \
+sim:/ripple_adder_8bit/Cout \
+sim:/ripple_adder_8bit/Cin \
+sim:/ripple_adder_8bit/B \
+sim:/ripple_adder_8bit/A
+force -freeze sim:/ripple_adder_8bit/B 00000000 0
+force -freeze sim:/ripple_adder_8bit/A 00000001 0
+force -freeze sim:/ripple_adder_8bit/B 00000000 0
+force -freeze sim:/ripple_adder_8bit/A 00000001 0
+force -freeze sim:/ripple_adder_8bit/Cin 0 0
+run
+force -freeze sim:/ripple_adder_8bit/B 00000001 0
+run
+quit -sim
+# End time: 01:51:18 on Dec 20,2021, Elapsed time: 0:02:03
+# Errors: 0, Warnings: 1
+vsim -gui work.ripple_adder_8bit
+# vsim -gui work.ripple_adder_8bit 
+# Start time: 01:55:35 on Dec 20,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.ripple_adder_8bit(bdf_type)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+add wave -position insertpoint  \
+sim:/ripple_adder_8bit/Sum \
+sim:/ripple_adder_8bit/Cout \
+sim:/ripple_adder_8bit/Cin \
+sim:/ripple_adder_8bit/B \
+sim:/ripple_adder_8bit/A
+force -freeze sim:/ripple_adder_8bit/B 00000001 0
+force -freeze sim:/ripple_adder_8bit/A 00000001 0
+run
+force -freeze sim:/ripple_adder_8bit/A 00000000 0
+run
+force -freeze sim:/ripple_adder_8bit/A 00000001 0
+force -freeze sim:/ripple_adder_8bit/B 00000000 0
+run
+force -freeze sim:/ripple_adder_8bit/B 00000001 0
+run
+force -freeze sim:/ripple_adder_8bit/Cin 0 0
+run
+noforce sim:/ripple_adder_8bit/B
+force -freeze sim:/ripple_adder_8bit/B {} 0
+# Value length (0) does not equal array index length (8).
+# ** UI-Msg: (vsim-4011) Invalid force value: {} 0.
+# 
+run
+quit -sim
+# End time: 01:58:51 on Dec 20,2021, Elapsed time: 0:03:16
+# Errors: 0, Warnings: 1
+vsim -gui work.alu
+# vsim -gui work.alu 
+# Start time: 01:59:09 on Dec 20,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu(bdf_type)
+# ** Warning: (vsim-3473) Component instance "b2v_inst : replicate" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /alu File: S:/EAP/PLHPSI2/projects/ALU.vhd
+# Loading work.mux4x1_8bit(bdf_type)
+# Loading work.mux4x1_1bit(bdf_type)
+# Loading work.mux2x1_1bit(bdf_type)
+# Loading work.bitwise_inv(bdf_type)
+# Loading work.bitwise_and(bdf_type)
+# Loading work.ripple_adder_8bit(bdf_type)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+add wave -position insertpoint  \
+sim:/alu/Z \
+sim:/alu/Sum \
+sim:/alu/S4 \
+sim:/alu/S3 \
+sim:/alu/S2 \
+sim:/alu/S1 \
+sim:/alu/S0 \
+sim:/alu/Cout \
+sim:/alu/B \
+sim:/alu/A
+force -freeze sim:/alu/S4 0 0
+force -freeze sim:/alu/S3 0 0
+force -freeze sim:/alu/S2 0 0
+force -freeze sim:/alu/S1 0 0
+force -freeze sim:/alu/S0 0 0
+force -freeze sim:/alu/B 00000000 0
+force -freeze sim:/alu/A 00000001 0
+run
+force -freeze sim:/alu/B 00000001 0
+run
+force -freeze sim:/alu/S4 1 0
+run
+force -freeze sim:/alu/S4 0 0
+run
+force -freeze sim:/alu/B 00000000 0
+run
+force -freeze sim:/alu/B 00000001 0
+run
+force -freeze sim:/alu/A 00000000 0
+run
+force -freeze sim:/alu/A 00000001 0
+force -freeze sim:/alu/B 00000000 0
+run
+force -freeze sim:/alu/B 00000000 0
+force -freeze sim:/alu/B 00000000 0
+run
+force -freeze sim:/alu/A 00000000 0
+run
+force -freeze sim:/alu/A 00000001 0
+run
+force -freeze sim:/alu/A 00000000 0
+force -freeze sim:/alu/B 00000001 0
+run
+quit -sim
+# End time: 02:05:58 on Dec 20,2021, Elapsed time: 0:06:49
+# Errors: 0, Warnings: 2
+# Compile of ALU.vhd was successful.
+# Compile of replicate.vhd was successful.
+vsim -gui work.alu_tb
+# vsim -gui work.alu_tb 
+# Start time: 02:11:20 on Dec 20,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu_tb(tb)
+# Loading work.alu(bdf_type)
+# Loading work.replicate(bdf_type)
+# Loading work.mux4x1_8bit(bdf_type)
+# Loading work.mux4x1_1bit(bdf_type)
+# Loading work.mux2x1_1bit(bdf_type)
+# Loading work.bitwise_inv(bdf_type)
+# Loading work.bitwise_and(bdf_type)
+# Loading work.ripple_adder_8bit(bdf_type)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+add wave -position insertpoint  \
+sim:/alu_tb/Z \
+sim:/alu_tb/S4 \
+sim:/alu_tb/S3 \
+sim:/alu_tb/S2 \
+sim:/alu_tb/S1 \
+sim:/alu_tb/S0 \
+sim:/alu_tb/Cout \
+sim:/alu_tb/B \
+sim:/alu_tb/A
+force -freeze sim:/alu_tb/B 00000000 0
+force -freeze sim:/alu_tb/A 00000001 0
+noforce sim:/alu_tb/S4
+noforce sim:/alu_tb/S3
+noforce sim:/alu_tb/S2
+noforce sim:/alu_tb/S1
+noforce sim:/alu_tb/S0
+run
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 02:23:45 on Dec 20,2021, Elapsed time: 0:12:25
+# Errors: 0, Warnings: 1
+# Compile of ALU_tb.vhd was successful.
+vsim -gui work.alu_tb
+# vsim -gui work.alu_tb 
+# Start time: 02:24:07 on Dec 20,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu_tb(tb)
+# Loading work.alu(bdf_type)
+# Loading work.replicate(bdf_type)
+# Loading work.mux4x1_8bit(bdf_type)
+# Loading work.mux4x1_1bit(bdf_type)
+# Loading work.mux2x1_1bit(bdf_type)
+# Loading work.bitwise_inv(bdf_type)
+# Loading work.bitwise_and(bdf_type)
+# Loading work.ripple_adder_8bit(bdf_type)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+add wave -position insertpoint  \
+sim:/alu_tb/Z \
+sim:/alu_tb/S4 \
+sim:/alu_tb/S3 \
+sim:/alu_tb/S2 \
+sim:/alu_tb/S1 \
+sim:/alu_tb/S0 \
+sim:/alu_tb/Cout \
+sim:/alu_tb/B \
+sim:/alu_tb/A
+run
+run -all
+run
+quit -sim
+# End time: 02:32:25 on Dec 20,2021, Elapsed time: 0:08:18
+# Errors: 0, Warnings: 2
+# Compile of ALU_tb.vhd failed with 3 errors.
+# Compile of ALU_tb.vhd failed with 1 errors.
+# Compile of ALU_tb.vhd was successful.
+# Compile of ALU_tb.vhd was successful.
+# Compile of ALU_tb.vhd was successful.
+vsim -gui work.alu_tb
+# vsim -gui work.alu_tb 
+# Start time: 02:40:40 on Dec 20,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu_tb(tb)
+# Loading work.alu(bdf_type)
+# Loading work.replicate(bdf_type)
+# Loading work.mux4x1_8bit(bdf_type)
+# Loading work.mux4x1_1bit(bdf_type)
+# Loading work.mux2x1_1bit(bdf_type)
+# Loading work.bitwise_inv(bdf_type)
+# Loading work.bitwise_and(bdf_type)
+# Loading work.ripple_adder_8bit(bdf_type)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+run
+add wave -position insertpoint  \
+sim:/alu_tb/Z \
+sim:/alu_tb/S4 \
+sim:/alu_tb/S3 \
+sim:/alu_tb/S2 \
+sim:/alu_tb/S1 \
+sim:/alu_tb/S0 \
+sim:/alu_tb/Cout \
+sim:/alu_tb/B \
+sim:/alu_tb/A
+run -all
+run
+# Compile of ALU_tb.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.alu_tb(tb)
+run
+run -all
+run
+run
+restart -f
+run
+quit -sim
+# End time: 02:57:33 on Dec 20,2021, Elapsed time: 0:16:53
+# Errors: 0, Warnings: 1
+vsim -gui work.alu
+# vsim -gui work.alu 
+# Start time: 02:57:43 on Dec 20,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu(bdf_type)
+# Loading work.replicate(bdf_type)
+# Loading work.mux4x1_8bit(bdf_type)
+# Loading work.mux4x1_1bit(bdf_type)
+# Loading work.mux2x1_1bit(bdf_type)
+# Loading work.bitwise_inv(bdf_type)
+# Loading work.bitwise_and(bdf_type)
+# Loading work.ripple_adder_8bit(bdf_type)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+add wave -position insertpoint  \
+sim:/alu/Z \
+sim:/alu/Sum \
+sim:/alu/S4 \
+sim:/alu/S3 \
+sim:/alu/S2 \
+sim:/alu/S1 \
+sim:/alu/S0 \
+sim:/alu/Cout \
+sim:/alu/B \
+sim:/alu/A
+force -freeze sim:/alu/B 01011001 0
+force -freeze sim:/alu/A 10110011 0
+force -freeze sim:/alu/S4 0 0
+force -freeze sim:/alu/S3 0 0
+force -freeze sim:/alu/S2 0 0
+force -freeze sim:/alu/S1 0 0
+force -freeze sim:/alu/S0 0 0
+run
+restart -f
+force -freeze sim:/alu/B 01011001 0
+force -freeze sim:/alu/A 10110011 0
+force -freeze sim:/alu/S4 U 0
+force -freeze sim:/alu/S3 U 0
+force -freeze sim:/alu/S2 U 0
+force -freeze sim:/alu/S1 0 0
+force -freeze sim:/alu/S0 1 0
+run
+restart -f
+force -freeze sim:/alu/S4 1 0
+force -freeze sim:/alu/S3 U 0
+force -freeze sim:/alu/S2 1 0
+force -freeze sim:/alu/S1 0 0
+force -freeze sim:/alu/S0 0 0
+force -freeze sim:/alu/B 01011001 0
+force -freeze sim:/alu/A 10110011 0
+run
+restart -f
+force -freeze sim:/alu/S4 U 0
+force -freeze sim:/alu/S3 U 0
+force -freeze sim:/alu/S4 U 0
+force -freeze sim:/alu/S3 U 0
+force -freeze sim:/alu/S2 U 0
+force -freeze sim:/alu/S1 1 0
+force -freeze sim:/alu/S0 1 0
+force -freeze sim:/alu/B 01011001 0
+force -freeze sim:/alu/A 10110011 0
+run
+quit -sim
+# End time: 03:05:57 on Dec 20,2021, Elapsed time: 0:08:14
+# Errors: 0, Warnings: 1
+vsim -gui work.alu
+# vsim -gui work.alu 
+# Start time: 03:06:16 on Dec 20,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu(bdf_type)
+# Loading work.replicate(bdf_type)
+# Loading work.mux4x1_8bit(bdf_type)
+# Loading work.mux4x1_1bit(bdf_type)
+# Loading work.mux2x1_1bit(bdf_type)
+# Loading work.bitwise_inv(bdf_type)
+# Loading work.bitwise_and(bdf_type)
+# Loading work.ripple_adder_8bit(bdf_type)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+add wave -position insertpoint  \
+sim:/alu/Z \
+sim:/alu/Sum \
+sim:/alu/S4 \
+sim:/alu/S3 \
+sim:/alu/S2 \
+sim:/alu/S1 \
+sim:/alu/S0 \
+sim:/alu/Cout \
+sim:/alu/B \
+sim:/alu/A
+force -freeze sim:/alu/S4 0 0
+force -freeze sim:/alu/S3 1 0
+force -freeze sim:/alu/S2 0 0
+force -freeze sim:/alu/S1 0 0
+force -freeze sim:/alu/S0 0 0
+force -freeze sim:/alu/B 00001111 0
+force -freeze sim:/alu/A UUUUUUUU 0
+run
+force -freeze sim:/alu/A 00000000 0
+run
+force -freeze sim:/alu/B 11001010 0
+run
+quit -sim
+# End time: 03:50:18 on Dec 20,2021, Elapsed time: 0:44:02
+# Errors: 0, Warnings: 1
