@@ -40,14 +40,25 @@ begin
 -- B<="00001111" AFTER 0 ps, "00001111" AFTER 100 ps, "01100100" AFTER 200 ps, "00100011" AFTER 300 ps, "00000000" AFTER 400 ps, "00000000" AFTER 500 ps, "00101111" AFTER 600 ps;
 
 
-TB : ALU PORT MAP(S4, S3, S2, S1, S0, A, B, Cout, Z);
-S4<='0' AFTER 0 ps, 'X' AFTER 100 ps, 'X' AFTER 200 ps, 'X' AFTER 300 ps, '0' AFTER 400 ps, '1' AFTER 500 ps, '0' AFTER 600 ps, '0' AFTER 700 ps;
-S3<='0' AFTER 0 ps, 'X' AFTER 100 ps, 'X' AFTER 200 ps, 'X' AFTER 300 ps, '1' AFTER 400 ps, 'X' AFTER 500 ps, '0' AFTER 600 ps, '1' AFTER 700 ps;
-S2<='0' AFTER 0 ps, 'X' AFTER 100 ps, 'X' AFTER 200 ps, 'X' AFTER 300 ps, '1' AFTER 400 ps, '1' AFTER 500 ps, '1' AFTER 600 ps, '0' AFTER 700 ps;
-S1<='0' AFTER 0 ps, '0' AFTER 100 ps, '1' AFTER 200 ps, '1' AFTER 300 ps, '0' AFTER 400 ps, '0' AFTER 500 ps, '0' AFTER 600 ps, '0' AFTER 700 ps;
-S0<='0' AFTER 0 ps, '1' AFTER 100 ps, '0' AFTER 200 ps, '1' AFTER 300 ps, '0' AFTER 400 ps, '0' AFTER 500 ps, '0' AFTER 600 ps, '0' AFTER 700 ps;
+-- TB : ALU PORT MAP(S4, S3, S2, S1, S0, A, B, Cout, Z);
+-- S4<='0' AFTER 0 ps, 'X' AFTER 100 ps, 'X' AFTER 200 ps, 'X' AFTER 300 ps, '0' AFTER 400 ps, '1' AFTER 500 ps, '0' AFTER 600 ps, '0' AFTER 700 ps;
+-- S3<='0' AFTER 0 ps, 'X' AFTER 100 ps, '1' AFTER 200 ps, 'X' AFTER 300 ps, '1' AFTER 400 ps, 'X' AFTER 500 ps, '0' AFTER 600 ps, '1' AFTER 700 ps;
+-- S2<='0' AFTER 0 ps, 'X' AFTER 100 ps, 'X' AFTER 200 ps, 'X' AFTER 300 ps, '1' AFTER 400 ps, '1' AFTER 500 ps, '1' AFTER 600 ps, '0' AFTER 700 ps;
+-- S1<='0' AFTER 0 ps, '0' AFTER 100 ps, '1' AFTER 200 ps, '1' AFTER 300 ps, '0' AFTER 400 ps, '0' AFTER 500 ps, '0' AFTER 600 ps, '0' AFTER 700 ps;
+-- S0<='0' AFTER 0 ps, '1' AFTER 100 ps, '0' AFTER 200 ps, '1' AFTER 300 ps, '0' AFTER 400 ps, '0' AFTER 500 ps, '0' AFTER 600 ps, '0' AFTER 700 ps;
 
-A<="10110011" AFTER 0 ps;
+-- A<="10110011" AFTER 0 ps;
+-- B<="01011001" AFTER 0 ps;
+
+
+TB : ALU PORT MAP(S4, S3, S2, S1, S0, A, B, Cout, Z);
+S4<='0' AFTER 0 ps, '0' AFTER 100 ps, '0' AFTER 200 ps, '0' AFTER 300 ps, '0' AFTER 400 ps, '1' AFTER 500 ps, '0' AFTER 600 ps, '0' AFTER 700 ps;
+S3<='1' AFTER 0 ps, '1' AFTER 100 ps, '1' AFTER 200 ps, '1' AFTER 300 ps, '1' AFTER 400 ps, 'X' AFTER 500 ps, '0' AFTER 600 ps, '1' AFTER 700 ps;
+S2<='0' AFTER 0 ps, '0' AFTER 100 ps, '0' AFTER 200 ps, '0' AFTER 300 ps, '0' AFTER 400 ps, '1' AFTER 500 ps, '1' AFTER 600 ps, '0' AFTER 700 ps;
+S1<='0' AFTER 0 ps, '0' AFTER 100 ps, '0' AFTER 200 ps, '0' AFTER 300 ps, '0' AFTER 400 ps, '0' AFTER 500 ps, '0' AFTER 600 ps, '0' AFTER 700 ps;
+S0<='0' AFTER 0 ps, '0' AFTER 100 ps, '0' AFTER 200 ps, '0' AFTER 300 ps, '0' AFTER 400 ps, '0' AFTER 500 ps, '0' AFTER 600 ps, '0' AFTER 700 ps;
+
+A<="00000000" AFTER 0 ps;
 B<="01011001" AFTER 0 ps;
 
 
