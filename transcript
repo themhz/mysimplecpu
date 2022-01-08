@@ -423,3 +423,122 @@ quit -sim
 # End time: 02:02:47 on Jan 08,2022, Elapsed time: 0:03:09
 # Errors: 0, Warnings: 7
 # Load canceled
+# Compile of simple_cpu_tb.vhd was successful.
+vsim -gui work.simple_cpu_tb
+# vsim -gui work.simple_cpu_tb 
+# Start time: 02:39:53 on Jan 08,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.simple_cpu_tb(tb)
+# Loading work.simple_cpu(bdf_type)
+# Loading work.register_8(bdf_type)
+# Loading work.register_4(bdf_type)
+# Loading work.d_ff_ce_ac(bdf_type)
+# Loading work.replicate(bdf_type)
+# Loading work.zero_detector(bdf_type)
+# Loading work.mux2x1_8bit(bdf_type)
+# Loading work.mux2x1_1bit(bdf_type)
+# Loading work.decoder(bdf_type)
+# Loading work.status_register(bdf_type)
+# Loading work.instruction_decoder_box(bdf_type)
+# Loading work.instruction_decoder(bdf_type)
+# Loading work.jump_detector(bdf_type)
+# Loading work.d_ff_ac(bdf_type)
+# Loading work.sequence_generator(bdf_type)
+# Loading work.split8(bdf_type)
+# Loading work.alu(bdf_type)
+# Loading work.mux4x1_8bit(bdf_type)
+# Loading work.mux4x1_1bit(bdf_type)
+# Loading work.bitwise_inv(bdf_type)
+# Loading work.bitwise_and(bdf_type)
+# Loading work.ripple_adder_8bit(bdf_type)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.ram(mem256x16_v2_rtl)
+# Loading work.joint16(bdf_type)
+# Loading work.register_16(bdf_type)
+add wave -position insertpoint  \
+sim:/simple_cpu_tb/dout \
+sim:/simple_cpu_tb/CLR \
+sim:/simple_cpu_tb/CLK \
+sim:/simple_cpu_tb/ACC
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: themhz  Hostname: DESKTOP-PQ33LHO  ProcessID: 3504
+#           Attempting to use alternate WLF file "./wlftr6q93g".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftr6q93g
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu_tb/TB/b2v_inst8
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu_tb/TB/b2v_inst8
+run
+run
+run
+quit -sim
+# End time: 02:40:30 on Jan 08,2022, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 7
+# Compile of simple_cpu_tb.vhd was successful.
+vsim -gui work.simple_cpu_tb
+# vsim -gui work.simple_cpu_tb 
+# Start time: 02:41:20 on Jan 08,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.simple_cpu_tb(tb)
+# Loading work.simple_cpu(bdf_type)
+# Loading work.register_8(bdf_type)
+# Loading work.register_4(bdf_type)
+# Loading work.d_ff_ce_ac(bdf_type)
+# Loading work.replicate(bdf_type)
+# Loading work.zero_detector(bdf_type)
+# Loading work.mux2x1_8bit(bdf_type)
+# Loading work.mux2x1_1bit(bdf_type)
+# Loading work.decoder(bdf_type)
+# Loading work.status_register(bdf_type)
+# Loading work.instruction_decoder_box(bdf_type)
+# Loading work.instruction_decoder(bdf_type)
+# Loading work.jump_detector(bdf_type)
+# Loading work.d_ff_ac(bdf_type)
+# Loading work.sequence_generator(bdf_type)
+# Loading work.split8(bdf_type)
+# Loading work.alu(bdf_type)
+# Loading work.mux4x1_8bit(bdf_type)
+# Loading work.mux4x1_1bit(bdf_type)
+# Loading work.bitwise_inv(bdf_type)
+# Loading work.bitwise_and(bdf_type)
+# Loading work.ripple_adder_8bit(bdf_type)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.ram(mem256x16_v2_rtl)
+# Loading work.joint16(bdf_type)
+# Loading work.register_16(bdf_type)
+add wave -position insertpoint  \
+sim:/simple_cpu_tb/dout \
+sim:/simple_cpu_tb/CLR \
+sim:/simple_cpu_tb/CLK \
+sim:/simple_cpu_tb/ACC
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: themhz  Hostname: DESKTOP-PQ33LHO  ProcessID: 3504
+#           Attempting to use alternate WLF file "./wlftne4zhr".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftne4zhr
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu_tb/TB/b2v_inst8
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu_tb/TB/b2v_inst8
+run
+run
+run
+run
+run
+run
+run
+run
+run
