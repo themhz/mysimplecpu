@@ -542,3 +542,1137 @@ run
 run
 run
 run
+quit -sim
+# End time: 14:05:06 on Jan 08,2022, Elapsed time: 11:23:46
+# Errors: 0, Warnings: 6
+# Compile of ripple_adder_8bit.vhd was successful.
+# Compile of ripple_adder_8bit_tb.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of half_adder.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of bitwise_and.vhd was successful.
+# Compile of bitwise_inv.vhd was successful.
+# Compile of mux2x1_1bit.vhd was successful.
+# Compile of mux2x1_8bit.vhd was successful.
+# Compile of mux4x1_1bit.vhd was successful.
+# Compile of mux4x1_8bit.vhd was successful.
+# Compile of ALU_tb.vhd was successful.
+# Compile of RAM.vhd was successful with warnings.
+# Compile of half_adder_tb.vhd was successful with warnings.
+# Compile of full_adder_tb.vhd was successful.
+# Compile of bitwise_and_tb.vhd was successful.
+# Compile of bitwise_inv_tb.vhd was successful.
+# Compile of replicate.vhd was successful.
+# Compile of datapath.vhd was successful.
+# Compile of sequence_generator.vhd was successful.
+# Compile of status_register.vhd was successful.
+# Compile of zero_detector.vhd was successful.
+# Compile of instruction_decoder.vhd was successful.
+# Compile of instruction_decoder_box.vhd was successful.
+# Compile of jump_detector.vhd was successful.
+# Compile of decoder.vhd was successful.
+# Compile of RAM.vhd was successful.
+# Compile of RAM_tb.vhd was successful.
+# Compile of simple_cpu_tb.vhd was successful.
+# Compile of simple_cpu.vhd was successful.
+# Compile of constantin_joint.vhd was successful.
+# Compile of constantin.vhd was successful.
+# Compile of constant.vhd failed with 1 errors.
+# Compile of Joint16.vhd was successful.
+# Compile of split8.vhd was successful.
+# 34 compiles, 1 failed with 1 error.
+vsim -gui work.simple_cpu_tb
+# vsim -gui work.simple_cpu_tb 
+# Start time: 14:11:01 on Jan 08,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.simple_cpu_tb(tb)
+# Loading work.simple_cpu(bdf_type)
+# Loading work.register_8(bdf_type)
+# Loading work.register_4(bdf_type)
+# Loading work.d_ff_ce_ac(bdf_type)
+# Loading work.replicate(bdf_type)
+# Loading work.zero_detector(bdf_type)
+# Loading work.mux2x1_8bit(bdf_type)
+# Loading work.mux2x1_1bit(bdf_type)
+# Loading work.decoder(bdf_type)
+# Loading work.status_register(bdf_type)
+# Loading work.instruction_decoder_box(bdf_type)
+# Loading work.instruction_decoder(bdf_type)
+# Loading work.jump_detector(bdf_type)
+# Loading work.d_ff_ac(bdf_type)
+# Loading work.sequence_generator(bdf_type)
+# Loading work.split8(bdf_type)
+# Loading work.alu(bdf_type)
+# Loading work.mux4x1_8bit(bdf_type)
+# Loading work.mux4x1_1bit(bdf_type)
+# Loading work.bitwise_inv(bdf_type)
+# Loading work.bitwise_and(bdf_type)
+# Loading work.ripple_adder_8bit(bdf_type)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.ram(mem256x16_v2_rtl)
+# Loading work.joint16(bdf_type)
+# Loading work.register_16(bdf_type)
+add wave -position insertpoint  \
+sim:/simple_cpu_tb/dout \
+sim:/simple_cpu_tb/CLR \
+sim:/simple_cpu_tb/CLK \
+sim:/simple_cpu_tb/ACC
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: themhz  Hostname: DESKTOP-PQ33LHO  ProcessID: 3504
+#           Attempting to use alternate WLF file "./wlft1vmz9j".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft1vmz9j
+# Compile of RAM.vhd was successful.
+# Compile of RAM.vhd was successful.
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu_tb/TB/b2v_inst8
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu_tb/TB/b2v_inst8
+run
+run
+run
+run
+run
+# Compile of RAM.vhd was successful.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ram(mem256x16_v2_rtl)
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu_tb/TB/b2v_inst8
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu_tb/TB/b2v_inst8
+run
+run
+run
+run
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu_tb/TB/b2v_inst8
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu_tb/TB/b2v_inst8
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu_tb/TB/b2v_inst8
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu_tb/TB/b2v_inst8
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+force -freeze sim:/simple_cpu_tb/ACC 00000001 0
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu_tb/TB/b2v_inst8
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu_tb/TB/b2v_inst8
+run
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu_tb/TB/b2v_inst8
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu_tb/TB/b2v_inst8
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu_tb/TB/b2v_inst8
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu_tb/TB/b2v_inst8
+# Compile of ripple_adder_8bit.vhd was successful.
+# Compile of ripple_adder_8bit_tb.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of half_adder.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of bitwise_and.vhd was successful.
+# Compile of bitwise_inv.vhd was successful.
+# Compile of mux2x1_1bit.vhd was successful.
+# Compile of mux2x1_8bit.vhd was successful.
+# Compile of mux4x1_1bit.vhd was successful.
+# Compile of mux4x1_8bit.vhd was successful.
+# Compile of ALU_tb.vhd was successful.
+# Compile of half_adder_tb.vhd was successful.
+# Compile of full_adder_tb.vhd was successful.
+# Compile of bitwise_and_tb.vhd was successful.
+# Compile of bitwise_inv_tb.vhd was successful.
+# Compile of replicate.vhd was successful.
+# Compile of datapath.vhd was successful.
+# Compile of sequence_generator.vhd was successful.
+# Compile of status_register.vhd was successful.
+# Compile of zero_detector.vhd was successful.
+# Compile of instruction_decoder.vhd was successful.
+# Compile of instruction_decoder_box.vhd was successful.
+# Compile of jump_detector.vhd was successful.
+# Compile of decoder.vhd was successful.
+# Compile of RAM.vhd was successful.
+# Compile of RAM_tb.vhd was successful.
+# Compile of simple_cpu_tb.vhd was successful.
+# Compile of simple_cpu.vhd was successful.
+# Compile of constantin_joint.vhd was successful.
+# Compile of constantin.vhd was successful.
+# Compile of constant.vhd failed with 1 errors.
+# Compile of Joint16.vhd was successful.
+# Compile of split8.vhd was successful.
+# 34 compiles, 1 failed with 1 error.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.simple_cpu_tb(tb)
+# Loading work.simple_cpu(bdf_type)
+# Loading work.replicate(bdf_type)
+# Loading work.zero_detector(bdf_type)
+# Loading work.mux2x1_8bit(bdf_type)
+# Loading work.decoder(bdf_type)
+# Loading work.status_register(bdf_type)
+# Loading work.instruction_decoder_box(bdf_type)
+# Loading work.instruction_decoder(bdf_type)
+# Loading work.jump_detector(bdf_type)
+# Loading work.sequence_generator(bdf_type)
+# Loading work.split8(bdf_type)
+# Loading work.alu(bdf_type)
+# Loading work.mux4x1_8bit(bdf_type)
+# Loading work.mux4x1_1bit(bdf_type)
+# Loading work.bitwise_inv(bdf_type)
+# Loading work.bitwise_and(bdf_type)
+# Loading work.ripple_adder_8bit(bdf_type)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+# Loading work.ram(mem256x16_v2_rtl)
+# Loading work.joint16(bdf_type)
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu_tb/TB/b2v_inst8
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu_tb/TB/b2v_inst8
+run
+quit -sim
+# End time: 15:07:57 on Jan 08,2022, Elapsed time: 0:56:56
+# Errors: 0, Warnings: 3
+vsim -gui work.simple_cpu_tb
+# vsim -gui work.simple_cpu_tb 
+# Start time: 15:08:39 on Jan 08,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.simple_cpu_tb(tb)
+# Loading work.simple_cpu(bdf_type)
+# Loading work.register_8(bdf_type)
+# Loading work.register_4(bdf_type)
+# Loading work.d_ff_ce_ac(bdf_type)
+# Loading work.replicate(bdf_type)
+# Loading work.zero_detector(bdf_type)
+# Loading work.mux2x1_8bit(bdf_type)
+# Loading work.mux2x1_1bit(bdf_type)
+# Loading work.decoder(bdf_type)
+# Loading work.status_register(bdf_type)
+# Loading work.instruction_decoder_box(bdf_type)
+# Loading work.instruction_decoder(bdf_type)
+# Loading work.jump_detector(bdf_type)
+# Loading work.d_ff_ac(bdf_type)
+# Loading work.sequence_generator(bdf_type)
+# Loading work.split8(bdf_type)
+# Loading work.alu(bdf_type)
+# Loading work.mux4x1_8bit(bdf_type)
+# Loading work.mux4x1_1bit(bdf_type)
+# Loading work.bitwise_inv(bdf_type)
+# Loading work.bitwise_and(bdf_type)
+# Loading work.ripple_adder_8bit(bdf_type)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.ram(mem256x16_v2_rtl)
+# Loading work.joint16(bdf_type)
+# Loading work.register_16(bdf_type)
+add wave -position insertpoint  \
+sim:/simple_cpu_tb/dout \
+sim:/simple_cpu_tb/CLR \
+sim:/simple_cpu_tb/CLK \
+sim:/simple_cpu_tb/ACC
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: themhz  Hostname: DESKTOP-PQ33LHO  ProcessID: 3504
+#           Attempting to use alternate WLF file "./wlftc91gbd".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftc91gbd
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu_tb/TB/b2v_inst8
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu_tb/TB/b2v_inst8
+run
+quit -sim
+# End time: 15:11:56 on Jan 08,2022, Elapsed time: 0:03:17
+# Errors: 0, Warnings: 5
+# Compile of RAM.vhd was successful.
+# Compile of simple_cpu.vhd was successful.
+vsim -gui work.simple_cpu
+# vsim -gui work.simple_cpu 
+# Start time: 15:26:27 on Jan 08,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.simple_cpu(bdf_type)
+# Loading work.register_8(bdf_type)
+# Loading work.register_4(bdf_type)
+# Loading work.d_ff_ce_ac(bdf_type)
+# Loading work.replicate(bdf_type)
+# Loading work.zero_detector(bdf_type)
+# Loading work.mux2x1_8bit(bdf_type)
+# Loading work.mux2x1_1bit(bdf_type)
+# Loading work.decoder(bdf_type)
+# Loading work.status_register(bdf_type)
+# Loading work.instruction_decoder_box(bdf_type)
+# Loading work.instruction_decoder(bdf_type)
+# Loading work.jump_detector(bdf_type)
+# Loading work.d_ff_ac(bdf_type)
+# Loading work.sequence_generator(bdf_type)
+# Loading work.split8(bdf_type)
+# Loading work.alu(bdf_type)
+# Loading work.mux4x1_8bit(bdf_type)
+# Loading work.mux4x1_1bit(bdf_type)
+# Loading work.bitwise_inv(bdf_type)
+# Loading work.bitwise_and(bdf_type)
+# Loading work.ripple_adder_8bit(bdf_type)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.ram(mem256x16_v2_rtl)
+# Loading work.joint16(bdf_type)
+# Loading work.register_16(bdf_type)
+add wave -position insertpoint  \
+sim:/simple_cpu/Z \
+sim:/simple_cpu/QB \
+sim:/simple_cpu/QA \
+sim:/simple_cpu/Q \
+sim:/simple_cpu/dout \
+sim:/simple_cpu/CLR \
+sim:/simple_cpu/CLK \
+sim:/simple_cpu/ACC
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: themhz  Hostname: DESKTOP-PQ33LHO  ProcessID: 3504
+#           Attempting to use alternate WLF file "./wlftzm2cia".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftzm2cia
+force -freeze sim:/simple_cpu/CLR 1 0
+force -freeze sim:/simple_cpu/CLK 1 0, 0 {50 ps} -r 100
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu/b2v_inst8
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu/b2v_inst8
+force -freeze sim:/simple_cpu/CLR 0 0
+run
+quit -sim
+# End time: 15:28:51 on Jan 08,2022, Elapsed time: 0:02:24
+# Errors: 0, Warnings: 7
+# Compile of RAM.vhd was successful.
+vsim -gui work.simple_cpu
+# vsim -gui work.simple_cpu 
+# Start time: 15:29:34 on Jan 08,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.simple_cpu(bdf_type)
+# Loading work.register_8(bdf_type)
+# Loading work.register_4(bdf_type)
+# Loading work.d_ff_ce_ac(bdf_type)
+# Loading work.replicate(bdf_type)
+# Loading work.zero_detector(bdf_type)
+# Loading work.mux2x1_8bit(bdf_type)
+# Loading work.mux2x1_1bit(bdf_type)
+# Loading work.decoder(bdf_type)
+# Loading work.status_register(bdf_type)
+# Loading work.instruction_decoder_box(bdf_type)
+# Loading work.instruction_decoder(bdf_type)
+# Loading work.jump_detector(bdf_type)
+# Loading work.d_ff_ac(bdf_type)
+# Loading work.sequence_generator(bdf_type)
+# Loading work.split8(bdf_type)
+# Loading work.alu(bdf_type)
+# Loading work.mux4x1_8bit(bdf_type)
+# Loading work.mux4x1_1bit(bdf_type)
+# Loading work.bitwise_inv(bdf_type)
+# Loading work.bitwise_and(bdf_type)
+# Loading work.ripple_adder_8bit(bdf_type)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.ram(mem256x16_v2_rtl)
+# Loading work.joint16(bdf_type)
+# Loading work.register_16(bdf_type)
+add wave -position insertpoint  \
+sim:/simple_cpu/Z \
+sim:/simple_cpu/QB \
+sim:/simple_cpu/QA \
+sim:/simple_cpu/Q \
+sim:/simple_cpu/dout \
+sim:/simple_cpu/CLR \
+sim:/simple_cpu/CLK \
+sim:/simple_cpu/ACC
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: themhz  Hostname: DESKTOP-PQ33LHO  ProcessID: 3504
+#           Attempting to use alternate WLF file "./wlft5iy5vf".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft5iy5vf
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu/b2v_inst8
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu/b2v_inst8
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+force -freeze sim:/simple_cpu/CLK 1 0, 0 {50 ps} -r 100
+force -freeze sim:/simple_cpu/CLR 1 0
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu/b2v_inst8
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu/b2v_inst8
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu/b2v_inst8
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu/b2v_inst8
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+force -freeze sim:/simple_cpu/CLR 1 0
+force -freeze sim:/simple_cpu/CLK 1 0, 0 {50 ps} -r 100
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu/b2v_inst8
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu/b2v_inst8
+force -freeze sim:/simple_cpu/CLR 0 0
+run
+run
+run
+run
+run
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu/b2v_inst8
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu/b2v_inst8
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+force -freeze sim:/simple_cpu/CLR 1 0
+force -freeze sim:/simple_cpu/CLK 1 0, 0 {50 ps} -r 100
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu/b2v_inst8
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu/b2v_inst8
+force -freeze sim:/simple_cpu/CLR 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 15:41:37 on Jan 08,2022, Elapsed time: 0:12:03
+# Errors: 0, Warnings: 3
+# Compile of RAM.vhd was successful.
+vsim -gui work.simple_cpu_tb
+# vsim -gui work.simple_cpu_tb 
+# Start time: 15:42:07 on Jan 08,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.simple_cpu_tb(tb)
+# Loading work.simple_cpu(bdf_type)
+# Loading work.register_8(bdf_type)
+# Loading work.register_4(bdf_type)
+# Loading work.d_ff_ce_ac(bdf_type)
+# Loading work.replicate(bdf_type)
+# Loading work.zero_detector(bdf_type)
+# Loading work.mux2x1_8bit(bdf_type)
+# Loading work.mux2x1_1bit(bdf_type)
+# Loading work.decoder(bdf_type)
+# Loading work.status_register(bdf_type)
+# Loading work.instruction_decoder_box(bdf_type)
+# Loading work.instruction_decoder(bdf_type)
+# Loading work.jump_detector(bdf_type)
+# Loading work.d_ff_ac(bdf_type)
+# Loading work.sequence_generator(bdf_type)
+# Loading work.split8(bdf_type)
+# Loading work.alu(bdf_type)
+# Loading work.mux4x1_8bit(bdf_type)
+# Loading work.mux4x1_1bit(bdf_type)
+# Loading work.bitwise_inv(bdf_type)
+# Loading work.bitwise_and(bdf_type)
+# Loading work.ripple_adder_8bit(bdf_type)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.ram(mem256x16_v2_rtl)
+# Loading work.joint16(bdf_type)
+# Loading work.register_16(bdf_type)
+add wave -position insertpoint  \
+sim:/simple_cpu_tb/dout \
+sim:/simple_cpu_tb/CLR \
+sim:/simple_cpu_tb/CLK \
+sim:/simple_cpu_tb/ACC
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: themhz  Hostname: DESKTOP-PQ33LHO  ProcessID: 3504
+#           Attempting to use alternate WLF file "./wlft080v3c".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft080v3c
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu_tb/TB/b2v_inst8
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu_tb/TB/b2v_inst8
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf S:/EAP/PLHPSI2/projects/simple_cpu_wave_1.do
+quit -sim
+# End time: 15:46:06 on Jan 08,2022, Elapsed time: 0:03:59
+# Errors: 0, Warnings: 6
+# Compile of decoder.vhd was successful.
+# Load canceled
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (S:/EAP/PLHPSI2/projects/ripple_adder_8bit.vhd.mpf).  File can not be renamed.
+# Compile of decoder_tb.vhd failed with 46 errors.
+# Compile of decoder_tb.vhd failed with 6 errors.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (S:/EAP/PLHPSI2/projects/ripple_adder_8bit.vhd.mpf).  File can not be renamed.
+# Compile of decoder_tb.vhd failed with 6 errors.
+# Compile of decoder_tb.vhd failed with 6 errors.
+# Compile of decoder_tb.vhd failed with 1 errors.
+# Compile of decoder_tb.vhd was successful.
+# Compile of decoder_tb.vhd was successful.
+# Compile of decoder_tb.vhd was successful.
+vsim -gui work.decoder_tb
+# vsim -gui work.decoder_tb 
+# Start time: 17:14:02 on Jan 08,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.decoder_tb(tb)
+# Loading work.decoder(bdf_type)
+# Loading work.status_register(bdf_type)
+# Loading work.d_ff_ce_ac(bdf_type)
+# Loading work.instruction_decoder_box(bdf_type)
+# Loading work.instruction_decoder(bdf_type)
+# Loading work.jump_detector(bdf_type)
+# Loading work.d_ff_ac(bdf_type)
+# Loading work.sequence_generator(bdf_type)
+add wave -position insertpoint  \
+sim:/decoder_tb/Zero \
+sim:/decoder_tb/RAM \
+sim:/decoder_tb/MUXC \
+sim:/decoder_tb/MUXB \
+sim:/decoder_tb/MUXA \
+sim:/decoder_tb/IR \
+sim:/decoder_tb/EN_PC \
+sim:/decoder_tb/EN_IN \
+sim:/decoder_tb/EN_DA \
+sim:/decoder_tb/CLR \
+sim:/decoder_tb/CLK \
+sim:/decoder_tb/CE \
+sim:/decoder_tb/Carry \
+sim:/decoder_tb/ALU_S4 \
+sim:/decoder_tb/ALU_S3 \
+sim:/decoder_tb/ALU_S2 \
+sim:/decoder_tb/ALU_S1 \
+sim:/decoder_tb/ALU_S0
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: themhz  Hostname: DESKTOP-PQ33LHO  ProcessID: 3504
+#           Attempting to use alternate WLF file "./wlft9vsbfg".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft9vsbfg
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf S:/EAP/PLHPSI2/projects/decoder_wave_1.do
+restart -f
+do S:/EAP/PLHPSI2/projects/decoder_wave_1.do
+do S:/EAP/PLHPSI2/projects/decoder_wave_1.do
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 17:27:43 on Jan 08,2022, Elapsed time: 0:13:41
+# Errors: 0, Warnings: 1
+# Compile of decoder_tb.vhd was successful.
+vsim -gui work.decoder_tb
+# vsim -gui work.decoder_tb 
+# Start time: 17:27:59 on Jan 08,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.decoder_tb(tb)
+# Loading work.decoder(bdf_type)
+# Loading work.status_register(bdf_type)
+# Loading work.d_ff_ce_ac(bdf_type)
+# Loading work.instruction_decoder_box(bdf_type)
+# Loading work.instruction_decoder(bdf_type)
+# Loading work.jump_detector(bdf_type)
+# Loading work.d_ff_ac(bdf_type)
+# Loading work.sequence_generator(bdf_type)
+do S:/EAP/PLHPSI2/projects/decoder_wave_1.do
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: themhz  Hostname: DESKTOP-PQ33LHO  ProcessID: 3504
+#           Attempting to use alternate WLF file "./wlftze7cms".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftze7cms
+run
+run
+run
+quit -sim
+# End time: 17:29:38 on Jan 08,2022, Elapsed time: 0:01:39
+# Errors: 0, Warnings: 4
+# Compile of sequence_generator_tb.vhd failed with 16 errors.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (S:/EAP/PLHPSI2/projects/ripple_adder_8bit.vhd.mpf).  File can not be renamed.
+# Compile of sequence_generator_tb.vhd was successful.
+vsim -gui work.sequence_generator_tb
+# vsim -gui work.sequence_generator_tb 
+# Start time: 18:11:07 on Jan 08,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.sequence_generator_tb(tb)
+# Loading work.sequence_generator(bdf_type)
+# Loading work.d_ff_ce_ac(bdf_type)
+add wave -position insertpoint  \
+sim:/sequence_generator_tb/INCREMENT \
+sim:/sequence_generator_tb/FETCH \
+sim:/sequence_generator_tb/EXECUTE \
+sim:/sequence_generator_tb/DECODE \
+sim:/sequence_generator_tb/CLR \
+sim:/sequence_generator_tb/CLK \
+sim:/sequence_generator_tb/CE
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: themhz  Hostname: DESKTOP-PQ33LHO  ProcessID: 3504
+#           Attempting to use alternate WLF file "./wlftccre98".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftccre98
+run
+run
+quit -sim
+# End time: 18:11:55 on Jan 08,2022, Elapsed time: 0:00:48
+# Errors: 1, Warnings: 6
+vsim -gui work.sequence_generator
+# vsim -gui work.sequence_generator 
+# Start time: 18:12:47 on Jan 08,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.sequence_generator(bdf_type)
+# Loading work.d_ff_ce_ac(bdf_type)
+add wave -position insertpoint  \
+sim:/sequence_generator/INCREMENT \
+sim:/sequence_generator/FETCH \
+sim:/sequence_generator/EXECUTE \
+sim:/sequence_generator/DFFE_inst \
+sim:/sequence_generator/DECODE \
+sim:/sequence_generator/CLR \
+sim:/sequence_generator/CLK \
+sim:/sequence_generator/CE
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: themhz  Hostname: DESKTOP-PQ33LHO  ProcessID: 3504
+#           Attempting to use alternate WLF file "./wlft3qy9n0".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft3qy9n0
+force -freeze sim:/sequence_generator/CLK 1 0, 0 {50 ps} -r 100
+force -freeze sim:/sequence_generator/CE 1 0, 0 {50 ps} -r 100
+force -freeze sim:/sequence_generator/CLR 1 0
+run
+force -freeze sim:/sequence_generator/CLR 0 0
+run
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf S:/EAP/PLHPSI2/projects/sequence_generator_1.do
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf S:/EAP/PLHPSI2/projects/sequence_generator_1.do
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+do S:/EAP/PLHPSI2/projects/sequence_generator_1.do
+run
+restart -f
+force -freeze sim:/sequence_generator/CLK 1 0, 0 {50 ps} -r 100
+force -freeze sim:/sequence_generator/CE 1 0
+force -freeze sim:/sequence_generator/CLR 1 0
+run
+quit -sim
+# End time: 18:15:33 on Jan 08,2022, Elapsed time: 0:02:46
+# Errors: 0, Warnings: 1
+vsim -gui work.sequence_generator
+# vsim -gui work.sequence_generator 
+# Start time: 18:15:46 on Jan 08,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.sequence_generator(bdf_type)
+# Loading work.d_ff_ce_ac(bdf_type)
+do S:/EAP/PLHPSI2/projects/sequence_generator_1.do
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: themhz  Hostname: DESKTOP-PQ33LHO  ProcessID: 3504
+#           Attempting to use alternate WLF file "./wlfted0ii8".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfted0ii8
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+noforce sim:/sequence_generator/CLK
+force -freeze sim:/sequence_generator/CLK 1 0, 0 {50 ps} -r 100
+force -freeze sim:/sequence_generator/CE 1 0
+force -freeze sim:/sequence_generator/CLR 1 0
+run
+force -freeze sim:/sequence_generator/CLR 0 0
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 18:17:31 on Jan 08,2022, Elapsed time: 0:01:45
+# Errors: 0, Warnings: 1
+# Compile of sequence_generator_tb.vhd was successful.
+vsim -gui work.sequence_generator_tb
+# vsim -gui work.sequence_generator_tb 
+# Start time: 18:18:23 on Jan 08,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.sequence_generator_tb(tb)
+# Loading work.sequence_generator(bdf_type)
+# Loading work.d_ff_ce_ac(bdf_type)
+add wave -position insertpoint  \
+sim:/sequence_generator_tb/INCREMENT \
+sim:/sequence_generator_tb/FETCH \
+sim:/sequence_generator_tb/EXECUTE \
+sim:/sequence_generator_tb/DECODE \
+sim:/sequence_generator_tb/CLR \
+sim:/sequence_generator_tb/CLK \
+sim:/sequence_generator_tb/CE
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: themhz  Hostname: DESKTOP-PQ33LHO  ProcessID: 3504
+#           Attempting to use alternate WLF file "./wlftb3rxme".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftb3rxme
+run
+run
+quit -sim
+# End time: 18:20:51 on Jan 08,2022, Elapsed time: 0:02:28
+# Errors: 0, Warnings: 4
+# Compile of sequence_generator_tb.vhd was successful.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (S:/EAP/PLHPSI2/projects/ripple_adder_8bit.vhd.mpf).  File can not be renamed.
+vsim -gui work.sequence_generator_tb
+# vsim -gui work.sequence_generator_tb 
+# Start time: 18:21:18 on Jan 08,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.sequence_generator_tb(tb)
+# Loading work.sequence_generator(bdf_type)
+# Loading work.d_ff_ce_ac(bdf_type)
+add wave -position insertpoint  \
+sim:/sequence_generator_tb/INCREMENT \
+sim:/sequence_generator_tb/FETCH \
+sim:/sequence_generator_tb/EXECUTE \
+sim:/sequence_generator_tb/DECODE \
+sim:/sequence_generator_tb/CLR \
+sim:/sequence_generator_tb/CLK \
+sim:/sequence_generator_tb/CE
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: themhz  Hostname: DESKTOP-PQ33LHO  ProcessID: 3504
+#           Attempting to use alternate WLF file "./wlftiax269".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftiax269
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 18:23:15 on Jan 08,2022, Elapsed time: 0:01:57
+# Errors: 1, Warnings: 4
+# Compile of sequence_generator_tb.vhd was successful.
+vsim -gui work.sequence_generator_tb
+# vsim -gui work.sequence_generator_tb 
+# Start time: 18:49:36 on Jan 08,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.sequence_generator_tb(tb)
+# Loading work.sequence_generator(bdf_type)
+# Loading work.d_ff_ce_ac(bdf_type)
+quit -sim
+# End time: 18:49:47 on Jan 08,2022, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 2
+# Compile of instruction_decoder_tb.vhd was successful.
+vsim -gui work.instruction_decoder_tb
+# vsim -gui work.instruction_decoder_tb 
+# Start time: 18:51:11 on Jan 08,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.instruction_decoder_tb(tb)
+# Loading work.instruction_decoder(bdf_type)
+# ** Fatal: (vsim-3817) Port "A" of entity "instruction_decoder" is not in the component being instantiated.
+#    Time: 0 ps  Iteration: 0  Instance: /instruction_decoder_tb/TB File: S:/EAP/PLHPSI2/projects/instruction_decoder.vhd Line: 28
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 18:51:12 on Jan 08,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 3
+# Compile of instruction_decoder_tb.vhd was successful.
+vsim -gui work.instruction_decoder_tb
+# vsim -gui work.instruction_decoder_tb 
+# Start time: 18:51:40 on Jan 08,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.instruction_decoder_tb(tb)
+# Loading work.instruction_decoder(bdf_type)
+# ** Fatal: (vsim-3817) Port "A" of entity "instruction_decoder" is not in the component being instantiated.
+#    Time: 0 ps  Iteration: 0  Instance: /instruction_decoder_tb/TB File: S:/EAP/PLHPSI2/projects/instruction_decoder.vhd Line: 28
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 18:51:40 on Jan 08,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (S:/EAP/PLHPSI2/projects/ripple_adder_8bit.vhd.mpf).  File can not be renamed.
+# Compile of instruction_decoder_box_tb.vhd was successful.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (S:/EAP/PLHPSI2/projects/ripple_adder_8bit.vhd.mpf).  File can not be renamed.
+# Compile of instruction_decoder_box_tb.vhd was successful.
+vsim -gui work.instruction_decoder_box_tb
+# vsim -gui work.instruction_decoder_box_tb 
+# Start time: 18:56:34 on Jan 08,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.instruction_decoder_box_tb(tb)
+# Loading work.instruction_decoder_box(bdf_type)
+# Loading work.instruction_decoder(bdf_type)
+add wave -position insertpoint  \
+sim:/instruction_decoder_box_tb/SUB \
+sim:/instruction_decoder_box_tb/OUTPUT \
+sim:/instruction_decoder_box_tb/LOAD \
+sim:/instruction_decoder_box_tb/JUMPZ \
+sim:/instruction_decoder_box_tb/JUMPNZ \
+sim:/instruction_decoder_box_tb/JUMPNC \
+sim:/instruction_decoder_box_tb/JUMPC \
+sim:/instruction_decoder_box_tb/JUMP \
+sim:/instruction_decoder_box_tb/IR \
+sim:/instruction_decoder_box_tb/INPUT \
+sim:/instruction_decoder_box_tb/EXECUTE \
+sim:/instruction_decoder_box_tb/DECODE \
+sim:/instruction_decoder_box_tb/BITAND \
+sim:/instruction_decoder_box_tb/ADD
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: themhz  Hostname: DESKTOP-PQ33LHO  ProcessID: 3504
+#           Attempting to use alternate WLF file "./wlftqj0tyd".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftqj0tyd
+run
+run
+run
+run
+run
+quit -sim
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (S:/EAP/PLHPSI2/projects/ripple_adder_8bit.vhd.mpf).  File can not be renamed.
+# End time: 18:58:14 on Jan 08,2022, Elapsed time: 0:01:40
+# Errors: 3, Warnings: 7
+vsim -gui work.instruction_decoder_box
+# vsim -gui work.instruction_decoder_box 
+# Start time: 18:58:31 on Jan 08,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.instruction_decoder_box(bdf_type)
+# Loading work.instruction_decoder(bdf_type)
+add wave -position insertpoint  \
+sim:/instruction_decoder_box/SUB \
+sim:/instruction_decoder_box/OUTPUT \
+sim:/instruction_decoder_box/LOAD \
+sim:/instruction_decoder_box/JUMPZ \
+sim:/instruction_decoder_box/JUMPNZ \
+sim:/instruction_decoder_box/JUMPNC \
+sim:/instruction_decoder_box/JUMPC \
+sim:/instruction_decoder_box/JUMP \
+sim:/instruction_decoder_box/IR \
+sim:/instruction_decoder_box/INPUT \
+sim:/instruction_decoder_box/EXECUTE \
+sim:/instruction_decoder_box/DECODE \
+sim:/instruction_decoder_box/BITAND \
+sim:/instruction_decoder_box/ADD
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: themhz  Hostname: DESKTOP-PQ33LHO  ProcessID: 3504
+#           Attempting to use alternate WLF file "./wlftk3yfni".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftk3yfni
+force -freeze sim:/instruction_decoder_box/IR 00000000 0
+run
+force -freeze sim:/instruction_decoder_box/EXECUTE 0 0
+force -freeze sim:/instruction_decoder_box/DECODE 0 0
+run
+force -freeze sim:/instruction_decoder_box/EXECUTE 1 0
+force -freeze sim:/instruction_decoder_box/DECODE 0 0
+run
+force -freeze sim:/instruction_decoder_box/IR 01000000 0
+run
+force -freeze sim:/instruction_decoder_box/IR 00010000 0
+run
+force -freeze sim:/instruction_decoder_box/IR 01100000 0
+run
+quit -sim
+# End time: 19:04:41 on Jan 08,2022, Elapsed time: 0:06:10
+# Errors: 0, Warnings: 3
+vsim -gui work.simple_cpu
+# vsim -gui work.simple_cpu 
+# Start time: 19:05:06 on Jan 08,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.simple_cpu(bdf_type)
+# Loading work.register_8(bdf_type)
+# Loading work.register_4(bdf_type)
+# Loading work.d_ff_ce_ac(bdf_type)
+# Loading work.replicate(bdf_type)
+# Loading work.zero_detector(bdf_type)
+# Loading work.mux2x1_8bit(bdf_type)
+# Loading work.mux2x1_1bit(bdf_type)
+# Loading work.decoder(bdf_type)
+# Loading work.status_register(bdf_type)
+# Loading work.instruction_decoder_box(bdf_type)
+# Loading work.instruction_decoder(bdf_type)
+# Loading work.jump_detector(bdf_type)
+# Loading work.d_ff_ac(bdf_type)
+# Loading work.sequence_generator(bdf_type)
+# Loading work.split8(bdf_type)
+# Loading work.alu(bdf_type)
+# Loading work.mux4x1_8bit(bdf_type)
+# Loading work.mux4x1_1bit(bdf_type)
+# Loading work.bitwise_inv(bdf_type)
+# Loading work.bitwise_and(bdf_type)
+# Loading work.ripple_adder_8bit(bdf_type)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.ram(mem256x16_v2_rtl)
+# Loading work.joint16(bdf_type)
+# Loading work.register_16(bdf_type)
+do S:/EAP/PLHPSI2/projects/simple_cpu_wave_1.do
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: themhz  Hostname: DESKTOP-PQ33LHO  ProcessID: 3504
+#           Attempting to use alternate WLF file "./wlft0018c2".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft0018c2
+# ** UI-Msg: (vish-4014) No objects found matching '/simple_cpu_tb/dout'.
+# Executing ONERROR command at macro S:\EAP\PLHPSI2\projects\simple_cpu_wave_1.do line 3
+# ** UI-Msg: (vish-4014) No objects found matching '/simple_cpu_tb/CLR'.
+# Executing ONERROR command at macro S:\EAP\PLHPSI2\projects\simple_cpu_wave_1.do line 4
+# ** UI-Msg: (vish-4014) No objects found matching '/simple_cpu_tb/CLK'.
+# Executing ONERROR command at macro S:\EAP\PLHPSI2\projects\simple_cpu_wave_1.do line 5
+# ** UI-Msg: (vish-4014) No objects found matching '/simple_cpu_tb/ACC'.
+# Executing ONERROR command at macro S:\EAP\PLHPSI2\projects\simple_cpu_wave_1.do line 6
+# ** UI-Msg: (vish-4014) No objects found matching '/simple_cpu_tb/dout'.
+# Executing ONERROR command at macro S:\EAP\PLHPSI2\projects\simple_cpu_wave_1.do line 7
+# ** UI-Msg: (vish-4014) No objects found matching '/simple_cpu_tb/ACC'.
+# Executing ONERROR command at macro S:\EAP\PLHPSI2\projects\simple_cpu_wave_1.do line 8
+do S:/EAP/PLHPSI2/projects/simple_cpu_wave_1.do
+# ** UI-Msg: (vish-4014) No objects found matching '/simple_cpu_tb/dout'.
+# Executing ONERROR command at macro S:\EAP\PLHPSI2\projects\simple_cpu_wave_1.do line 3
+# ** UI-Msg: (vish-4014) No objects found matching '/simple_cpu_tb/CLR'.
+# Executing ONERROR command at macro S:\EAP\PLHPSI2\projects\simple_cpu_wave_1.do line 4
+# ** UI-Msg: (vish-4014) No objects found matching '/simple_cpu_tb/CLK'.
+# Executing ONERROR command at macro S:\EAP\PLHPSI2\projects\simple_cpu_wave_1.do line 5
+# ** UI-Msg: (vish-4014) No objects found matching '/simple_cpu_tb/ACC'.
+# Executing ONERROR command at macro S:\EAP\PLHPSI2\projects\simple_cpu_wave_1.do line 6
+# ** UI-Msg: (vish-4014) No objects found matching '/simple_cpu_tb/dout'.
+# Executing ONERROR command at macro S:\EAP\PLHPSI2\projects\simple_cpu_wave_1.do line 7
+# ** UI-Msg: (vish-4014) No objects found matching '/simple_cpu_tb/ACC'.
+# Executing ONERROR command at macro S:\EAP\PLHPSI2\projects\simple_cpu_wave_1.do line 8
+add wave -position insertpoint  \
+sim:/simple_cpu/Z \
+sim:/simple_cpu/QB \
+sim:/simple_cpu/QA \
+sim:/simple_cpu/Q \
+sim:/simple_cpu/dout \
+sim:/simple_cpu/CLR \
+sim:/simple_cpu/CLK \
+sim:/simple_cpu/ACC
+force -freeze sim:/simple_cpu/CLR 1 0
+force -freeze sim:/simple_cpu/CLK 1 0, 0 {50 ps} -r 100
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu/b2v_inst8
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu/b2v_inst8
+noforce sim:/simple_cpu/CLR
+force -freeze sim:/simple_cpu/CLR 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 19:10:42 on Jan 08,2022, Elapsed time: 0:05:36
+# Errors: 0, Warnings: 5
+vsim -gui work.decoder_tb
+# vsim -gui work.decoder_tb 
+# Start time: 19:10:59 on Jan 08,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.decoder_tb(tb)
+# Loading work.decoder(bdf_type)
+# Loading work.status_register(bdf_type)
+# Loading work.d_ff_ce_ac(bdf_type)
+# Loading work.instruction_decoder_box(bdf_type)
+# Loading work.instruction_decoder(bdf_type)
+# Loading work.jump_detector(bdf_type)
+# Loading work.d_ff_ac(bdf_type)
+# Loading work.sequence_generator(bdf_type)
+add wave -position insertpoint  \
+sim:/decoder_tb/Zero \
+sim:/decoder_tb/RAM \
+sim:/decoder_tb/MUXC \
+sim:/decoder_tb/MUXB \
+sim:/decoder_tb/MUXA \
+sim:/decoder_tb/IR \
+sim:/decoder_tb/EN_PC \
+sim:/decoder_tb/EN_IN \
+sim:/decoder_tb/EN_DA \
+sim:/decoder_tb/CLR \
+sim:/decoder_tb/CLK \
+sim:/decoder_tb/CE \
+sim:/decoder_tb/Carry \
+sim:/decoder_tb/ALU_S4 \
+sim:/decoder_tb/ALU_S3 \
+sim:/decoder_tb/ALU_S2 \
+sim:/decoder_tb/ALU_S1 \
+sim:/decoder_tb/ALU_S0
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: themhz  Hostname: DESKTOP-PQ33LHO  ProcessID: 3504
+#           Attempting to use alternate WLF file "./wlftz16727".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftz16727
+run
+run
+run
+run
+run
+run
+add wave -position 7  sim:/decoder_tb/signals
+add wave -position 6  sim:/decoder_tb/IR
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+do S:/EAP/PLHPSI2/projects/decoder_wave_1.do
+run
+add wave -position end  sim:/decoder_tb/result001
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
