@@ -30,8 +30,7 @@ Type vector_array is array (0 to 255) of std_logic_vector (15 downto 0);
 signal memory : vector_array:=(
     0=> "0000000000000010",    
     1=> "0100000000000001",
-    2=> "0100000000000001",
-    3=> "0000000000000110",
+    2=> "0100000000000001",    
     others=> "0000000000000000");
 
 Begin
