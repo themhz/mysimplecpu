@@ -1,10 +1,26 @@
-S:/EAP/PLHPSI2/projects/jump_detector.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/jump_detector.vhd
+S:/EAP/PLHPSI2/projects/decoder_v2.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/decoder_v2.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity decoder_v2
+-- Compiling architecture bdf_type of decoder_v2
+
+} {} {}} S:/EAP/PLHPSI2/projects/jump_detector.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/jump_detector.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Compiling entity jump_detector
 -- Compiling architecture bdf_type of jump_detector
+
+} {} {}} S:/EAP/PLHPSI2/projects/instruction_decoder_v2.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/instruction_decoder_v2.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity instruction_decoder_v2
+-- Compiling architecture bdf_type of instruction_decoder_v2
 
 } {} {}} S:/EAP/PLHPSI2/projects/decoder.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/decoder.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -61,6 +77,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package std_logic_1164
 -- Compiling entity half_adder_tb
 -- Compiling architecture TB of half_adder_tb
+
+} {} {}} S:/EAP/PLHPSI2/projects/ALU_V2.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/ALU_V2.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ALU_V2
+-- Compiling architecture bdf_type of ALU_V2
 
 } {} {}} S:/EAP/PLHPSI2/projects/simple_cpu.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/simple_cpu.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -158,6 +182,22 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity mux4x1_8bit
 -- Compiling architecture bdf_type of mux4x1_8bit
 
+} {} {}} S:/EAP/PLHPSI2/projects/instruction_decoder_box_v2.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/instruction_decoder_box_v2.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity instruction_decoder_box_v2
+-- Compiling architecture bdf_type of instruction_decoder_box_v2
+
+} {} {}} S:/EAP/PLHPSI2/projects/ALU_V2_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/ALU_V2_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ALU_V2_tb
+-- Compiling architecture TB of ALU_V2_tb
+
 } {} {}} S:/EAP/PLHPSI2/projects/ripple_adder_8bit_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/ripple_adder_8bit_tb.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
@@ -182,6 +222,22 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity simple_cpu_tb
 -- Compiling architecture TB of simple_cpu_tb
 
+} {} {}} S:/EAP/PLHPSI2/projects/status_register_v2.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/status_register_v2.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity status_register_v2
+-- Compiling architecture bdf_type of status_register_v2
+
+} {} {}} S:/EAP/PLHPSI2/projects/bitwise_or.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/bitwise_or.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity bitwise_or
+-- Compiling architecture bdf_type of bitwise_or
+
 } {} {}} S:/EAP/PLHPSI2/projects/full_adder_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/full_adder_tb.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
@@ -197,6 +253,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package std_logic_1164
 -- Compiling entity instruction_decoder
 -- Compiling architecture bdf_type of instruction_decoder
+
+} {} {}} S:/EAP/PLHPSI2/projects/simple_cpu_v2.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/simple_cpu_v2.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity simple_cpu_v2
+-- Compiling architecture bdf_type of simple_cpu_v2
 
 } {} {}} S:/EAP/PLHPSI2/projects/bitwise_inv_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/bitwise_inv_tb.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020

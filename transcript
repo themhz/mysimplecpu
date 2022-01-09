@@ -944,3 +944,210 @@ run
 run
 run
 run
+quit -sim
+# End time: 23:52:04 on Jan 09,2022, Elapsed time: 0:58:39
+# Errors: 0, Warnings: 4
+# Compile of ALU_V2.vhd was successful.
+# ** Error: Acs sdne.
+# S
+#        Unable to replace existing ini file (S:/EAP/PLHPSI2/projects/ripple_adder_8bit.vhd.mpf).  File can not be renamed.
+# Compile of ALU_V2_tb.vhd failed with 1 errors.
+# Load canceled
+# Compile of ALU_V2_tb.vhd was successful.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (S:/EAP/PLHPSI2/projects/ripple_adder_8bit.vhd.mpf).  File can not be renamed.
+vsim -gui work.alu_v2_tb
+# vsim -gui work.alu_v2_tb 
+# Start time: 23:57:50 on Jan 09,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu_v2_tb(tb)
+# Loading work.alu_v2(bdf_type)
+# Loading work.replicate(bdf_type)
+# Loading work.mux4x1_8bit(bdf_type)
+# Loading work.mux4x1_1bit(bdf_type)
+# Loading work.mux2x1_1bit(bdf_type)
+# Loading work.bitwise_inv(bdf_type)
+# Loading work.bitwise_and(bdf_type)
+# Loading work.ripple_adder_8bit(bdf_type)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+# Loading work.mux2x1_8bit(bdf_type)
+# ** Warning: (vsim-3473) Component instance "b2v_inst8 : bitwise_or" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /alu_v2_tb/TB File: S:/EAP/PLHPSI2/projects/ALU_V2.vhd
+# Compile of bitwise_or.vhd was successful.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (S:/EAP/PLHPSI2/projects/ripple_adder_8bit.vhd.mpf).  File can not be renamed.
+add wave -position insertpoint  \
+sim:/alu_v2_tb/Z \
+sim:/alu_v2_tb/S5 \
+sim:/alu_v2_tb/S4 \
+sim:/alu_v2_tb/S3 \
+sim:/alu_v2_tb/S2 \
+sim:/alu_v2_tb/S1 \
+sim:/alu_v2_tb/S0 \
+sim:/alu_v2_tb/Cout \
+sim:/alu_v2_tb/B \
+sim:/alu_v2_tb/A
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: themhz  Hostname: DESKTOP-PQ33LHO  ProcessID: 3504
+#           Attempting to use alternate WLF file "./wlftg95eda".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftg95eda
+run
+run
+run
+run
+run
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.bitwise_or(bdf_type)
+run
+run
+run
+run
+# Compile of ALU_V2_tb.vhd was successful.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (S:/EAP/PLHPSI2/projects/ripple_adder_8bit.vhd.mpf).  File can not be renamed.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.alu_v2_tb(tb)
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf S:/EAP/PLHPSI2/projects/wave_ALUV2.do
+quit -sim
+# End time: 00:11:11 on Jan 10,2022, Elapsed time: 0:13:21
+# Errors: 0, Warnings: 1
+# Compile of ripple_adder_8bit.vhd was successful.
+# Compile of ripple_adder_8bit_tb.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of half_adder.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of bitwise_and.vhd was successful.
+# Compile of bitwise_inv.vhd was successful.
+# Compile of mux2x1_1bit.vhd was successful.
+# Compile of mux2x1_8bit.vhd was successful.
+# Compile of mux4x1_1bit.vhd was successful.
+# Compile of mux4x1_8bit.vhd was successful.
+# Compile of ALU_tb.vhd was successful.
+# Compile of half_adder_tb.vhd was successful.
+# Compile of full_adder_tb.vhd was successful.
+# Compile of bitwise_and_tb.vhd was successful.
+# Compile of bitwise_inv_tb.vhd was successful.
+# Compile of replicate.vhd was successful.
+# Compile of datapath.vhd was successful.
+# Compile of sequence_generator.vhd was successful.
+# Compile of status_register.vhd was successful.
+# Compile of zero_detector.vhd was successful.
+# Compile of instruction_decoder.vhd was successful.
+# Compile of instruction_decoder_box.vhd was successful.
+# Compile of jump_detector.vhd was successful.
+# Compile of decoder.vhd was successful.
+# Compile of RAM.vhd was successful.
+# Compile of RAM_tb.vhd was successful.
+# Compile of simple_cpu_tb.vhd was successful.
+# Compile of simple_cpu.vhd was successful.
+# Compile of constantin_joint.vhd was successful.
+# Compile of constantin.vhd was successful.
+# Compile of constant.vhd failed with 1 errors.
+# Compile of Joint16.vhd was successful.
+# Compile of split8.vhd was successful.
+# Compile of decoder_tb.vhd was successful.
+# Compile of sequence_generator_tb.vhd was successful.
+# Compile of instruction_decoder_box_tb.vhd was successful.
+# Compile of ALU_V2.vhd was successful.
+# Compile of ALU_V2_tb.vhd was successful.
+# Compile of bitwise_or.vhd was successful.
+# Compile of decoder_v2.vhd was successful.
+# Compile of status_register_v2.vhd was successful.
+# Compile of instruction_decoder_box_v2.vhd was successful.
+# Compile of instruction_decoder_v2.vhd was successful.
+# Compile of simple_cpu_v2.vhd was successful.
+# 45 compiles, 1 failed with 1 error.
+vsim -gui work.simple_cpu_v2
+# vsim -gui work.simple_cpu_v2 
+# Start time: 01:34:54 on Jan 10,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.simple_cpu_v2(bdf_type)
+# Loading work.register_8(bdf_type)
+# Loading work.register_4(bdf_type)
+# Loading work.d_ff_ce_ac(bdf_type)
+# Loading work.decoder_v2(bdf_type)
+# Loading work.instruction_decoder_box_v2(bdf_type)
+# Loading work.instruction_decoder_v2(bdf_type)
+# Loading work.status_register_v2(bdf_type)
+# Loading work.jump_detector(bdf_type)
+# Loading work.d_ff_ac(bdf_type)
+# Loading work.sequence_generator(bdf_type)
+# Loading work.replicate(bdf_type)
+# Loading work.zero_detector(bdf_type)
+# Loading work.mux2x1_8bit(bdf_type)
+# Loading work.mux2x1_1bit(bdf_type)
+# Loading work.alu_v2(bdf_type)
+# Loading work.mux4x1_8bit(bdf_type)
+# Loading work.mux4x1_1bit(bdf_type)
+# Loading work.bitwise_inv(bdf_type)
+# Loading work.bitwise_and(bdf_type)
+# Loading work.ripple_adder_8bit(bdf_type)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+# Loading work.bitwise_or(bdf_type)
+# Loading work.split8(bdf_type)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.ram(mem256x16_v2_rtl)
+# Loading work.joint16(bdf_type)
+# Loading work.register_16(bdf_type)
+add wave -position insertpoint  \
+sim:/simple_cpu_v2/Z \
+sim:/simple_cpu_v2/QB \
+sim:/simple_cpu_v2/QA \
+sim:/simple_cpu_v2/Q \
+sim:/simple_cpu_v2/dout \
+sim:/simple_cpu_v2/CLR \
+sim:/simple_cpu_v2/CLK \
+sim:/simple_cpu_v2/ACC
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: themhz  Hostname: DESKTOP-PQ33LHO  ProcessID: 3504
+#           Attempting to use alternate WLF file "./wlftyqvxm4".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftyqvxm4
+# Compile of RAM.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ram(mem256x16_v2_rtl)
+force -freeze sim:/simple_cpu_v2/CLK 1 0, 0 {50 ps} -r 100
+force -freeze sim:/simple_cpu_v2/CLR 1 0
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu_v2/b2v_inst8
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /simple_cpu_v2/b2v_inst8
+force -freeze sim:/simple_cpu_v2/CLR 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 01:39:54 on Jan 10,2022, Elapsed time: 0:05:00
+# Errors: 0, Warnings: 3
