@@ -94,14 +94,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity half_adder
 -- Compiling architecture bdf_type of half_adder
 
-} {} {}} S:/EAP/PLHPSI2/projects/bitwise_inv.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/bitwise_inv.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity bitwise_inv
--- Compiling architecture bdf_type of bitwise_inv
-
 } {} {}} S:/EAP/PLHPSI2/projects/mux2x1_8bit.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/mux2x1_8bit.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
@@ -110,29 +102,13 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity mux2x1_8bit
 -- Compiling architecture bdf_type of mux2x1_8bit
 
-} {} {}} S:/EAP/PLHPSI2/projects/instruction_decoder_box_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/instruction_decoder_box_tb.vhd
+} {} {}} S:/EAP/PLHPSI2/projects/bitwise_inv.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/bitwise_inv.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity instruction_decoder_box_tb
--- Compiling architecture TB of instruction_decoder_box_tb
-
-} {} {}} S:/EAP/PLHPSI2/projects/sequence_generator_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/sequence_generator_tb.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity sequence_generator_tb
--- Compiling architecture TB of sequence_generator_tb
-
-} {} {}} S:/EAP/PLHPSI2/projects/split8.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/split8.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity split8
--- Compiling architecture bdf_type of split8
+-- Compiling entity bitwise_inv
+-- Compiling architecture bdf_type of bitwise_inv
 
 } {} {}} S:/EAP/PLHPSI2/projects/mux2x1_1bit.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/mux2x1_1bit.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -142,13 +118,29 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity mux2x1_1_bit
 -- Compiling architecture bdf_type of mux2x1_1_bit
 
-} {} {}} S:/EAP/PLHPSI2/projects/mux4x1_8bit.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/mux4x1_8bit.vhd
+} {} {}} S:/EAP/PLHPSI2/projects/split8.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/split8.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity mux4x1_8bit
--- Compiling architecture bdf_type of mux4x1_8bit
+-- Compiling entity split8
+-- Compiling architecture bdf_type of split8
+
+} {} {}} S:/EAP/PLHPSI2/projects/sequence_generator_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/sequence_generator_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sequence_generator_tb
+-- Compiling architecture TB of sequence_generator_tb
+
+} {} {}} S:/EAP/PLHPSI2/projects/instruction_decoder_box_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/instruction_decoder_box_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity instruction_decoder_box_tb
+-- Compiling architecture TB of instruction_decoder_box_tb
 
 } {} {}} S:/EAP/PLHPSI2/projects/RAM_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/RAM_tb.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -158,21 +150,13 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity RAM_tb
 -- Compiling architecture TB of RAM_tb
 
-} {} {}} S:/EAP/PLHPSI2/projects/simple_cpu_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/simple_cpu_tb.vhd
+} {} {}} S:/EAP/PLHPSI2/projects/mux4x1_8bit.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/mux4x1_8bit.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity simple_cpu_tb
--- Compiling architecture TB of simple_cpu_tb
-
-} {} {}} S:/EAP/PLHPSI2/projects/mux4x1_1bit.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/mux4x1_1bit.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity mux4x1_1bit
--- Compiling architecture bdf_type of mux4x1_1bit
+-- Compiling entity mux4x1_8bit
+-- Compiling architecture bdf_type of mux4x1_8bit
 
 } {} {}} S:/EAP/PLHPSI2/projects/ripple_adder_8bit_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/ripple_adder_8bit_tb.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -182,13 +166,21 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity ripple_adder_8bit_tb
 -- Compiling architecture TB of ripple_adder_8bit_tb
 
-} {} {}} S:/EAP/PLHPSI2/projects/instruction_decoder.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/instruction_decoder.vhd
+} {} {}} S:/EAP/PLHPSI2/projects/mux4x1_1bit.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/mux4x1_1bit.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity instruction_decoder
--- Compiling architecture bdf_type of instruction_decoder
+-- Compiling entity mux4x1_1bit
+-- Compiling architecture bdf_type of mux4x1_1bit
+
+} {} {}} S:/EAP/PLHPSI2/projects/simple_cpu_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/simple_cpu_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity simple_cpu_tb
+-- Compiling architecture TB of simple_cpu_tb
 
 } {} {}} S:/EAP/PLHPSI2/projects/full_adder_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/full_adder_tb.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -198,13 +190,13 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity full_adder_tb
 -- Compiling architecture TB of full_adder_tb
 
-} {} {}} S:/EAP/PLHPSI2/projects/status_register.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/status_register.vhd
+} {} {}} S:/EAP/PLHPSI2/projects/instruction_decoder.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/instruction_decoder.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity status_register
--- Compiling architecture bdf_type of status_register
+-- Compiling entity instruction_decoder
+-- Compiling architecture bdf_type of instruction_decoder
 
 } {} {}} S:/EAP/PLHPSI2/projects/bitwise_inv_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/bitwise_inv_tb.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -214,29 +206,13 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity bitwise_inv_tb
 -- Compiling architecture TB of bitwise_inv_tb
 
-} {} {}} S:/EAP/PLHPSI2/projects/constantin.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/constantin.vhd
+} {} {}} S:/EAP/PLHPSI2/projects/status_register.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/status_register.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity constantin
--- Compiling architecture bdf_type of constantin
-
-} {} {}} S:/EAP/PLHPSI2/projects/zero_detector.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/zero_detector.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity zero_detector
--- Compiling architecture bdf_type of zero_detector
-
-} {} {}} S:/EAP/PLHPSI2/projects/replicate.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/replicate.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity replicate
--- Compiling architecture bdf_type of replicate
+-- Compiling entity status_register
+-- Compiling architecture bdf_type of status_register
 
 } {} {}} S:/EAP/PLHPSI2/projects/bitwise_and.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/bitwise_and.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -246,6 +222,38 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity bitwise_and
 -- Compiling architecture bdf_type of bitwise_and
 
+} {} {}} S:/EAP/PLHPSI2/projects/replicate.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/replicate.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity replicate
+-- Compiling architecture bdf_type of replicate
+
+} {} {}} S:/EAP/PLHPSI2/projects/zero_detector.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/zero_detector.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity zero_detector
+-- Compiling architecture bdf_type of zero_detector
+
+} {} {}} S:/EAP/PLHPSI2/projects/constantin.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/constantin.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity constantin
+-- Compiling architecture bdf_type of constantin
+
+} {} {}} S:/EAP/PLHPSI2/projects/full_adder.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/full_adder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity full_adder
+-- Compiling architecture bdf_type of full_adder
+
 } {} {}} S:/EAP/PLHPSI2/projects/constant.vhd {0 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/constant.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
@@ -253,13 +261,13 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package std_logic_1164
 ** Error: S:/EAP/PLHPSI2/projects/constant.vhd(25): near "constant": (vcom-1576) expecting IDENTIFIER.
 
-} {6.0 7.0} {}} S:/EAP/PLHPSI2/projects/full_adder.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/full_adder.vhd
+} {6.0 7.0} {}} S:/EAP/PLHPSI2/projects/Joint16.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/Joint16.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity full_adder
--- Compiling architecture bdf_type of full_adder
+-- Compiling entity Joint16
+-- Compiling architecture bdf_type of Joint16
 
 } {} {}} S:/EAP/PLHPSI2/projects/decoder_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/decoder_tb.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -268,14 +276,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package std_logic_1164
 -- Compiling entity decoder_tb
 -- Compiling architecture TB of decoder_tb
-
-} {} {}} S:/EAP/PLHPSI2/projects/Joint16.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/Joint16.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity Joint16
--- Compiling architecture bdf_type of Joint16
 
 } {} {}} S:/EAP/PLHPSI2/projects/constantin_joint.vhd {1 {vcom -work work -2002 -explicit -stats=none S:/EAP/PLHPSI2/projects/constantin_joint.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
