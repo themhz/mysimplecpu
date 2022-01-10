@@ -17,8 +17,9 @@ ENTITY ALU_with_or_in_vhdl IS
 
 END ENTITY ALU_with_or_in_vhdl;
 
-architecture ALU of ALU_with_or_in_vhdl IS
 
+architecture ALU of ALU_with_or_in_vhdl IS
+-- Χρήση του component ALU για την αρχιεκτονική της καινούργια ALU
     COMPONENT ALU IS
         PORT (
             S4 :  IN  STD_LOGIC;
@@ -38,6 +39,7 @@ architecture ALU of ALU_with_or_in_vhdl IS
 
 begin 
 
+-- αντιστοιχία των τιμών των εξωτερικών σημάτων με την ALU
 NEWALU : ALU PORT MAP(vS4, vS3, vS2, vS1, vS0, vA, vB, vCout, vZ);
 
 vS4 <= S4; 
@@ -48,6 +50,7 @@ vS0 <= S0;
 vA <= A;
 vB <= B; 
 
+-- Αν το σήμα S5 έχει επιλεχθεί S5=1 τότε το αποτέλεσμα είναι το Bitwise or αλλιώς το κύκλωμα δουλεύει όπως ήταν
 Z <= (A OR B) when S5 = '1' else vZ;
 Cout <= '0' when S5 = '1' else vCout;
 
