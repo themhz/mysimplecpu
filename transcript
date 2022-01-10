@@ -1151,3 +1151,167 @@ run
 quit -sim
 # End time: 01:39:54 on Jan 10,2022, Elapsed time: 0:05:00
 # Errors: 0, Warnings: 3
+# Compile of ALU_with_or_in_vhdl.vhd failed with 1 errors.
+# Compile of ALU_with_or_in_vhdl.vhd failed with 11 errors.
+# Compile of ALU_with_or_in_vhdl.vhd failed with 6 errors.
+# Compile of ALU_with_or_in_vhdl.vhd failed with 6 errors.
+# Compile of ALU_with_or_in_vhdl.vhd failed with 11 errors.
+# Compile of ALU_with_or_in_vhdl.vhd failed with 3 errors.
+# Compile of ALU_with_or_in_vhdl.vhd failed with 3 errors.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (S:/EAP/PLHPSI2/projects/ripple_adder_8bit.vhd.mpf).  File can not be renamed.
+# Compile of ALU_with_or_in_vhdl.vhd failed with 3 errors.
+# Compile of ALU_with_or_in_vhdl.vhd failed with 3 errors.
+# Compile of ALU_with_or_in_vhdl.vhd failed with 1 errors.
+# Compile of ALU_with_or_in_vhdl.vhd failed with 1 errors.
+# Compile of ALU_with_or_in_vhdl.vhd failed with 1 errors.
+# Compile of ALU_with_or_in_vhdl.vhd failed with 1 errors.
+# Compile of ALU_with_or_in_vhdl.vhd failed with 10 errors.
+# Compile of ALU_with_or_in_vhdl.vhd was successful.
+# Compile of ALU_with_or_in_vhdl.vhd failed with 3 errors.
+# Compile of ALU_with_or_in_vhdl.vhd failed with 2 errors.
+# Compile of ALU_with_or_in_vhdl.vhd failed with 2 errors.
+# Compile of ALU_with_or_in_vhdl.vhd failed with 1 errors.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (S:/EAP/PLHPSI2/projects/ripple_adder_8bit.vhd.mpf).  File can not be renamed.
+# Compile of ALU_with_or_in_vhdl.vhd failed with 1 errors.
+# Compile of ALU_with_or_in_vhdl.vhd was successful.
+vsim -gui work.alu_with_or_in_vhdl
+# vsim -gui work.alu_with_or_in_vhdl 
+# Start time: 00:05:31 on Jan 11,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu_with_or_in_vhdl(alu)
+# Loading work.alu(bdf_type)
+# Loading work.replicate(bdf_type)
+# Loading work.mux4x1_8bit(bdf_type)
+# Loading work.mux4x1_1bit(bdf_type)
+# Loading work.mux2x1_1bit(bdf_type)
+# Loading work.bitwise_inv(bdf_type)
+# Loading work.bitwise_and(bdf_type)
+# Loading work.ripple_adder_8bit(bdf_type)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+add wave -position insertpoint  \
+sim:/alu_with_or_in_vhdl/Z
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: themhz  Hostname: DESKTOP-PQ33LHO  ProcessID: 3504
+#           Attempting to use alternate WLF file "./wlfthv94qf".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfthv94qf
+add wave -position insertpoint  \
+sim:/alu_with_or_in_vhdl/vS4 \
+sim:/alu_with_or_in_vhdl/vS3 \
+sim:/alu_with_or_in_vhdl/vS2 \
+sim:/alu_with_or_in_vhdl/vS1 \
+sim:/alu_with_or_in_vhdl/vS0
+add wave -position insertpoint  \
+sim:/alu_with_or_in_vhdl/B \
+sim:/alu_with_or_in_vhdl/A
+add wave -position insertpoint  \
+sim:/alu_with_or_in_vhdl/S5 \
+sim:/alu_with_or_in_vhdl/S4 \
+sim:/alu_with_or_in_vhdl/S3 \
+sim:/alu_with_or_in_vhdl/S2 \
+sim:/alu_with_or_in_vhdl/S1 \
+sim:/alu_with_or_in_vhdl/S0
+force -freeze sim:/alu_with_or_in_vhdl/S5 0 0
+force -freeze sim:/alu_with_or_in_vhdl/S4 {} 0
+# ** UI-Msg: (vsim-4026) Value "" does not represent a literal of the enumeration type.
+# ** UI-Msg: (vsim-4011) Invalid force value: {} 0.
+# 
+force -freeze sim:/alu_with_or_in_vhdl/S3 0 0
+force -freeze sim:/alu_with_or_in_vhdl/S2 0 0
+force -freeze sim:/alu_with_or_in_vhdl/S1 0 0
+force -freeze sim:/alu_with_or_in_vhdl/S0 0 0
+force -freeze sim:/alu_with_or_in_vhdl/S5 0 0
+force -freeze sim:/alu_with_or_in_vhdl/S4 {} 0
+# ** UI-Msg: (vsim-4026) Value "" does not represent a literal of the enumeration type.
+# ** UI-Msg: (vsim-4011) Invalid force value: {} 0.
+# 
+force -freeze sim:/alu_with_or_in_vhdl/S3 0 0
+force -freeze sim:/alu_with_or_in_vhdl/S2 0 0
+force -freeze sim:/alu_with_or_in_vhdl/S1 0 0
+force -freeze sim:/alu_with_or_in_vhdl/S0 0 0
+force -freeze sim:/alu_with_or_in_vhdl/S5 0 0
+force -freeze sim:/alu_with_or_in_vhdl/S4 0 0
+force -freeze sim:/alu_with_or_in_vhdl/S3 0 0
+force -freeze sim:/alu_with_or_in_vhdl/S2 0 0
+force -freeze sim:/alu_with_or_in_vhdl/S1 0 0
+force -freeze sim:/alu_with_or_in_vhdl/S0 0 0
+force -freeze sim:/alu_with_or_in_vhdl/B 00000001 0
+force -freeze sim:/alu_with_or_in_vhdl/A 00000010 0
+run
+add wave -position insertpoint  \
+sim:/alu_with_or_in_vhdl/vZ
+run
+quit -sim
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (S:/EAP/PLHPSI2/projects/ripple_adder_8bit.vhd.mpf).  File can not be renamed.
+# End time: 00:08:19 on Jan 11,2022, Elapsed time: 0:02:48
+# Errors: 3, Warnings: 25
+# Compile of ALU_with_or_in_vhdl.vhd failed with 1 errors.
+# Compile of ALU_with_or_in_vhdl.vhd was successful.
+# Compile of ALU_with_or_in_vhdl.vhd was successful.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (S:/EAP/PLHPSI2/projects/ripple_adder_8bit.vhd.mpf).  File can not be renamed.
+vsim -gui work.alu_with_or_in_vhdl
+# vsim -gui work.alu_with_or_in_vhdl 
+# Start time: 00:25:02 on Jan 11,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu_with_or_in_vhdl(alu)
+# Loading work.alu(bdf_type)
+# Loading work.replicate(bdf_type)
+# Loading work.mux4x1_8bit(bdf_type)
+# Loading work.mux4x1_1bit(bdf_type)
+# Loading work.mux2x1_1bit(bdf_type)
+# Loading work.bitwise_inv(bdf_type)
+# Loading work.bitwise_and(bdf_type)
+# Loading work.ripple_adder_8bit(bdf_type)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+add wave -position insertpoint  \
+sim:/alu_with_or_in_vhdl/Z \
+sim:/alu_with_or_in_vhdl/vZ \
+sim:/alu_with_or_in_vhdl/vS4 \
+sim:/alu_with_or_in_vhdl/vS3 \
+sim:/alu_with_or_in_vhdl/vS2 \
+sim:/alu_with_or_in_vhdl/vS1 \
+sim:/alu_with_or_in_vhdl/vS0 \
+sim:/alu_with_or_in_vhdl/vCout \
+sim:/alu_with_or_in_vhdl/vB \
+sim:/alu_with_or_in_vhdl/vA \
+sim:/alu_with_or_in_vhdl/S5 \
+sim:/alu_with_or_in_vhdl/S4 \
+sim:/alu_with_or_in_vhdl/S3 \
+sim:/alu_with_or_in_vhdl/S2 \
+sim:/alu_with_or_in_vhdl/S1 \
+sim:/alu_with_or_in_vhdl/S0 \
+sim:/alu_with_or_in_vhdl/Cout \
+sim:/alu_with_or_in_vhdl/B \
+sim:/alu_with_or_in_vhdl/A
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: themhz  Hostname: DESKTOP-PQ33LHO  ProcessID: 3504
+#           Attempting to use alternate WLF file "./wlftnezr3a".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftnezr3a
+force -freeze sim:/alu_with_or_in_vhdl/B 00001010 0
+force -freeze sim:/alu_with_or_in_vhdl/A 10001000 0
+force -freeze sim:/alu_with_or_in_vhdl/S5 0 0
+force -freeze sim:/alu_with_or_in_vhdl/S4 0 0
+force -freeze sim:/alu_with_or_in_vhdl/S3 0 0
+force -freeze sim:/alu_with_or_in_vhdl/S2 0 0
+force -freeze sim:/alu_with_or_in_vhdl/S1 0 0
+force -freeze sim:/alu_with_or_in_vhdl/S0 0 0
+run
+force -freeze sim:/alu_with_or_in_vhdl/S5 1 0
+run
+force -freeze sim:/alu_with_or_in_vhdl/A 10111111 0
+run
