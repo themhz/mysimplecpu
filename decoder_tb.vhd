@@ -30,12 +30,15 @@ ARCHITECTURE TB OF decoder_tb IS
             );
     END COMPONENT;
 
-    signal CLK  : STD_LOGIC := '0';
-    signal CE  : STD_LOGIC := '0';
-    signal CLR  : STD_LOGIC := '1';
+       
+
+
     signal Carry, Zero, EN_IN, RAM, ALU_S0, ALU_S1, ALU_S2, ALU_S3, ALU_S4, MUXA, MUXB, MUXC, EN_PC, EN_DA : STD_LOGIC;
     signal IR :  STD_LOGIC_VECTOR(7 DOWNTO 0);
-    
+   
+    signal CLK  : STD_LOGIC := '0';
+    signal CE  : STD_LOGIC := '0';
+    signal CLR  : STD_LOGIC := '1';      
     
 
 begin

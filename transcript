@@ -1315,3 +1315,45 @@ force -freeze sim:/alu_with_or_in_vhdl/S5 1 0
 run
 force -freeze sim:/alu_with_or_in_vhdl/A 10111111 0
 run
+quit -sim
+# End time: 01:01:18 on Jan 11,2022, Elapsed time: 0:36:16
+# Errors: 1, Warnings: 6
+# Compile of bitwise_or_custom.vhd failed with 1 errors.
+# Compile of bitwise_or_custom.vhd failed with 4 errors.
+# Compile of bitwise_or_custom.vhd was successful.
+# Load canceled
+# Load canceled
+# Compile of bitwise_or_custom.vhd was successful.
+vsim -gui work.bitwise_or_custom
+# vsim -gui work.bitwise_or_custom 
+# Start time: 01:05:49 on Jan 11,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.bitwise_or_custom(bor)
+add wave -position insertpoint  \
+sim:/bitwise_or_custom/Z \
+sim:/bitwise_or_custom/temp \
+sim:/bitwise_or_custom/B \
+sim:/bitwise_or_custom/A
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: themhz  Hostname: DESKTOP-PQ33LHO  ProcessID: 3504
+#           Attempting to use alternate WLF file "./wlft8cr9j2".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft8cr9j2
+force -freeze sim:/bitwise_or_custom/A 00001010 0
+force -freeze sim:/bitwise_or_custom/B 11001100 0
+run
+run
+# Compile of bitwise_or_custom.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.bitwise_or_custom(bor)
+force -freeze sim:/bitwise_or_custom/A 00100101 0
+force -freeze sim:/bitwise_or_custom/B 11001101 0
+run
+force -freeze sim:/bitwise_or_custom/B 11011111 0
+run
+quit -sim
+# End time: 01:08:24 on Jan 11,2022, Elapsed time: 0:02:35
+# Errors: 0, Warnings: 1
