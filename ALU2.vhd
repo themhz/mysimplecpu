@@ -1,7 +1,7 @@
 LIBRARY ieee;
 USE ieee.std_logic_1164.all; 
 
-ENTITY ALU_with_or_in_vhdl IS
+ENTITY ALU2 IS
     PORT (
             S5 :  IN  STD_LOGIC;
             S4 :  IN  STD_LOGIC;
@@ -15,10 +15,10 @@ ENTITY ALU_with_or_in_vhdl IS
             Z :  OUT  STD_LOGIC_VECTOR(7 DOWNTO 0)
         );
 
-END ENTITY ALU_with_or_in_vhdl;
+END ENTITY ALU2;
 
 
-architecture ALU of ALU_with_or_in_vhdl IS
+architecture ALU of ALU2 IS
 -- Χρήση του component ALU για την αρχιεκτονική της καινούργια ALU
     COMPONENT ALU IS
         PORT (

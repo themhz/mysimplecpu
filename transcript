@@ -1357,3 +1357,111 @@ run
 quit -sim
 # End time: 01:08:24 on Jan 11,2022, Elapsed time: 0:02:35
 # Errors: 0, Warnings: 1
+# Compile of ALU_with_or_in_vhdl.vhd was successful.
+vsim -gui work.alu_with_or_in_vhdl
+# vsim -gui work.alu_with_or_in_vhdl 
+# Start time: 01:30:59 on Jan 11,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu_with_or_in_vhdl(alu)
+# Loading work.alu(bdf_type)
+# Loading work.replicate(bdf_type)
+# Loading work.mux4x1_8bit(bdf_type)
+# Loading work.mux4x1_1bit(bdf_type)
+# Loading work.mux2x1_1bit(bdf_type)
+# Loading work.bitwise_inv(bdf_type)
+# Loading work.bitwise_and(bdf_type)
+# Loading work.ripple_adder_8bit(bdf_type)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+# Loading work.bitwise_or_custom(bor)
+# Loading work.mux2x1_8bit(bdf_type)
+add wave -position insertpoint  \
+sim:/alu_with_or_in_vhdl/Z \
+sim:/alu_with_or_in_vhdl/S5 \
+sim:/alu_with_or_in_vhdl/S4 \
+sim:/alu_with_or_in_vhdl/S3 \
+sim:/alu_with_or_in_vhdl/S2 \
+sim:/alu_with_or_in_vhdl/S1 \
+sim:/alu_with_or_in_vhdl/S0
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: themhz  Hostname: DESKTOP-PQ33LHO  ProcessID: 3504
+#           Attempting to use alternate WLF file "./wlfttwks61".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfttwks61
+add wave -position insertpoint  \
+sim:/alu_with_or_in_vhdl/Cout \
+sim:/alu_with_or_in_vhdl/B \
+sim:/alu_with_or_in_vhdl/A
+force -freeze sim:/alu_with_or_in_vhdl/S5 0 0
+force -freeze sim:/alu_with_or_in_vhdl/S4 0 0
+force -freeze sim:/alu_with_or_in_vhdl/S3 0 0
+force -freeze sim:/alu_with_or_in_vhdl/S2 0 0
+force -freeze sim:/alu_with_or_in_vhdl/S1 0 0
+force -freeze sim:/alu_with_or_in_vhdl/S0 0 0
+force -freeze sim:/alu_with_or_in_vhdl/A 00000001 0
+force -freeze sim:/alu_with_or_in_vhdl/B 01010001 0
+run
+force -freeze sim:/alu_with_or_in_vhdl/S5 1 0
+run
+quit -sim
+# End time: 01:37:20 on Jan 11,2022, Elapsed time: 0:06:21
+# Errors: 0, Warnings: 4
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (S:/EAP/PLHPSI2/projects/ripple_adder_8bit.vhd.mpf).  File can not be renamed.
+# Compile of ALU2.vhd was successful.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (S:/EAP/PLHPSI2/projects/ripple_adder_8bit.vhd.mpf).  File can not be renamed.
+# Compile of ALU2_tb.vhd failed with 1 errors.
+# Compile of ALU2_tb.vhd was successful.
+vsim -gui work.alu2_tb
+# vsim -gui work.alu2_tb 
+# Start time: 01:47:34 on Jan 11,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu2_tb(tb)
+# Loading work.alu2(alu)
+# Loading work.alu(bdf_type)
+# Loading work.replicate(bdf_type)
+# Loading work.mux4x1_8bit(bdf_type)
+# Loading work.mux4x1_1bit(bdf_type)
+# Loading work.mux2x1_1bit(bdf_type)
+# Loading work.bitwise_inv(bdf_type)
+# Loading work.bitwise_and(bdf_type)
+# Loading work.ripple_adder_8bit(bdf_type)
+# Loading work.full_adder(bdf_type)
+# Loading work.half_adder(bdf_type)
+# Loading work.bitwise_or_custom(bor)
+# Loading work.mux2x1_8bit(bdf_type)
+# ** Warning: (vsim-8683) Uninitialized out port /alu2_tb/TB/Cout has no driver.
+# This port will contribute value (U) to the signal network.
+add wave -position insertpoint  \
+sim:/alu2_tb/Z \
+sim:/alu2_tb/S5 \
+sim:/alu2_tb/S4 \
+sim:/alu2_tb/S3 \
+sim:/alu2_tb/S2 \
+sim:/alu2_tb/S1 \
+sim:/alu2_tb/S0 \
+sim:/alu2_tb/Cout \
+sim:/alu2_tb/B \
+sim:/alu2_tb/A
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: themhz  Hostname: DESKTOP-PQ33LHO  ProcessID: 3504
+#           Attempting to use alternate WLF file "./wlfttrj9ai".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfttrj9ai
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
