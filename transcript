@@ -1465,3 +1465,196 @@ run
 run
 run
 run
+quit -sim
+# End time: 02:14:50 on Jan 11,2022, Elapsed time: 0:27:16
+# Errors: 2, Warnings: 9
+# Compile of RAM.vhd was successful.
+vsim -gui work.ram
+# vsim -gui work.ram 
+# Start time: 22:12:02 on Jan 11,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.ram(mem256x16_v2_rtl)
+add wave -position insertpoint  \
+sim:/ram/we \
+sim:/ram/memory \
+sim:/ram/dout \
+sim:/ram/din \
+sim:/ram/clk \
+sim:/ram/addr
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: themhz  Hostname: DESKTOP-PQ33LHO  ProcessID: 3504
+#           Attempting to use alternate WLF file "./wlftvj0r34".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftvj0r34
+# Compile of RAM.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ram(mem256x16_v2_rtl)
+quit -sim
+# End time: 22:29:30 on Jan 11,2022, Elapsed time: 0:17:28
+# Errors: 0, Warnings: 1
+# Compile of RAM_memory_fill_read_tb.vhd failed with 1 errors.
+# Compile of RAM_memory_fill_read_tb.vhd was successful.
+# Load canceled
+# Compile of RAM_memory_fill_read_tb.vhd failed with 1 errors.
+# Compile of RAM_memory_fill_read_tb.vhd was successful.
+vsim -gui work.ram_memory_fill_read_tb
+# vsim -gui work.ram_memory_fill_read_tb 
+# Start time: 22:32:54 on Jan 11,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.ram_memory_fill_read_tb(tb)
+# ** Warning: (vsim-3473) Component instance "TB : RAM_memory_fill_read" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ram_memory_fill_read_tb File: S:/EAP/PLHPSI2/projects/RAM_memory_fill_read_tb.vhd
+add wave -position insertpoint  \
+sim:/ram_memory_fill_read_tb/we \
+sim:/ram_memory_fill_read_tb/dout \
+sim:/ram_memory_fill_read_tb/din \
+sim:/ram_memory_fill_read_tb/clk \
+sim:/ram_memory_fill_read_tb/addr
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: themhz  Hostname: DESKTOP-PQ33LHO  ProcessID: 3504
+#           Attempting to use alternate WLF file "./wlftefisn3".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftefisn3
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of RAM_memory_fill_read_tb.vhd failed with 2 errors.
+# Compile of RAM_memory_fill_read_tb.vhd failed with 1 errors.
+# Compile of RAM_memory_fill_read_tb.vhd was successful.
+# Compile of RAM_memory_fill_read_tb.vhd was successful.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (S:/EAP/PLHPSI2/projects/ripple_adder_8bit.vhd.mpf).  File can not be renamed.
+# Compile of RAM_memory_fill_read_tb.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ram_memory_fill_read_tb(tb)
+# ** Warning: (vsim-3473) Component instance "TB : RAM_memory_fill_read" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ram_memory_fill_read_tb File: S:/EAP/PLHPSI2/projects/RAM_memory_fill_read_tb.vhd
+run
+# Compile of RAM_memory_fill_read_tb.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ram_memory_fill_read_tb(tb)
+# ** Warning: (vsim-3473) Component instance "TB : RAM_memory_fill_read" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ram_memory_fill_read_tb File: S:/EAP/PLHPSI2/projects/RAM_memory_fill_read_tb.vhd
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3473) Component instance "TB : RAM_memory_fill_read" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ram_memory_fill_read_tb File: S:/EAP/PLHPSI2/projects/RAM_memory_fill_read_tb.vhd
+run
+# Compile of RAM_memory_fill_read_tb.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ram_memory_fill_read_tb(tb)
+# ** Warning: (vsim-3473) Component instance "TB : RAM_memory_fill_read" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ram_memory_fill_read_tb File: S:/EAP/PLHPSI2/projects/RAM_memory_fill_read_tb.vhd
+run
+quit -sim
+# End time: 22:53:57 on Jan 11,2022, Elapsed time: 0:21:03
+# Errors: 0, Warnings: 2
+vsim -gui work.ram_tb
+# vsim -gui work.ram_tb 
+# Start time: 22:54:15 on Jan 11,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.ram_tb(tb)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.ram(mem256x16_v2_rtl)
+add wave -position insertpoint  \
+sim:/ram_tb/we \
+sim:/ram_tb/dout \
+sim:/ram_tb/din \
+sim:/ram_tb/clk \
+sim:/ram_tb/addr
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: themhz  Hostname: DESKTOP-PQ33LHO  ProcessID: 3504
+#           Attempting to use alternate WLF file "./wlftsfjh8g".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftsfjh8g
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /ram_tb/TB
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /ram_tb/TB
+quit -sim
+# End time: 22:54:51 on Jan 11,2022, Elapsed time: 0:00:36
+# Errors: 0, Warnings: 5
+# Compile of RAM_memory_fill_read_tb.vhd was successful.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (S:/EAP/PLHPSI2/projects/ripple_adder_8bit.vhd.mpf).  File can not be renamed.
+restart -f
+# No Design Loaded!
+vsim -gui work.ram_memory_fill_read_tb
+# vsim -gui work.ram_memory_fill_read_tb 
+# Start time: 22:57:23 on Jan 11,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.ram_memory_fill_read_tb(tb)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.ram(mem256x16_v2_rtl)
+add wave -position insertpoint  \
+sim:/ram_memory_fill_read_tb/we \
+sim:/ram_memory_fill_read_tb/dout \
+sim:/ram_memory_fill_read_tb/din \
+sim:/ram_memory_fill_read_tb/clk \
+sim:/ram_memory_fill_read_tb/addr
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: themhz  Hostname: DESKTOP-PQ33LHO  ProcessID: 3504
+#           Attempting to use alternate WLF file "./wlft5nhf4f".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft5nhf4f
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /ram_memory_fill_read_tb/TB
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /ram_memory_fill_read_tb/TB
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /ram_memory_fill_read_tb/TB
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /ram_memory_fill_read_tb/TB
+# Compile of RAM_memory_fill_read_tb.vhd was successful.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (S:/EAP/PLHPSI2/projects/ripple_adder_8bit.vhd.mpf).  File can not be renamed.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ram_memory_fill_read_tb(tb)
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /ram_memory_fill_read_tb/TB
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /ram_memory_fill_read_tb/TB
