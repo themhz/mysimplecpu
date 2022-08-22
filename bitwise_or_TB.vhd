@@ -22,32 +22,27 @@ USE ieee.std_logic_1164.all;
 
 LIBRARY work;
 
-ENTITY bitwise_or IS 
+ENTITY bitwise_or_TB IS 
+END bitwise_or_TB;
+
+ARCHITECTURE TB OF bitwise_or_TB IS 
+
+Component bitwise_or is
 	PORT
 	(
 		A :  IN  STD_LOGIC_VECTOR(7 DOWNTO 0);
 		B :  IN  STD_LOGIC_VECTOR(7 DOWNTO 0);
 		Z :  OUT  STD_LOGIC_VECTOR(7 DOWNTO 0)
 	);
-END bitwise_or;
+End Component;
 
-ARCHITECTURE bdf_type OF bitwise_or IS 
-
-SIGNAL	Z_ALTERA_SYNTHESIZED :  STD_LOGIC_VECTOR(7 DOWNTO 0);
-
+SIGNAL	A :  STD_LOGIC_VECTOR(7 DOWNTO 0);
+SIGNAL	B :  STD_LOGIC_VECTOR(7 DOWNTO 0);
+SIGNAL	Z :  STD_LOGIC_VECTOR(7 DOWNTO 0);
 
 BEGIN 
+TB: bitwise_or port map (A,B,Z);
 
-
-
-Z_ALTERA_SYNTHESIZED(0) <= B(0) OR A(0);
-Z_ALTERA_SYNTHESIZED(1) <= B(1) OR A(1);
-Z_ALTERA_SYNTHESIZED(2) <= B(2) OR A(2);
-Z_ALTERA_SYNTHESIZED(3) <= B(3) OR A(3);
-Z_ALTERA_SYNTHESIZED(4) <= B(4) OR A(4);
-Z_ALTERA_SYNTHESIZED(5) <= B(5) OR A(5);
-Z_ALTERA_SYNTHESIZED(6) <= B(6) OR A(6);
-Z_ALTERA_SYNTHESIZED(7) <= B(7) OR A(7);
-Z <= Z_ALTERA_SYNTHESIZED;
-
-END bdf_type;
+A <="00000000", "00000000" after 100 ps, "00000001" after 200 ps, "00000001" after 300 ps; 
+B <="00000000", "00000001" after 100 ps, "00000000" after 200 ps, "00000001" after 300 ps;
+END TB;

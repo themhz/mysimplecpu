@@ -22,7 +22,7 @@ USE ieee.std_logic_1164.all;
 
 LIBRARY work;
 
-ENTITY simple_cpu IS 
+ENTITY simple_cpu_test IS 
 	PORT
 	(
 		CLR :  IN  STD_LOGIC;
@@ -30,9 +30,9 @@ ENTITY simple_cpu IS
 		ACC :  OUT  STD_LOGIC_VECTOR(7 DOWNTO 0);
 		dout :  OUT  STD_LOGIC_VECTOR(15 DOWNTO 0)
 	);
-END simple_cpu;
+END simple_cpu_test;
 
-ARCHITECTURE bdf_type OF simple_cpu IS 
+ARCHITECTURE bdf_type OF simple_cpu_test IS 
 
 COMPONENT register_8
 	PORT(D0 : IN STD_LOGIC;
