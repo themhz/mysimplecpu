@@ -7,7 +7,7 @@ END ENTITY simple_cpu_tb;
 
 ARCHITECTURE TB OF simple_cpu_tb IS
 
-    COMPONENT simple_cpu IS
+    COMPONENT simple_cpu_v2 IS
         PORT(            
                 CLR :  IN  STD_LOGIC;
                 CLK :  IN  STD_LOGIC;
@@ -22,7 +22,7 @@ ARCHITECTURE TB OF simple_cpu_tb IS
     signal dout : STD_LOGIC_VECTOR (15 downto 0);
 
 begin
-    TB : simple_cpu port map(CLR, CLK, ACC, dout);
+    TB : simple_cpu_v2 port map(CLR, CLK, ACC, dout);
     CLR <= '1', '0' AFTER 100 ps;
     CLK <= NOT CLK AFTER 50 ps;
 

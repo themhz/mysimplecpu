@@ -15,14 +15,14 @@
 
 -- PROGRAM		"Quartus Prime"
 -- VERSION		"Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition"
--- CREATED		"Sun Aug 28 16:54:05 2022"
+-- CREATED		"Sun Aug 28 17:00:19 2022"
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.all; 
 
 LIBRARY work;
 
-ENTITY sequence_generator IS 
+ENTITY sequence_generator_no_devider IS 
 	PORT
 	(
 		CE :  IN  STD_LOGIC;
@@ -33,15 +33,9 @@ ENTITY sequence_generator IS
 		EXECUTE :  OUT  STD_LOGIC;
 		INCREMENT :  OUT  STD_LOGIC
 	);
-END sequence_generator;
+END sequence_generator_no_devider;
 
-ARCHITECTURE bdf_type OF sequence_generator IS 
-
-COMPONENT counter
-	PORT(clock : IN STD_LOGIC;
-		 q : OUT STD_LOGIC_VECTOR(25 DOWNTO 0)
-	);
-END COMPONENT;
+ARCHITECTURE bdf_type OF sequence_generator_no_devider IS 
 
 COMPONENT d_ff_ce_ac
 	PORT(D : IN STD_LOGIC;
@@ -52,7 +46,6 @@ COMPONENT d_ff_ce_ac
 	);
 END COMPONENT;
 
-SIGNAL	q :  STD_LOGIC_VECTOR(25 DOWNTO 0);
 SIGNAL	SYNTHESIZED_WIRE_0 :  STD_LOGIC;
 SIGNAL	SYNTHESIZED_WIRE_1 :  STD_LOGIC;
 SIGNAL	DFFE_inst :  STD_LOGIC;
@@ -68,11 +61,11 @@ INCREMENT <= SYNTHESIZED_WIRE_1;
 
 
 
-PROCESS(q(25),SYNTHESIZED_WIRE_0)
+PROCESS(CLK,SYNTHESIZED_WIRE_0)
 BEGIN
 IF (SYNTHESIZED_WIRE_0 = '0') THEN
 	DFFE_inst <= '1';
-ELSIF (RISING_EDGE(q(25))) THEN
+ELSIF (RISING_EDGE(CLK)) THEN
 	IF (CE = '1') THEN
 	DFFE_inst <= SYNTHESIZED_WIRE_1;
 	END IF;
@@ -80,14 +73,9 @@ END IF;
 END PROCESS;
 
 
-b2v_inst1 : counter
-PORT MAP(clock => CLK,
-		 q => q);
-
-
 b2v_inst2 : d_ff_ce_ac
 PORT MAP(D => DFFE_inst,
-		 CLK => q(25),
+		 CLK => CLK,
 		 CE => CE,
 		 CLR => CLR,
 		 Q => SYNTHESIZED_WIRE_2);
@@ -95,7 +83,7 @@ PORT MAP(D => DFFE_inst,
 
 b2v_inst3 : d_ff_ce_ac
 PORT MAP(D => SYNTHESIZED_WIRE_2,
-		 CLK => q(25),
+		 CLK => CLK,
 		 CE => CE,
 		 CLR => CLR,
 		 Q => SYNTHESIZED_WIRE_3);
@@ -103,7 +91,7 @@ PORT MAP(D => SYNTHESIZED_WIRE_2,
 
 b2v_inst4 : d_ff_ce_ac
 PORT MAP(D => SYNTHESIZED_WIRE_3,
-		 CLK => q(25),
+		 CLK => CLK,
 		 CE => CE,
 		 CLR => CLR,
 		 Q => SYNTHESIZED_WIRE_1);

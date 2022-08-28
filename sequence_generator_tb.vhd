@@ -7,7 +7,7 @@ END ENTITY sequence_generator_tb;
 
 architecture TB of sequence_generator_tb IS
 
-    COMPONENT sequence_generator IS
+    COMPONENT sequence_generator_no_devider IS
         PORT (
             CLK :  IN  STD_LOGIC;
             CE :  IN  STD_LOGIC;
@@ -26,7 +26,7 @@ architecture TB of sequence_generator_tb IS
     signal CLR  : STD_LOGIC := '1';     
 
 begin 
-TB : sequence_generator PORT MAP(CLK, CE, CLR, FETCH, DECODE, EXECUTE, INCREMENT);
+TB : sequence_generator_no_devider PORT MAP(CLK, CE, CLR, FETCH, DECODE, EXECUTE, INCREMENT);
 
 
 CLR <= '1', '0' AFTER 100 ps;

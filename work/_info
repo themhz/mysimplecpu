@@ -11,40 +11,40 @@ z2
 cModel Technology
 dC:/Users/themhz/Desktop/EAP/PLIPSI/exams
 Ealu
-Z0 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z1 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-32
-Z2 !s110 1641771117
-!i10b 1
-Z3 w1639958685
-!i122 391
-Z4 dS:/EAP/PLHPSI2/projects
-Z5 8S:/EAP/PLHPSI2/projects/ALU.vhd
-Z6 FS:/EAP/PLHPSI2/projects/ALU.vhd
+Z0 w1639958685
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 665
+Z3 dS:/EAP/PLHPSI2/projects
+Z4 8S:/EAP/PLHPSI2/projects/ALU.vhd
+Z5 FS:/EAP/PLHPSI2/projects/ALU.vhd
 l0
-Z7 L25 1
+Z6 L25 1
 V8gkl`0bh7Ce_EXnJ;DgBd2
 !s100 GG0jLczgoE6I:Q?knk[Nz3
-Z8 OV;C;2020.1;71
-Z9 !s108 1641771117.000000
-Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/ALU.vhd|
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1661696968
+!i10b 1
+Z9 !s108 1661696968.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/ALU.vhd|
 Z11 !s107 S:/EAP/PLHPSI2/projects/ALU.vhd|
 !i113 1
 Z12 o-work work -2002 -explicit
 Z13 tExplicit 1 CvgOpt 0
 Abdf_type
-R0
 R1
-DEx4 work 3 alu 0 22 8gkl`0bh7Ce_EXnJ;DgBd2
-32
 R2
-!i10b 1
-!i122 391
+DEx4 work 3 alu 0 22 8gkl`0bh7Ce_EXnJ;DgBd2
+!i122 665
 l91
 L41 101
 V?5Y17<=JVonW6GgNk`Kj60
 !s100 US@L2Y?:0N1c]1MI:nWMg1
+R7
+32
 R8
+!i10b 1
 R9
 R10
 R11
@@ -52,460 +52,460 @@ R11
 R12
 R13
 Ealu2
-R0
+Z14 w1641857828
 R1
-32
-Z14 !s110 1641857858
-!i10b 1
-Z15 w1641857828
-!i122 461
-R4
-Z16 8S:/EAP/PLHPSI2/projects/ALU2.vhd
-Z17 FS:/EAP/PLHPSI2/projects/ALU2.vhd
+R2
+!i122 666
+R3
+Z15 8S:/EAP/PLHPSI2/projects/ALU2.vhd
+Z16 FS:/EAP/PLHPSI2/projects/ALU2.vhd
 l0
 L4 1
 V=o?ZSeBCBJ@nBPk>>^=Tz1
 !s100 jW^?`7WJfcPiFzh@Sh9PX0
+R7
+32
 R8
-Z18 !s108 1641857858.000000
-Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/ALU2.vhd|
-Z20 !s107 S:/EAP/PLHPSI2/projects/ALU2.vhd|
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/ALU2.vhd|
+Z18 !s107 S:/EAP/PLHPSI2/projects/ALU2.vhd|
 !i113 1
 R12
 R13
 Aalu
-R0
 R1
+R2
 DEx4 work 4 alu2 0 22 =o?ZSeBCBJ@nBPk>>^=Tz1
-32
-R14
-!i10b 1
-!i122 461
+!i122 666
 l62
-Z21 L21 66
+Z19 L21 66
 Vk@LQg[SJB6ePef3]d35Ob3
 !s100 e0SQ3o;iBRU38KL0gPM6e1
+R7
+32
 R8
+!i10b 1
+R9
+R17
 R18
-R19
-R20
 !i113 1
 R12
 R13
 Ealu2_tb
-R0
+Z20 w1641858438
 R1
-32
-Z22 !s110 1641858443
-!i10b 1
-Z23 w1641858438
-!i122 463
-R4
-Z24 8S:/EAP/PLHPSI2/projects/ALU2_tb.vhd
-Z25 FS:/EAP/PLHPSI2/projects/ALU2_tb.vhd
+R2
+!i122 667
+R3
+Z21 8S:/EAP/PLHPSI2/projects/ALU2_tb.vhd
+Z22 FS:/EAP/PLHPSI2/projects/ALU2_tb.vhd
 l0
 L7 1
 Vj@PUdeiBnfRZb4ZN0=Q^n2
 !s100 nTD?:2[YAbhIiezQ4g5hf2
-R8
-Z26 !s108 1641858443.000000
-Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/ALU2_tb.vhd|
-Z28 !s107 S:/EAP/PLHPSI2/projects/ALU2_tb.vhd|
+R7
+32
+Z23 !s110 1661696969
+!i10b 1
+R9
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/ALU2_tb.vhd|
+Z25 !s107 S:/EAP/PLHPSI2/projects/ALU2_tb.vhd|
 !i113 1
 R12
 R13
 Atb
-R0
 R1
+R2
 DEx4 work 7 alu2_tb 0 22 j@PUdeiBnfRZb4ZN0=Q^n2
-32
-R22
-!i10b 1
-!i122 463
+!i122 667
 l30
 L10 36
 VPzlaPH6<e`CZaMa9<35Ph0
 !s100 ]oD=]VLm<^e:fgbRNnNFj0
-R8
-R26
-R27
-R28
+R7
+32
+R23
+!i10b 1
+R9
+R24
+R25
 !i113 1
 R12
 R13
 Ealu_tb
-R0
+Z26 w1641144274
 R1
-32
-Z29 !s110 1641771119
-!i10b 1
-Z30 w1641144274
-!i122 398
-R4
-Z31 8S:/EAP/PLHPSI2/projects/ALU_tb.vhd
-Z32 FS:/EAP/PLHPSI2/projects/ALU_tb.vhd
+R2
+!i122 668
+R3
+Z27 8S:/EAP/PLHPSI2/projects/ALU_tb.vhd
+Z28 FS:/EAP/PLHPSI2/projects/ALU_tb.vhd
 l0
 L7 1
 VflzNUPS<2PX;a<?TJ<MHg3
 !s100 ;Y?gV@mNO>@K;HH^Z]R=I3
-R8
-Z33 !s108 1641771119.000000
-Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/ALU_tb.vhd|
-Z35 !s107 S:/EAP/PLHPSI2/projects/ALU_tb.vhd|
+R7
+32
+R23
+!i10b 1
+Z29 !s108 1661696969.000000
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/ALU_tb.vhd|
+Z31 !s107 S:/EAP/PLHPSI2/projects/ALU_tb.vhd|
 !i113 1
 R12
 R13
 Atb
-R0
 R1
+R2
 DEx4 work 6 alu_tb 0 22 flzNUPS<2PX;a<?TJ<MHg3
-32
-R29
-!i10b 1
-!i122 398
+!i122 668
 l29
 L10 56
 V34TR;z?8b3neoR2g3:^bl3
 !s100 A;oc3mO9k3^BjNDzACMU`1
-R8
-R33
-R34
-R35
+R7
+32
+R23
+!i10b 1
+R29
+R30
+R31
 !i113 1
 R12
 R13
 Ealu_v2
-R0
+Z32 w1641765076
 R1
-32
-Z36 !s110 1641771128
-!i10b 1
-Z37 w1641765076
-!i122 423
-R4
-Z38 8S:/EAP/PLHPSI2/projects/ALU_V2.vhd
-Z39 FS:/EAP/PLHPSI2/projects/ALU_V2.vhd
+R2
+!i122 669
+R3
+Z33 8S:/EAP/PLHPSI2/projects/ALU_V2.vhd
+Z34 FS:/EAP/PLHPSI2/projects/ALU_V2.vhd
 l0
-R7
+R6
 Vbz_:TDWe>zVjomKHJC:_o0
 !s100 CIg3_QehRDHFg7nOhhLXf3
-R8
-Z40 !s108 1641771128.000000
-Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/ALU_V2.vhd|
-Z42 !s107 S:/EAP/PLHPSI2/projects/ALU_V2.vhd|
+R7
+32
+R23
+!i10b 1
+R29
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/ALU_V2.vhd|
+Z36 !s107 S:/EAP/PLHPSI2/projects/ALU_V2.vhd|
 !i113 1
 R12
 R13
 Abdf_type
-R0
 R1
+R2
 DEx4 work 6 alu_v2 0 22 bz_:TDWe>zVjomKHJC:_o0
-32
-R36
-!i10b 1
-!i122 423
+!i122 669
 l109
 L42 131
 VfzS^7<BFZE`?A3QjgRW1d1
 !s100 <>fK`>9[i?VnGNDjaZDVY2
-R8
+R7
+32
+R23
+!i10b 1
+R29
+R35
+R36
+!i113 1
+R12
+R13
+Ealu_v2_tb
+Z37 w1641766101
+R1
+R2
+!i122 670
+R3
+Z38 8S:/EAP/PLHPSI2/projects/ALU_V2_tb.vhd
+Z39 FS:/EAP/PLHPSI2/projects/ALU_V2_tb.vhd
+l0
+L7 1
+VM;lSkMN1PPJa1[`dU23g^0
+!s100 2F?<9<CfjAZijDm2Im2U;1
+R7
+32
+Z40 !s110 1661696970
+!i10b 1
+R29
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/ALU_V2_tb.vhd|
+Z42 !s107 S:/EAP/PLHPSI2/projects/ALU_V2_tb.vhd|
+!i113 1
+R12
+R13
+Atb
+R1
+R2
+DEx4 work 9 alu_v2_tb 0 22 M;lSkMN1PPJa1[`dU23g^0
+!i122 670
+l30
+L10 35
+VZ4GkAckU>7dADXd61ohlH0
+!s100 hBA1B^gZSkPm13CgV3jbn2
+R7
+32
 R40
+!i10b 1
+R29
 R41
 R42
 !i113 1
 R12
 R13
-Ealu_v2_tb
-R0
+Ealu_with_or_in_vhdl
+Z43 w1641857407
 R1
-32
-Z43 !s110 1641771129
-!i10b 1
-Z44 w1641766101
-!i122 424
-R4
-Z45 8S:/EAP/PLHPSI2/projects/ALU_V2_tb.vhd
-Z46 FS:/EAP/PLHPSI2/projects/ALU_V2_tb.vhd
+R2
+!i122 671
+R3
+Z44 8S:/EAP/PLHPSI2/projects/ALU_with_or_in_vhdl.vhd
+Z45 FS:/EAP/PLHPSI2/projects/ALU_with_or_in_vhdl.vhd
 l0
-L7 1
-VM;lSkMN1PPJa1[`dU23g^0
-!s100 2F?<9<CfjAZijDm2Im2U;1
-R8
+L4 1
+VKU3g@h3Gfn0lO:1B5CMjo0
+!s100 PBC@SSlEiPJ]7:3<=JIz:2
+R7
+32
 R40
-Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/ALU_V2_tb.vhd|
-Z48 !s107 S:/EAP/PLHPSI2/projects/ALU_V2_tb.vhd|
+!i10b 1
+Z46 !s108 1661696970.000000
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/ALU_with_or_in_vhdl.vhd|
+Z48 !s107 S:/EAP/PLHPSI2/projects/ALU_with_or_in_vhdl.vhd|
 !i113 1
 R12
 R13
-Atb
-R0
+Aalu
 R1
-DEx4 work 9 alu_v2_tb 0 22 M;lSkMN1PPJa1[`dU23g^0
+R2
+DEx4 work 19 alu_with_or_in_vhdl 0 22 KU3g@h3Gfn0lO:1B5CMjo0
+!i122 671
+l62
+R19
+VXbLK=C1JP4<[z7RX;LKzn1
+!s100 FQNnEE`8@HEVN0IhiSC=Q3
+R7
 32
-R43
-!i10b 1
-!i122 424
-l30
-L10 35
-VZ4GkAckU>7dADXd61ohlH0
-!s100 hBA1B^gZSkPm13CgV3jbn2
-R8
 R40
+!i10b 1
+R46
 R47
 R48
 !i113 1
 R12
 R13
-Ealu_with_or_in_vhdl
-R0
-R1
-32
-Z49 !s110 1641857445
-!i10b 1
-Z50 w1641857407
-!i122 460
-R4
-Z51 8S:/EAP/PLHPSI2/projects/ALU_with_or_in_vhdl.vhd
-Z52 FS:/EAP/PLHPSI2/projects/ALU_with_or_in_vhdl.vhd
-l0
-L4 1
-VKU3g@h3Gfn0lO:1B5CMjo0
-!s100 PBC@SSlEiPJ]7:3<=JIz:2
-R8
-Z53 !s108 1641857445.000000
-Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/ALU_with_or_in_vhdl.vhd|
-Z55 !s107 S:/EAP/PLHPSI2/projects/ALU_with_or_in_vhdl.vhd|
-!i113 1
-R12
-R13
-Aalu
-R0
-R1
-DEx4 work 19 alu_with_or_in_vhdl 0 22 KU3g@h3Gfn0lO:1B5CMjo0
-32
-R49
-!i10b 1
-!i122 460
-l62
-R21
-VXbLK=C1JP4<[z7RX;LKzn1
-!s100 FQNnEE`8@HEVN0IhiSC=Q3
-R8
-R53
-R54
-R55
-!i113 1
-R12
-R13
 Ebitwise_and
-R0
+Z49 w1639926774
 R1
-32
 R2
-!i10b 1
-Z56 w1639926774
-!i122 392
-R4
-Z57 8S:/EAP/PLHPSI2/projects/bitwise_and.vhd
-Z58 FS:/EAP/PLHPSI2/projects/bitwise_and.vhd
+!i122 672
+R3
+Z50 8S:/EAP/PLHPSI2/projects/bitwise_and.vhd
+Z51 FS:/EAP/PLHPSI2/projects/bitwise_and.vhd
 l0
-R7
+R6
 V=zRQKgg>Ko?0Sd@^ATlY92
 !s100 M2M?]igkAa0>z:mnSFL`j3
-R8
-R9
-Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/bitwise_and.vhd|
-Z60 !s107 S:/EAP/PLHPSI2/projects/bitwise_and.vhd|
+R7
+32
+R40
+!i10b 1
+R46
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/bitwise_and.vhd|
+Z53 !s107 S:/EAP/PLHPSI2/projects/bitwise_and.vhd|
 !i113 1
 R12
 R13
 Abdf_type
-R0
 R1
-DEx4 work 11 bitwise_and 0 22 =zRQKgg>Ko?0Sd@^ATlY92
-32
 R2
-!i10b 1
-!i122 392
+DEx4 work 11 bitwise_and 0 22 =zRQKgg>Ko?0Sd@^ATlY92
+!i122 672
 l39
-Z61 L34 35
+Z54 L34 35
 VF?_Cg6WkU3N[>8IcIlCnn2
 !s100 4YagZBV5Nl<Wc`:9i?LdM2
-R8
-R9
+R7
+32
+R40
+!i10b 1
+R46
+R52
+R53
+!i113 1
+R12
+R13
+Ebitwise_and_tb
+Z55 w1639954785
+R1
+R2
+!i122 673
+R3
+Z56 8S:/EAP/PLHPSI2/projects/bitwise_and_tb.vhd
+Z57 FS:/EAP/PLHPSI2/projects/bitwise_and_tb.vhd
+l0
+L5 1
+Vb:3i_N:I4b[<Plcd`aA5V3
+!s100 IUg=J4JI5hh2d6aOE`=7z0
+R7
+32
+Z58 !s110 1661696971
+!i10b 1
+R46
+Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/bitwise_and_tb.vhd|
+Z60 !s107 S:/EAP/PLHPSI2/projects/bitwise_and_tb.vhd|
+!i113 1
+R12
+R13
+Atb
+R1
+R2
+DEx4 work 14 bitwise_and_tb 0 22 b:3i_N:I4b[<Plcd`aA5V3
+!i122 673
+l20
+L8 19
+VS;?XV^8kO``aTA[SH`L641
+!s100 NQ><XzflU4P=PaiUaJMCD1
+R7
+32
+R58
+!i10b 1
+R46
 R59
 R60
 !i113 1
 R12
 R13
-Ebitwise_and_tb
-R0
-R1
-32
-Z62 !s110 1641771120
-!i10b 1
-Z63 w1639954785
-!i122 401
-R4
-Z64 8S:/EAP/PLHPSI2/projects/bitwise_and_tb.vhd
-Z65 FS:/EAP/PLHPSI2/projects/bitwise_and_tb.vhd
-l0
-L5 1
-Vb:3i_N:I4b[<Plcd`aA5V3
-!s100 IUg=J4JI5hh2d6aOE`=7z0
-R8
-Z66 !s108 1641771120.000000
-Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/bitwise_and_tb.vhd|
-Z68 !s107 S:/EAP/PLHPSI2/projects/bitwise_and_tb.vhd|
-!i113 1
-R12
-R13
-Atb
-R0
-R1
-DEx4 work 14 bitwise_and_tb 0 22 b:3i_N:I4b[<Plcd`aA5V3
-32
-R62
-!i10b 1
-!i122 401
-l20
-L8 19
-VS;?XV^8kO``aTA[SH`L641
-!s100 NQ><XzflU4P=PaiUaJMCD1
-R8
-R66
-R67
-R68
-!i113 1
-R12
-R13
 Ebitwise_inv
-R0
+Z61 w1639871753
 R1
-32
-Z69 !s110 1641771118
-!i10b 1
-Z70 w1639871753
-!i122 393
-R4
-Z71 8S:/EAP/PLHPSI2/projects/bitwise_inv.vhd
-Z72 FS:/EAP/PLHPSI2/projects/bitwise_inv.vhd
+R2
+!i122 674
+R3
+Z62 8S:/EAP/PLHPSI2/projects/bitwise_inv.vhd
+Z63 FS:/EAP/PLHPSI2/projects/bitwise_inv.vhd
 l0
-R7
+R6
 VfV_LB;D<b9WQ3^V<:KffN3
 !s100 ;8cQ7Rzc]`SRR4c<G`b9Q2
-R8
-R9
-Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/bitwise_inv.vhd|
-Z74 !s107 S:/EAP/PLHPSI2/projects/bitwise_inv.vhd|
+R7
+32
+R58
+!i10b 1
+Z64 !s108 1661696971.000000
+Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/bitwise_inv.vhd|
+Z66 !s107 S:/EAP/PLHPSI2/projects/bitwise_inv.vhd|
 !i113 1
 R12
 R13
 Abdf_type
-R0
 R1
+R2
 DEx4 work 11 bitwise_inv 0 22 fV_LB;D<b9WQ3^V<:KffN3
-32
-R69
-!i10b 1
-!i122 393
+!i122 674
 l39
-R61
+R54
 VFPh5>EkIK3XlTkE]Y?5Tl1
 !s100 7FE`d2bkMdAPC0:RTn7MU1
-R8
-R9
-R73
-R74
+R7
+32
+R58
+!i10b 1
+R64
+R65
+R66
 !i113 1
 R12
 R13
 Ebitwise_inv_tb
-R0
+Z67 w1639955070
 R1
-32
-Z75 !s110 1641771121
-!i10b 1
-Z76 w1639955070
-!i122 402
-R4
-Z77 8S:/EAP/PLHPSI2/projects/bitwise_inv_tb.vhd
-Z78 FS:/EAP/PLHPSI2/projects/bitwise_inv_tb.vhd
+R2
+!i122 675
+R3
+Z68 8S:/EAP/PLHPSI2/projects/bitwise_inv_tb.vhd
+Z69 FS:/EAP/PLHPSI2/projects/bitwise_inv_tb.vhd
 l0
 L5 1
 VnRlkjKUz[C<l3?0hR23mc3
 !s100 Uk;ahb27^kI5;BF4cbke>2
-R8
-R66
-Z79 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/bitwise_inv_tb.vhd|
-Z80 !s107 S:/EAP/PLHPSI2/projects/bitwise_inv_tb.vhd|
+R7
+32
+R58
+!i10b 1
+R64
+Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/bitwise_inv_tb.vhd|
+Z71 !s107 S:/EAP/PLHPSI2/projects/bitwise_inv_tb.vhd|
 !i113 1
 R12
 R13
 Atb
-R0
 R1
+R2
 DEx4 work 14 bitwise_inv_tb 0 22 nRlkjKUz[C<l3?0hR23mc3
-32
-R75
-!i10b 1
-!i122 402
+!i122 675
 l21
 L8 21
 V`bC4[a5^XW<CNT69E3=<A3
 !s100 JN`SSBRY?=5hTN0D_hk1`1
-R8
-R66
-R79
-R80
+R7
+32
+R58
+!i10b 1
+R64
+R70
+R71
 !i113 1
 R12
 R13
 Ebitwise_or
-R0
+Z72 w1661203881
 R1
-32
-Z81 !s110 1661205308
-!i10b 1
-Z82 w1661203881
-!i122 493
-R4
-Z83 8S:/EAP/PLHPSI2/projects/bitwise_or.vhd
-Z84 FS:/EAP/PLHPSI2/projects/bitwise_or.vhd
+R2
+!i122 676
+R3
+Z73 8S:/EAP/PLHPSI2/projects/bitwise_or.vhd
+Z74 FS:/EAP/PLHPSI2/projects/bitwise_or.vhd
 l0
-R7
+R6
 VDj=POf9PTNA?0^mW`zmb00
 !s100 TfN0C;KQg:L[V?P9Z`k;U2
-R8
-Z85 !s108 1661205308.000000
-Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/bitwise_or.vhd|
-Z87 !s107 S:/EAP/PLHPSI2/projects/bitwise_or.vhd|
+R7
+32
+Z75 !s110 1661696972
+!i10b 1
+R64
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/bitwise_or.vhd|S:/EAP/PLHPSI2/projects/bitwise_or_custom.vhd|
+Z77 !s107 S:/EAP/PLHPSI2/projects/bitwise_or_custom.vhd|S:/EAP/PLHPSI2/projects/bitwise_or.vhd|
 !i113 1
 R12
 R13
 Abdf_type
-R0
 R1
-Z88 DEx4 work 10 bitwise_or 0 22 Dj=POf9PTNA?0^mW`zmb00
-32
-R81
-!i10b 1
-!i122 493
+R2
+Z78 DEx4 work 10 bitwise_or 0 22 Dj=POf9PTNA?0^mW`zmb00
+!i122 676
 l39
 L34 20
 Vb@Sfm76=IgWk6TC43gAi@3
 !s100 BYfZm7I77>zM9FN]0FcfY0
-R8
-R85
-R86
-R87
+R7
+32
+R75
+!i10b 1
+R64
+R76
+R77
 !i113 1
 R12
 R13
 Abor
-R0
 R1
-R88
+R2
+R78
 32
 !s110 1641855781
 !i10b 1
@@ -514,1696 +514,1737 @@ l37
 L34 18
 VI?YZhC06V8mh`=dn?X6dz2
 !s100 aM>B7HVGjNa^RZ<bY:ZH]2
-R8
+R7
 !s108 1641855781.000000
-Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/bitwise_or_custom.vhd|
-Z90 !s107 S:/EAP/PLHPSI2/projects/bitwise_or_custom.vhd|
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/bitwise_or_custom.vhd|
+Z79 !s107 S:/EAP/PLHPSI2/projects/bitwise_or_custom.vhd|
 !i113 1
 R12
 R13
-Z91 FS:/EAP/PLHPSI2/projects/bitwise_or_custom.vhd
+Z80 FS:/EAP/PLHPSI2/projects/bitwise_or_custom.vhd
 w1641855772
-Z92 8S:/EAP/PLHPSI2/projects/bitwise_or_custom.vhd
+Z81 8S:/EAP/PLHPSI2/projects/bitwise_or_custom.vhd
 Ebitwise_or_custom
-R0
+Z82 w1641856033
 R1
-32
-Z93 !s110 1641856037
-!i10b 1
-Z94 w1641856033
-!i122 459
-R4
-R92
-R91
+R2
+!i122 677
+R3
+R81
+R80
 l0
-R7
+R6
 V2nlN:@j51EPa3`IH<Z5n;0
 !s100 DeAO>l7>_T]mR8Xh2TieK0
-R8
-Z95 !s108 1641856037.000000
-R89
-R90
+R7
+32
+R75
+!i10b 1
+Z83 !s108 1661696972.000000
+Z84 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/bitwise_or_custom.vhd|
+R79
 !i113 1
 R12
 R13
 Abor
-R0
 R1
+R2
 DEx4 work 17 bitwise_or_custom 0 22 2nlN:@j51EPa3`IH<Z5n;0
-32
-R93
-!i10b 1
-!i122 459
+!i122 677
 l37
-Z96 L34 17
+Z85 L34 17
 V=7o@FMSVU;;8mkbJV8de80
 !s100 K^d_@MFnR][n7W@2IB6L73
-R8
-R95
-R89
-R90
+R7
+32
+R75
+!i10b 1
+R83
+R84
+R79
 !i113 1
 R12
 R13
 Ebitwise_or_tb
-Z97 w1661207482
-R0
+Z86 w1661207482
 R1
-!i122 508
-R4
-Z98 8S:/EAP/PLHPSI2/projects/bitwise_or_TB.vhd
-Z99 FS:/EAP/PLHPSI2/projects/bitwise_or_TB.vhd
+R2
+!i122 678
+R3
+Z87 8S:/EAP/PLHPSI2/projects/bitwise_or_TB.vhd
+Z88 FS:/EAP/PLHPSI2/projects/bitwise_or_TB.vhd
 l0
-R7
+R6
 VU_Ph;FKLjENB24:3Y9hnJ1
 !s100 ]bOPKW=^^NS^I]_E8W2YL0
-R8
+R7
 32
-Z100 !s110 1661207487
+Z89 !s110 1661696973
 !i10b 1
-Z101 !s108 1661207487.000000
-Z102 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/bitwise_or_TB.vhd|
-Z103 !s107 S:/EAP/PLHPSI2/projects/bitwise_or_TB.vhd|
+R83
+Z90 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/bitwise_or_TB.vhd|
+Z91 !s107 S:/EAP/PLHPSI2/projects/bitwise_or_TB.vhd|
 !i113 1
 R12
 R13
 Atb
-R0
 R1
-Z104 DEx4 work 13 bitwise_or_tb 0 22 U_Ph;FKLjENB24:3Y9hnJ1
-!i122 508
+R2
+DEx4 work 13 bitwise_or_tb 0 22 U_Ph;FKLjENB24:3Y9hnJ1
+!i122 678
 l43
-Z105 L28 21
+L28 21
 VBndXA0`<RoTXbVk^KLjcO1
 !s100 d1e7lUz<]Ek2Wi>R>B@I60
-R8
+R7
 32
-R100
+R89
 !i10b 1
-R101
-R102
-R103
+R83
+R90
+R91
 !i113 1
 R12
 R13
 Econstantin
-Z106 w1641493358
-R0
+Z92 w1641493358
 R1
-!i122 417
-R4
-Z107 8S:/EAP/PLHPSI2/projects/constantin.vhd
-Z108 FS:/EAP/PLHPSI2/projects/constantin.vhd
+R2
+!i122 679
+R3
+Z93 8S:/EAP/PLHPSI2/projects/constantin.vhd
+Z94 FS:/EAP/PLHPSI2/projects/constantin.vhd
 l0
-R7
+R6
 Vilj23age[<F9?Cm1^hJ>M0
 !s100 g_lTk^EAZIOlc]TWTBJfN2
-R8
+R7
 32
-Z109 !s110 1641771126
+R89
 !i10b 1
-Z110 !s108 1641771126.000000
-Z111 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/constantin.vhd|
-Z112 !s107 S:/EAP/PLHPSI2/projects/constantin.vhd|
+Z95 !s108 1661696973.000000
+Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/constantin.vhd|
+Z97 !s107 S:/EAP/PLHPSI2/projects/constantin.vhd|
 !i113 1
 R12
 R13
 Abdf_type
-R0
 R1
+R2
 DEx4 work 10 constantin 0 22 ilj23age[<F9?Cm1^hJ>M0
-!i122 417
+!i122 679
 l43
 L32 23
 V:GBN3<kWHK[=4CJWmeOdB2
 !s100 3bAbK1PI[FIh[ka?QzbBe0
-R8
+R7
 32
-R109
+R89
 !i10b 1
-R110
-R111
-R112
+R95
+R96
+R97
 !i113 1
 R12
 R13
 Econstantin_joint
-Z113 w1641493779
-R0
+Z98 w1641493779
 R1
-!i122 416
-R4
-Z114 8S:/EAP/PLHPSI2/projects/constantin_joint.vhd
-Z115 FS:/EAP/PLHPSI2/projects/constantin_joint.vhd
+R2
+!i122 680
+R3
+Z99 8S:/EAP/PLHPSI2/projects/constantin_joint.vhd
+Z100 FS:/EAP/PLHPSI2/projects/constantin_joint.vhd
 l0
-R7
+R6
 VTbjAFM9PkG]4mFL?ceF<O0
 !s100 Vc^NGQQ_N2?]SC8h=HY=@2
-R8
+R7
 32
-R109
+R89
 !i10b 1
-Z116 !s108 1641771125.000000
-Z117 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/constantin_joint.vhd|
-Z118 !s107 S:/EAP/PLHPSI2/projects/constantin_joint.vhd|
+R95
+Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/constantin_joint.vhd|
+Z102 !s107 S:/EAP/PLHPSI2/projects/constantin_joint.vhd|
 !i113 1
 R12
 R13
 Abdf_type
-R0
 R1
+R2
 DEx4 work 16 constantin_joint 0 22 TbjAFM9PkG]4mFL?ceF<O0
-!i122 416
+!i122 680
 l50
 L33 32
 V8^hL^_U37L5A_Y@mK5P962
 !s100 :[_>z1`d[oCdPD^Dd@^7L1
-R8
+R7
 32
-R109
+R89
 !i10b 1
-R116
-R117
-R118
+R95
+R101
+R102
 !i113 1
 R12
 R13
 Ed_ff
-Z119 w1631910135
-R0
+Z103 w1631910135
 R1
+R2
 !i122 6
-Z120 dC:/Users/themhz/Desktop/EAP/PLHPSI2/projects
-Z121 8C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/D_FF.vhd
-Z122 FC:/Users/themhz/Desktop/EAP/PLHPSI2/projects/D_FF.vhd
+Z104 dC:/Users/themhz/Desktop/EAP/PLHPSI2/projects
+Z105 8C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/D_FF.vhd
+Z106 FC:/Users/themhz/Desktop/EAP/PLHPSI2/projects/D_FF.vhd
 l0
-R7
+R6
 VnaRzjkkG>L`ANh=Kb9R723
 !s100 hHM0MS]i8Abm;VD`oHga?1
-R8
+R7
 32
-Z123 !s110 1631910204
+Z107 !s110 1631910204
 !i10b 1
-Z124 !s108 1631910204.000000
-Z125 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/D_FF.vhd|
-Z126 !s107 C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/D_FF.vhd|
+Z108 !s108 1631910204.000000
+Z109 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/D_FF.vhd|
+Z110 !s107 C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/D_FF.vhd|
 !i113 1
 R12
 R13
 Abdf_type
-R0
 R1
+R2
 DEx4 work 4 d_ff 0 22 naRzjkkG>L`ANh=Kb9R723
 !i122 6
 l38
-R96
+R85
 Va7Cg=HIVmP9I]VkA?CoZ61
 !s100 TQaeo4c=5Hz:BIf`KKg7m1
-R8
+R7
 32
-R123
+R107
 !i10b 1
-R124
-R125
-R126
+R108
+R109
+R110
 !i113 1
 R12
 R13
 Ed_ff_ac
-Z127 w1631911683
-R0
+Z111 w1631911683
 R1
+R2
 !i122 7
-R120
-Z128 8C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/D_FF_AC.vhd
-Z129 FC:/Users/themhz/Desktop/EAP/PLHPSI2/projects/D_FF_AC.vhd
+R104
+Z112 8C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/D_FF_AC.vhd
+Z113 FC:/Users/themhz/Desktop/EAP/PLHPSI2/projects/D_FF_AC.vhd
 l0
-R7
+R6
 VM;<^[PSakk=nJn0@iA:4n2
 !s100 ekGE1Ca9mVjOF1z?jkn9W2
-R8
+R7
 32
-Z130 !s110 1631911720
+Z114 !s110 1631911720
 !i10b 1
-Z131 !s108 1631911720.000000
-Z132 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/D_FF_AC.vhd|
-Z133 !s107 C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/D_FF_AC.vhd|
+Z115 !s108 1631911720.000000
+Z116 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/D_FF_AC.vhd|
+Z117 !s107 C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/D_FF_AC.vhd|
 !i113 1
 R12
 R13
 Abdf_type
-R0
 R1
+R2
 DEx4 work 7 d_ff_ac 0 22 M;<^[PSakk=nJn0@iA:4n2
 !i122 7
 l40
 L35 24
 VBNaYAT@aG;B1Z7UgNn@>B2
 !s100 f7dWe`:DjIkEA=YVS63Sz1
-R8
+R7
 32
-R130
+R114
 !i10b 1
-R131
-R132
-R133
+R115
+R116
+R117
 !i113 1
 R12
 R13
 Ed_ff_ce_ac
-Z134 w1631912708
-R0
+Z118 w1631912708
 R1
+R2
 !i122 8
-R120
-Z135 8C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/D_FF_CE_AC.vhd
-Z136 FC:/Users/themhz/Desktop/EAP/PLHPSI2/projects/D_FF_CE_AC.vhd
+R104
+Z119 8C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/D_FF_CE_AC.vhd
+Z120 FC:/Users/themhz/Desktop/EAP/PLHPSI2/projects/D_FF_CE_AC.vhd
 l0
-R7
+R6
 V0fLTc^[ddbW9;gg8R535n1
 !s100 A^02QH;;@DIAEIZAQ1^6K0
-R8
+R7
 32
-Z137 !s110 1631912720
+Z121 !s110 1631912720
 !i10b 1
-Z138 !s108 1631912720.000000
-Z139 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/D_FF_CE_AC.vhd|
-Z140 !s107 C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/D_FF_CE_AC.vhd|
+Z122 !s108 1631912720.000000
+Z123 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/D_FF_CE_AC.vhd|
+Z124 !s107 C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/D_FF_CE_AC.vhd|
 !i113 1
 R12
 R13
 Abdf_type
-R0
 R1
+R2
 DEx4 work 10 d_ff_ce_ac 0 22 0fLTc^[ddbW9;gg8R535n1
 !i122 8
 l41
 L36 26
 VF81_>7D@PEJ1ODag0oG8e3
 !s100 OG=haH7=>=O[f?=bZ_Aj40
-R8
+R7
 32
-R137
+R121
 !i10b 1
-R138
-R139
-R140
+R122
+R123
+R124
 !i113 1
 R12
 R13
 Edatapath
-Z141 w1640215384
-R0
+Z125 w1640215384
 R1
-!i122 404
-R4
-Z142 8S:/EAP/PLHPSI2/projects/datapath.vhd
-Z143 FS:/EAP/PLHPSI2/projects/datapath.vhd
+R2
+!i122 681
+R3
+Z126 8S:/EAP/PLHPSI2/projects/datapath.vhd
+Z127 FS:/EAP/PLHPSI2/projects/datapath.vhd
 l0
-R7
+R6
 Vn=UNK780eL=Vm6>gE`6z12
 !s100 SV91W4PR[bUQQa`HPPML83
-R8
+R7
 32
-R75
+Z128 !s110 1661696974
 !i10b 1
-Z144 !s108 1641771121.000000
-Z145 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/datapath.vhd|
-Z146 !s107 S:/EAP/PLHPSI2/projects/datapath.vhd|
+R95
+Z129 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/datapath.vhd|
+Z130 !s107 S:/EAP/PLHPSI2/projects/datapath.vhd|
 !i113 1
 R12
 R13
 Abdf_type
-R0
 R1
+R2
 DEx4 work 8 datapath 0 22 n=UNK780eL=Vm6>gE`6z12
-!i122 404
+!i122 681
 l92
 L40 99
 V0FOcV[;;bTdK?>TaY5VJZ2
 !s100 Wm>_k68c?R5NL;F6W=1LM0
-R8
+R7
 32
-R75
+R128
 !i10b 1
-R144
-R145
-R146
+R95
+R129
+R130
 !i113 1
 R12
 R13
 Edecoder
-Z147 w1641679465
-R0
+Z131 w1641679465
 R1
-!i122 411
-R4
-Z148 8S:/EAP/PLHPSI2/projects/decoder.vhd
-Z149 FS:/EAP/PLHPSI2/projects/decoder.vhd
+R2
+!i122 682
+R3
+Z132 8S:/EAP/PLHPSI2/projects/decoder.vhd
+Z133 FS:/EAP/PLHPSI2/projects/decoder.vhd
 l0
-R7
+R6
 V_ZeRfCFMPg1]Jn8M;;OdM2
 !s100 Wn?YldH^93CdhLjdNf;>X0
-R8
+R7
 32
-Z150 !s110 1641771124
+R128
 !i10b 1
-Z151 !s108 1641771123.000000
-Z152 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/decoder.vhd|
-Z153 !s107 S:/EAP/PLHPSI2/projects/decoder.vhd|
+Z134 !s108 1661696974.000000
+Z135 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/decoder.vhd|
+Z136 !s107 S:/EAP/PLHPSI2/projects/decoder.vhd|
 !i113 1
 R12
 R13
 Abdf_type
-R0
 R1
+R2
 DEx4 work 7 decoder 0 22 _ZeRfCFMPg1]Jn8M;;OdM2
-!i122 411
+!i122 682
 l140
 L49 214
 V3gVl`F^ccfdNVkbk=GHlV1
 !s100 eFQlR<lFcmf3<UX[jER7c2
-R8
+R7
 32
-R150
+R128
 !i10b 1
-R151
-R152
-R153
+R134
+R135
+R136
 !i113 1
 R12
 R13
 Edecoder_tb
-Z154 w1641655644
-R0
+Z137 w1641855361
 R1
-!i122 420
-R4
-Z155 8S:/EAP/PLHPSI2/projects/decoder_tb.vhd
-Z156 FS:/EAP/PLHPSI2/projects/decoder_tb.vhd
+R2
+!i122 683
+R3
+Z138 8S:/EAP/PLHPSI2/projects/decoder_tb.vhd
+Z139 FS:/EAP/PLHPSI2/projects/decoder_tb.vhd
 l0
 L5 1
 VTCj99k4@GbJI`aZh3HNo80
 !s100 FaGi^hQiG=CC=29Z9;g=E2
-R8
+R7
 32
-Z157 !s110 1641771127
+R128
 !i10b 1
-Z158 !s108 1641771127.000000
-Z159 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/decoder_tb.vhd|
-Z160 !s107 S:/EAP/PLHPSI2/projects/decoder_tb.vhd|
+R134
+Z140 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/decoder_tb.vhd|
+Z141 !s107 S:/EAP/PLHPSI2/projects/decoder_tb.vhd|
 !i113 1
 R12
 R13
 Atb
-R0
 R1
+R2
 DEx4 work 10 decoder_tb 0 22 TCj99k4@GbJI`aZh3HNo80
-!i122 420
-l41
-L8 56
-VaFUmCFEfblI?hId1RzHVB1
-!s100 FM=>ZbAHARR<F6Y0_:^Wi0
-R8
+!i122 683
+l44
+L8 59
+VNFMiKlHaQAl^NOFJg59?D1
+!s100 KGZMZ7fc[?zfNJ1L]DZ::0
+R7
 32
-R157
+R128
 !i10b 1
-R158
+R134
+R140
+R141
+!i113 1
+R12
+R13
+Edecoder_v2
+Z142 w1661699113
+R1
+R2
+!i122 730
+R3
+Z143 8S:/EAP/PLHPSI2/projects/decoder_v2.vhd
+Z144 FS:/EAP/PLHPSI2/projects/decoder_v2.vhd
+l0
+R6
+VQ;6cgKVblaNhKLKeoN]LZ1
+!s100 VAC8bUi^dQOl`DKgQ>i5b1
+R7
+32
+Z145 !s110 1661699137
+!i10b 1
+Z146 !s108 1661699137.000000
+Z147 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/decoder_v2.vhd|
+Z148 !s107 S:/EAP/PLHPSI2/projects/decoder_v2.vhd|
+!i113 1
+R12
+R13
+Abdf_type
+R1
+R2
+DEx4 work 10 decoder_v2 0 22 Q;6cgKVblaNhKLKeoN]LZ1
+!i122 730
+l144
+L50 222
+Vo?m316m:iG4OZQ=Ph5d9D2
+!s100 R]lee4ihnj<hn<[]^z<;32
+R7
+32
+R145
+!i10b 1
+R146
+R147
+R148
+!i113 1
+R12
+R13
+Efull_adder
+Z149 w1639833200
+R1
+R2
+!i122 685
+R3
+Z150 8S:/EAP/PLHPSI2/projects/full_adder.vhd
+Z151 FS:/EAP/PLHPSI2/projects/full_adder.vhd
+l0
+R6
+V:[S0h2<cOHKGmznZ8DFge2
+!s100 _zRH[?ICTJQmKBi[Z3z?Y0
+R7
+32
+Z152 !s110 1661696975
+!i10b 1
+Z153 !s108 1661696975.000000
+Z154 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/full_adder.vhd|
+Z155 !s107 S:/EAP/PLHPSI2/projects/full_adder.vhd|
+!i113 1
+R12
+R13
+Abdf_type
+R1
+R2
+DEx4 work 10 full_adder 0 22 :[S0h2<cOHKGmznZ8DFge2
+!i122 685
+l51
+L36 37
+VK8]dTF0`joh@P9]6kn0^:2
+!s100 QPH[9mZ@ge9_28]4l;njP3
+R7
+32
+R152
+!i10b 1
+R153
+R154
+R155
+!i113 1
+R12
+R13
+Efull_adder_tb
+Z156 w1639953699
+R1
+R2
+!i122 686
+R3
+Z157 8S:/EAP/PLHPSI2/projects/full_adder_tb.vhd
+Z158 FS:/EAP/PLHPSI2/projects/full_adder_tb.vhd
+l0
+L5 1
+Ve8?AzZNGS5d^MziA8m8Fo1
+!s100 D<mU]mA265iIaz3VJOo3J0
+R7
+32
+R152
+!i10b 1
+R153
+Z159 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/full_adder_tb.vhd|
+Z160 !s107 S:/EAP/PLHPSI2/projects/full_adder_tb.vhd|
+!i113 1
+R12
+R13
+Atb
+R1
+R2
+DEx4 work 13 full_adder_tb 0 22 e8?AzZNGS5d^MziA8m8Fo1
+!i122 686
+l22
+Z161 L8 22
+VA6Y2[SUNmmi_;VR`;hL=S0
+!s100 USdZCK[F_o]jj98GVacXz1
+R7
+32
+R152
+!i10b 1
+R153
 R159
 R160
 !i113 1
 R12
 R13
-Edecoder_v2
-Z161 w1641770439
-R0
+Ehalf_adder
+Z162 w1639832587
 R1
-!i122 426
-R4
-Z162 8S:/EAP/PLHPSI2/projects/decoder_v2.vhd
-Z163 FS:/EAP/PLHPSI2/projects/decoder_v2.vhd
+R2
+!i122 687
+R3
+Z163 8S:/EAP/PLHPSI2/projects/half_adder.vhd
+Z164 FS:/EAP/PLHPSI2/projects/half_adder.vhd
 l0
+R6
+V=JgF<4bdCKNDV:WeiIN`01
+!s100 gdl`0CUl1ZnHclU;FP@5E1
 R7
-VQ;6cgKVblaNhKLKeoN]LZ1
-!s100 VAC8bUi^dQOl`DKgQ>i5b1
-R8
 32
-R43
+Z165 !s110 1661696976
 !i10b 1
-Z164 !s108 1641771129.000000
-Z165 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/decoder_v2.vhd|
-Z166 !s107 S:/EAP/PLHPSI2/projects/decoder_v2.vhd|
+Z166 !s108 1661696976.000000
+Z167 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/half_adder.vhd|
+Z168 !s107 S:/EAP/PLHPSI2/projects/half_adder.vhd|
 !i113 1
 R12
 R13
 Abdf_type
-R0
 R1
-DEx4 work 10 decoder_v2 0 22 Q;6cgKVblaNhKLKeoN]LZ1
-!i122 426
-l144
-L50 222
-Vc7nOYNCz;ULHmL>V`^9JC1
-!s100 ;6SFCbhN^8A<PmcAnf7f`1
-R8
+R2
+DEx4 work 10 half_adder 0 22 =JgF<4bdCKNDV:WeiIN`01
+!i122 687
+l39
+L35 15
+V@^SdzF^dhj;^Ub]5HXISK0
+!s100 A:2Dn3Wh4O:STLnn:5?313
+R7
 32
-R43
-!i10b 1
-R164
 R165
+!i10b 1
 R166
+R167
+R168
 !i113 1
 R12
 R13
-Efull_adder
-Z167 w1639833200
-R0
+Ehalf_adder_tb
+Z169 w1639953412
 R1
-!i122 389
-R4
-Z168 8S:/EAP/PLHPSI2/projects/full_adder.vhd
-Z169 FS:/EAP/PLHPSI2/projects/full_adder.vhd
+R2
+!i122 688
+R3
+Z170 8S:/EAP/PLHPSI2/projects/half_adder_tb.vhd
+Z171 FS:/EAP/PLHPSI2/projects/half_adder_tb.vhd
 l0
+L5 1
+V=J<XKXag3lOQN?I3ClH3_0
+!s100 lNMB8JRnb4AmOk0=^z1jA2
 R7
-V:[S0h2<cOHKGmznZ8DFge2
-!s100 _zRH[?ICTJQmKBi[Z3z?Y0
-R8
 32
-Z170 !s110 1641771116
+R165
 !i10b 1
-Z171 !s108 1641771116.000000
-Z172 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/full_adder.vhd|
-Z173 !s107 S:/EAP/PLHPSI2/projects/full_adder.vhd|
+R166
+Z172 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/half_adder_tb.vhd|
+Z173 !s107 S:/EAP/PLHPSI2/projects/half_adder_tb.vhd|
 !i113 1
 R12
 R13
-Abdf_type
-R0
+Atb
 R1
-DEx4 work 10 full_adder 0 22 :[S0h2<cOHKGmznZ8DFge2
-!i122 389
-l51
-L36 37
-VK8]dTF0`joh@P9]6kn0^:2
-!s100 QPH[9mZ@ge9_28]4l;njP3
-R8
+R2
+DEx4 work 13 half_adder_tb 0 22 =J<XKXag3lOQN?I3ClH3_0
+!i122 688
+l21
+L8 20
+Vn]adY]@>Y5=eeXjLfXogg1
+!s100 IARGP7n[hmb?DT@gWcNXj0
+R7
 32
-R170
+R165
 !i10b 1
-R171
+R166
 R172
 R173
 !i113 1
 R12
 R13
-Efull_adder_tb
-Z174 w1639953699
-R0
-R1
-!i122 400
-R4
-Z175 8S:/EAP/PLHPSI2/projects/full_adder_tb.vhd
-Z176 FS:/EAP/PLHPSI2/projects/full_adder_tb.vhd
-l0
-L5 1
-Ve8?AzZNGS5d^MziA8m8Fo1
-!s100 D<mU]mA265iIaz3VJOo3J0
-R8
-32
-R62
-!i10b 1
-R66
-Z177 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/full_adder_tb.vhd|
-Z178 !s107 S:/EAP/PLHPSI2/projects/full_adder_tb.vhd|
-!i113 1
-R12
-R13
-Atb
-R0
-R1
-DEx4 work 13 full_adder_tb 0 22 e8?AzZNGS5d^MziA8m8Fo1
-!i122 400
-l22
-Z179 L8 22
-VA6Y2[SUNmmi_;VR`;hL=S0
-!s100 USdZCK[F_o]jj98GVacXz1
-R8
-32
-R62
-!i10b 1
-R66
-R177
-R178
-!i113 1
-R12
-R13
-Ehalf_adder
-Z180 w1639832587
-R0
-R1
-!i122 390
-R4
-Z181 8S:/EAP/PLHPSI2/projects/half_adder.vhd
-Z182 FS:/EAP/PLHPSI2/projects/half_adder.vhd
-l0
-R7
-V=JgF<4bdCKNDV:WeiIN`01
-!s100 gdl`0CUl1ZnHclU;FP@5E1
-R8
-32
-R2
-!i10b 1
-R171
-Z183 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/half_adder.vhd|
-Z184 !s107 S:/EAP/PLHPSI2/projects/half_adder.vhd|
-!i113 1
-R12
-R13
-Abdf_type
-R0
-R1
-DEx4 work 10 half_adder 0 22 =JgF<4bdCKNDV:WeiIN`01
-!i122 390
-l39
-L35 15
-V@^SdzF^dhj;^Ub]5HXISK0
-!s100 A:2Dn3Wh4O:STLnn:5?313
-R8
-32
-R2
-!i10b 1
-R171
-R183
-R184
-!i113 1
-R12
-R13
-Ehalf_adder_tb
-Z185 w1639953412
-R0
-R1
-!i122 399
-R4
-Z186 8S:/EAP/PLHPSI2/projects/half_adder_tb.vhd
-Z187 FS:/EAP/PLHPSI2/projects/half_adder_tb.vhd
-l0
-L5 1
-V=J<XKXag3lOQN?I3ClH3_0
-!s100 lNMB8JRnb4AmOk0=^z1jA2
-R8
-32
-R62
-!i10b 1
-R33
-Z188 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/half_adder_tb.vhd|
-Z189 !s107 S:/EAP/PLHPSI2/projects/half_adder_tb.vhd|
-!i113 1
-R12
-R13
-Atb
-R0
-R1
-DEx4 work 13 half_adder_tb 0 22 =J<XKXag3lOQN?I3ClH3_0
-!i122 399
-l21
-L8 20
-Vn]adY]@>Y5=eeXjLfXogg1
-!s100 IARGP7n[hmb?DT@gWcNXj0
-R8
-32
-R62
-!i10b 1
-R33
-R188
-R189
-!i113 1
-R12
-R13
 Einstruction_decoder
-Z190 w1640908841
-R0
+Z174 w1640908841
 R1
-!i122 408
-R4
-Z191 8S:/EAP/PLHPSI2/projects/instruction_decoder.vhd
-Z192 FS:/EAP/PLHPSI2/projects/instruction_decoder.vhd
+R2
+!i122 689
+R3
+Z175 8S:/EAP/PLHPSI2/projects/instruction_decoder.vhd
+Z176 FS:/EAP/PLHPSI2/projects/instruction_decoder.vhd
 l0
-R7
+R6
 VezBSVIMF3W1a_M8iCTHM=3
 !s100 hGNdHCje9_gzlP7VM9:WO2
-R8
+R7
 32
-Z193 !s110 1641771123
+Z177 !s110 1661696977
 !i10b 1
-Z194 !s108 1641771122.000000
-Z195 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/instruction_decoder.vhd|
-Z196 !s107 S:/EAP/PLHPSI2/projects/instruction_decoder.vhd|
+R166
+Z178 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/instruction_decoder.vhd|
+Z179 !s107 S:/EAP/PLHPSI2/projects/instruction_decoder.vhd|
 !i113 1
 R12
 R13
 Abdf_type
-R0
 R1
+R2
 DEx4 work 19 instruction_decoder 0 22 ezBSVIMF3W1a_M8iCTHM=3
-!i122 408
+!i122 689
 l72
 L43 166
 VVEJLTk_9jVVXj:=T>Y5II0
 !s100 I8?jVmchDH0Wa^i0QAWE[0
-R8
+R7
 32
-R193
+R177
 !i10b 1
-R194
-R195
-R196
+R166
+R178
+R179
 !i113 1
 R12
 R13
 Einstruction_decoder_box
-Z197 w1640911070
-R0
+Z180 w1640911070
 R1
-!i122 409
-R4
-Z198 8S:/EAP/PLHPSI2/projects/instruction_decoder_box.vhd
-Z199 FS:/EAP/PLHPSI2/projects/instruction_decoder_box.vhd
+R2
+!i122 690
+R3
+Z181 8S:/EAP/PLHPSI2/projects/instruction_decoder_box.vhd
+Z182 FS:/EAP/PLHPSI2/projects/instruction_decoder_box.vhd
 l0
-R7
+R6
 VgUH229baf01XgJQF7i^G<3
 !s100 j3LJPJf_8]zj[JT46Q5GJ0
-R8
+R7
 32
-R193
+R177
 !i10b 1
-R151
-Z200 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/instruction_decoder_box.vhd|
-Z201 !s107 S:/EAP/PLHPSI2/projects/instruction_decoder_box.vhd|
+Z183 !s108 1661696977.000000
+Z184 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/instruction_decoder_box.vhd|
+Z185 !s107 S:/EAP/PLHPSI2/projects/instruction_decoder_box.vhd|
 !i113 1
 R12
 R13
 Abdf_type
-R0
 R1
+R2
 DEx4 work 23 instruction_decoder_box 0 22 gUH229baf01XgJQF7i^G<3
-!i122 409
+!i122 690
 l77
 L45 88
 Vc4Pdejz9oD=[kKUTn^mN40
 !s100 kF9=<hElmk:2c<G5`Z:mW0
-R8
+R7
 32
-R193
+R177
 !i10b 1
-R151
-R200
-R201
+R183
+R184
+R185
 !i113 1
 R12
 R13
 Einstruction_decoder_box_tb
-Z202 w1641660971
-R0
+Z186 w1661206429
 R1
-!i122 422
-R4
-Z203 8S:/EAP/PLHPSI2/projects/instruction_decoder_box_tb.vhd
-Z204 FS:/EAP/PLHPSI2/projects/instruction_decoder_box_tb.vhd
+R2
+!i122 691
+R3
+Z187 8S:/EAP/PLHPSI2/projects/instruction_decoder_box_tb.vhd
+Z188 FS:/EAP/PLHPSI2/projects/instruction_decoder_box_tb.vhd
 l0
 L5 1
 Vk>OUPVWJHd[<_U<Q9dn=30
 !s100 O_0GbOjXFk[:YTCLUR5[@0
-R8
+R7
 32
-R36
+R177
 !i10b 1
-R40
-Z205 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/instruction_decoder_box_tb.vhd|
-Z206 !s107 S:/EAP/PLHPSI2/projects/instruction_decoder_box_tb.vhd|
+R183
+Z189 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/instruction_decoder_box_tb.vhd|
+Z190 !s107 S:/EAP/PLHPSI2/projects/instruction_decoder_box_tb.vhd|
 !i113 1
 R12
 R13
 Atb
-R0
 R1
+R2
 DEx4 work 26 instruction_decoder_box_tb 0 22 k>OUPVWJHd[<_U<Q9dn=30
-!i122 422
+!i122 691
 l34
-Z207 L8 47
+Z191 L8 47
 VJR[Z]:=CZ;VQTFU[Bh@`L3
 !s100 kMVQiNADnjbjoF>n=8zkU1
-R8
+R7
 32
-R36
+R177
 !i10b 1
-R40
-R205
-R206
+R183
+R189
+R190
 !i113 1
 R12
 R13
 Einstruction_decoder_box_v2
-Z208 w1641768513
-R0
+Z192 w1641768513
 R1
-!i122 428
-R4
-Z209 8S:/EAP/PLHPSI2/projects/instruction_decoder_box_v2.vhd
-Z210 FS:/EAP/PLHPSI2/projects/instruction_decoder_box_v2.vhd
+R2
+!i122 692
+R3
+Z193 8S:/EAP/PLHPSI2/projects/instruction_decoder_box_v2.vhd
+Z194 FS:/EAP/PLHPSI2/projects/instruction_decoder_box_v2.vhd
 l0
-R7
+R6
 VT97j:bCaOAQJ_l^N^?W7m3
 !s100 UQnCfCWo4n58`NOolIEoo0
-R8
+R7
 32
-Z211 !s110 1641771130
+Z195 !s110 1661696978
 !i10b 1
-Z212 !s108 1641771130.000000
-Z213 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/instruction_decoder_box_v2.vhd|
-Z214 !s107 S:/EAP/PLHPSI2/projects/instruction_decoder_box_v2.vhd|
+R183
+Z196 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/instruction_decoder_box_v2.vhd|
+Z197 !s107 S:/EAP/PLHPSI2/projects/instruction_decoder_box_v2.vhd|
 !i113 1
 R12
 R13
 Abdf_type
-R0
 R1
+R2
 DEx4 work 26 instruction_decoder_box_v2 0 22 T97j:bCaOAQJ_l^N^?W7m3
-!i122 428
+!i122 692
 l80
 L46 94
 Vi4f:U[a6jWi`4beJkb3^e1
 !s100 >KlIUL36nVCPTbfIROKLC3
-R8
+R7
 32
-R211
+R195
 !i10b 1
-R212
-R213
-R214
+R183
+R196
+R197
 !i113 1
 R12
 R13
 Einstruction_decoder_tb
-Z215 w1641660546
-R0
+Z198 w1641660546
 R1
+R2
 !i122 360
-R4
-Z216 8S:/EAP/PLHPSI2/projects/instruction_decoder_tb.vhd
-Z217 FS:/EAP/PLHPSI2/projects/instruction_decoder_tb.vhd
+R3
+Z199 8S:/EAP/PLHPSI2/projects/instruction_decoder_tb.vhd
+Z200 FS:/EAP/PLHPSI2/projects/instruction_decoder_tb.vhd
 l0
 L5 1
 V]2UIzGIbZgJKY4Q2VTV4L3
 !s100 KYkTCXA8hPF1m=fVN58im1
-R8
+R7
 32
-Z218 !s110 1641660685
+Z201 !s110 1641660685
 !i10b 1
-Z219 !s108 1641660685.000000
-Z220 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/instruction_decoder_tb.vhd|
-Z221 !s107 S:/EAP/PLHPSI2/projects/instruction_decoder_tb.vhd|
+Z202 !s108 1641660685.000000
+Z203 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/instruction_decoder_tb.vhd|
+Z204 !s107 S:/EAP/PLHPSI2/projects/instruction_decoder_tb.vhd|
 !i113 1
 R12
 R13
 Atb
-R0
 R1
+R2
 DEx4 work 22 instruction_decoder_tb 0 22 ]2UIzGIbZgJKY4Q2VTV4L3
 !i122 360
 l34
-R207
+R191
 V_59X@o?mLd[zk9WmX2:Qz2
 !s100 9=dO:7Za8WiJchnKej[2H1
-R8
+R7
 32
-R218
+R201
 !i10b 1
-R219
-R220
-R221
+R202
+R203
+R204
 !i113 1
 R12
 R13
 Einstruction_decoder_v2
-Z222 w1641767741
-R0
+Z205 w1641767741
 R1
-!i122 429
-R4
-Z223 8S:/EAP/PLHPSI2/projects/instruction_decoder_v2.vhd
-Z224 FS:/EAP/PLHPSI2/projects/instruction_decoder_v2.vhd
+R2
+!i122 693
+R3
+Z206 8S:/EAP/PLHPSI2/projects/instruction_decoder_v2.vhd
+Z207 FS:/EAP/PLHPSI2/projects/instruction_decoder_v2.vhd
 l0
-R7
+R6
 V]TR6WeIbmcn5gKJUjCjKA1
 !s100 69_n_Qf?0@dF:Lc]Q1kGU3
-R8
+R7
 32
-R211
+R195
 !i10b 1
-R212
-Z225 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/instruction_decoder_v2.vhd|
-Z226 !s107 S:/EAP/PLHPSI2/projects/instruction_decoder_v2.vhd|
+Z208 !s108 1661696978.000000
+Z209 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/instruction_decoder_v2.vhd|
+Z210 !s107 S:/EAP/PLHPSI2/projects/instruction_decoder_v2.vhd|
 !i113 1
 R12
 R13
 Abdf_type
-R0
 R1
+R2
 DEx4 work 22 instruction_decoder_v2 0 22 ]TR6WeIbmcn5gKJUjCjKA1
-!i122 429
+!i122 693
 l75
 L44 179
 VmWjX@_N@1^G`Qg02;;fDT3
 !s100 XW?MRob;EjE2e1i7iO_^R3
-R8
+R7
 32
-R211
+R195
 !i10b 1
-R212
-R225
-R226
+R208
+R209
+R210
 !i113 1
 R12
 R13
 Ejoint16
-Z227 w1641492590
-R0
+Z211 w1641492590
 R1
-!i122 418
-R4
-Z228 8S:/EAP/PLHPSI2/projects/Joint16.vhd
-Z229 FS:/EAP/PLHPSI2/projects/Joint16.vhd
+R2
+!i122 694
+R3
+Z212 8S:/EAP/PLHPSI2/projects/Joint16.vhd
+Z213 FS:/EAP/PLHPSI2/projects/Joint16.vhd
 l0
-R7
+R6
 VX[<2o9O_`DX`nRO@U6GVD3
 !s100 jezDTXL4?QfPInAi:=6<E0
-R8
+R7
 32
-R157
+Z214 !s110 1661696979
 !i10b 1
-R110
-Z230 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/Joint16.vhd|
-Z231 !s107 S:/EAP/PLHPSI2/projects/Joint16.vhd|
+R208
+Z215 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/Joint16.vhd|
+Z216 !s107 S:/EAP/PLHPSI2/projects/Joint16.vhd|
 !i113 1
 R12
 R13
 Abdf_type
-R0
 R1
+R2
 DEx4 work 7 joint16 0 22 X[<2o9O_`DX`nRO@U6GVD3
-!i122 418
+!i122 694
 l39
 L34 59
 VL4<BEH2j3LbOmKQR=4Zd72
 !s100 6YSh`cP03GTBh^k7a2G:U3
-R8
+R7
 32
-R157
+R214
 !i10b 1
-R110
-R230
-R231
+R208
+R215
+R216
 !i113 1
 R12
 R13
 Ejump_detector
-Z232 w1641248746
-R0
+Z217 w1641248746
 R1
-!i122 410
-R4
-Z233 8S:/EAP/PLHPSI2/projects/jump_detector.vhd
-Z234 FS:/EAP/PLHPSI2/projects/jump_detector.vhd
+R2
+!i122 695
+R3
+Z218 8S:/EAP/PLHPSI2/projects/jump_detector.vhd
+Z219 FS:/EAP/PLHPSI2/projects/jump_detector.vhd
 l0
-R7
+R6
 VQ>UcbYahTJ7_j=P=9mTl10
 !s100 PDWa[0`61cjFA?74hX]6B0
-R8
+R7
 32
-R193
+R214
 !i10b 1
-R151
-Z235 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/jump_detector.vhd|
-Z236 !s107 S:/EAP/PLHPSI2/projects/jump_detector.vhd|
+Z220 !s108 1661696979.000000
+Z221 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/jump_detector.vhd|
+Z222 !s107 S:/EAP/PLHPSI2/projects/jump_detector.vhd|
 !i113 1
 R12
 R13
 Abdf_type
-R0
 R1
+R2
 DEx4 work 13 jump_detector 0 22 Q>UcbYahTJ7_j=P=9mTl10
-!i122 410
+!i122 695
 l69
 L44 79
 V2;G>]T[c;GALFTA`:ig2g0
 !s100 =L0EHFh`6RY4Fod_nZOOT0
-R8
+R7
 32
-R193
+R214
 !i10b 1
-R151
-R235
-R236
+R220
+R221
+R222
 !i113 1
 R12
 R13
 Emux2x1_1_bit
-Z237 w1631634551
-R0
+Z223 w1631634551
 R1
-!i122 394
-R4
-Z238 8S:/EAP/PLHPSI2/projects/mux2x1_1bit.vhd
-Z239 FS:/EAP/PLHPSI2/projects/mux2x1_1bit.vhd
+R2
+!i122 696
+R3
+Z224 8S:/EAP/PLHPSI2/projects/mux2x1_1bit.vhd
+Z225 FS:/EAP/PLHPSI2/projects/mux2x1_1bit.vhd
 l0
-R7
+R6
 Vb2c:GmZ86@1azP1Jj63Xd0
 !s100 m4`6EGgoFDZl[ToefjiKb1
-R8
+R7
 32
-R69
+R214
 !i10b 1
-Z240 !s108 1641771118.000000
-Z241 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/mux2x1_1bit.vhd|
-Z242 !s107 S:/EAP/PLHPSI2/projects/mux2x1_1bit.vhd|
+R220
+Z226 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/mux2x1_1bit.vhd|
+Z227 !s107 S:/EAP/PLHPSI2/projects/mux2x1_1bit.vhd|
 !i113 1
 R12
 R13
 Abdf_type
-R0
 R1
+R2
 DEx4 work 12 mux2x1_1_bit 0 22 b2c:GmZ86@1azP1Jj63Xd0
-!i122 394
+!i122 696
 l42
-Z243 L35 25
+Z228 L35 25
 VWEi9<YRZ?fZ1LMFQ3D3Ma0
 !s100 NHZ0@j4>P@0<UQV8Md^XN0
-R8
+R7
 32
-R69
+R214
 !i10b 1
-R240
-R241
-R242
+R220
+R226
+R227
 !i113 1
 R12
 R13
 Emux2x1_1bit
-Z244 w1631630463
-R0
+Z229 w1631630463
 R1
+R2
 !i122 1
-R120
-Z245 8C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/mux2x1_1bit.vhd
-Z246 FC:/Users/themhz/Desktop/EAP/PLHPSI2/projects/mux2x1_1bit.vhd
+R104
+Z230 8C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/mux2x1_1bit.vhd
+Z231 FC:/Users/themhz/Desktop/EAP/PLHPSI2/projects/mux2x1_1bit.vhd
 l0
-R7
+R6
 V@0`AN@6gZ_=Jm[gQ`^M`R2
 !s100 1XX<H:5>P`?]N[6HPalZU0
-R8
+R7
 32
-Z247 !s110 1631630479
+Z232 !s110 1631630479
 !i10b 1
-Z248 !s108 1631630479.000000
-Z249 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/mux2x1_1bit.vhd|
-Z250 !s107 C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/mux2x1_1bit.vhd|
+Z233 !s108 1631630479.000000
+Z234 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/mux2x1_1bit.vhd|
+Z235 !s107 C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/mux2x1_1bit.vhd|
 !i113 1
 R12
 R13
 Abdf_type
-R0
 R1
+R2
 DEx4 work 11 mux2x1_1bit 0 22 @0`AN@6gZ_=Jm[gQ`^M`R2
 !i122 1
 l42
-R243
+R228
 V=LBfBHPeX;eJVfn`Si_Ca2
 !s100 ]JU[hi1]TD=kRa61:BE7:0
-R8
+R7
 32
-R247
+R232
 !i10b 1
-R248
-R249
-R250
+R233
+R234
+R235
 !i113 1
 R12
 R13
 Emux2x1_8bit
-Z251 w1631653868
-R0
+Z236 w1631653868
 R1
-!i122 395
-R4
-Z252 8S:/EAP/PLHPSI2/projects/mux2x1_8bit.vhd
-Z253 FS:/EAP/PLHPSI2/projects/mux2x1_8bit.vhd
+R2
+!i122 697
+R3
+Z237 8S:/EAP/PLHPSI2/projects/mux2x1_8bit.vhd
+Z238 FS:/EAP/PLHPSI2/projects/mux2x1_8bit.vhd
 l0
-R7
+R6
 V9FV]BY0hZ03RC7CN0hElj3
 !s100 MKkVRXX4Iai[DBD2:>Jh_3
-R8
+R7
 32
-R69
+Z239 !s110 1661696980
 !i10b 1
-R240
-Z254 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/mux2x1_8bit.vhd|
-Z255 !s107 S:/EAP/PLHPSI2/projects/mux2x1_8bit.vhd|
+R220
+Z240 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/mux2x1_8bit.vhd|
+Z241 !s107 S:/EAP/PLHPSI2/projects/mux2x1_8bit.vhd|
 !i113 1
 R12
 R13
 Abdf_type
-R0
 R1
+R2
 DEx4 work 11 mux2x1_8bit 0 22 9FV]BY0hZ03RC7CN0hElj3
-!i122 395
+!i122 697
 l48
 L35 75
 VDe?30KJhI>KVM`?YJ1QBj3
 !s100 97dI]iGjIeDFBORMJBEeF1
-R8
+R7
 32
-R69
+R239
 !i10b 1
+R220
 R240
-R254
-R255
+R241
 !i113 1
 R12
 R13
 Emux4x1_1bit
-Z256 w1631655528
-R0
+Z242 w1631655528
 R1
-!i122 396
-R4
-Z257 8S:/EAP/PLHPSI2/projects/mux4x1_1bit.vhd
-Z258 FS:/EAP/PLHPSI2/projects/mux4x1_1bit.vhd
+R2
+!i122 698
+R3
+Z243 8S:/EAP/PLHPSI2/projects/mux4x1_1bit.vhd
+Z244 FS:/EAP/PLHPSI2/projects/mux4x1_1bit.vhd
 l0
-R7
+R6
 V[hBfcU=G]mZ]>P?NY9@aL0
 !s100 l5R5WZM3AnFUK:o90hMo12
-R8
+R7
 32
-R29
+R239
 !i10b 1
-R240
-Z259 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/mux4x1_1bit.vhd|
-Z260 !s107 S:/EAP/PLHPSI2/projects/mux4x1_1bit.vhd|
+Z245 !s108 1661696980.000000
+Z246 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/mux4x1_1bit.vhd|
+Z247 !s107 S:/EAP/PLHPSI2/projects/mux4x1_1bit.vhd|
 !i113 1
 R12
 R13
 Abdf_type
-R0
 R1
+R2
 DEx4 work 11 mux4x1_1bit 0 22 [hBfcU=G]mZ]>P?NY9@aL0
-!i122 396
+!i122 698
 l52
 L38 40
 Vn@nnIYki0nzd>C7h:Pz:I1
 !s100 00WY6CZk6g[kiRVeg5hdf3
-R8
+R7
 32
-R29
+R239
 !i10b 1
-R240
-R259
-R260
+R245
+R246
+R247
 !i113 1
 R12
 R13
 Emux4x1_8bit
-Z261 w1631658944
-R0
+Z248 w1631658944
 R1
-!i122 397
-R4
-Z262 8S:/EAP/PLHPSI2/projects/mux4x1_8bit.vhd
-Z263 FS:/EAP/PLHPSI2/projects/mux4x1_8bit.vhd
+R2
+!i122 699
+R3
+Z249 8S:/EAP/PLHPSI2/projects/mux4x1_8bit.vhd
+Z250 FS:/EAP/PLHPSI2/projects/mux4x1_8bit.vhd
 l0
-R7
+R6
 Vc`NkGFIoKJ`kVIk=GP4o40
 !s100 :R>GU`_T8Bhm<X;:l:_c;2
-R8
+R7
 32
-R29
+Z251 !s110 1661696981
 !i10b 1
-R33
-Z264 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/mux4x1_8bit.vhd|
-Z265 !s107 S:/EAP/PLHPSI2/projects/mux4x1_8bit.vhd|
+R245
+Z252 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/mux4x1_8bit.vhd|
+Z253 !s107 S:/EAP/PLHPSI2/projects/mux4x1_8bit.vhd|
 !i113 1
 R12
 R13
 Abdf_type
-R0
 R1
+R2
 DEx4 work 11 mux4x1_8bit 0 22 c`NkGFIoKJ`kVIk=GP4o40
-!i122 397
+!i122 699
 l54
 L38 102
 V^SBGlMa]=oV@L9L8LBo4<1
 !s100 LCBfX9ZNNA_fAjb0=lbT33
-R8
+R7
 32
-R29
+R251
 !i10b 1
-R33
-R264
-R265
+R245
+R252
+R253
 !i113 1
 R12
 R13
 Eram
-Z266 w1642027919
-Z267 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z268 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
-R0
+Z254 w1661712872
+Z255 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z256 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 R1
-!i122 490
-R4
-Z269 8S:/EAP/PLHPSI2/projects/RAM.vhd
-Z270 FS:/EAP/PLHPSI2/projects/RAM.vhd
+R2
+!i122 741
+R3
+Z257 8S:/EAP/PLHPSI2/projects/RAM.vhd
+Z258 FS:/EAP/PLHPSI2/projects/RAM.vhd
 l0
 L5 1
 V^gUQGfk8R`0;ZgNRE@K3n2
 !s100 a5?WizIjhMPM[I7Xh=K]91
-R8
+R7
 32
-Z271 !s110 1642027954
+Z259 !s110 1661712917
 !i10b 1
-Z272 !s108 1642027954.000000
-Z273 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/RAM.vhd|
-Z274 !s107 S:/EAP/PLHPSI2/projects/RAM.vhd|
+Z260 !s108 1661712917.000000
+Z261 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/RAM.vhd|
+Z262 !s107 S:/EAP/PLHPSI2/projects/RAM.vhd|
 !i113 1
 R12
 R13
 Amem256x16_v2_rtl
-R267
-R268
-R0
+R255
+R256
 R1
-DEx4 work 3 ram 0 22 ^gUQGfk8R`0;ZgNRE@K3n2
-!i122 490
-l65
-L12 66
-V7]7XSUoi6kI7>DVdjN?_?1
-!s100 Rz?6?_:`lP`;JZCZGSISC3
-R8
+R2
+Z263 DEx4 work 3 ram 0 22 ^gUQGfk8R`0;ZgNRE@K3n2
+!i122 741
+l112
+Z264 L12 113
+VY6jG80eJV^JDIN2`8hZMa3
+!s100 S9Ta[jkbMA2F8L1ZaC;ZO2
+R7
 32
-R271
+R259
 !i10b 1
-R272
-R273
-R274
+R260
+R261
+R262
 !i113 1
 R12
 R13
 Eram_er52_read_tb
-Z275 w1641942837
-R0
+Z265 w1641942837
 R1
+R2
 !i122 482
-R4
-Z276 8S:/EAP/PLHPSI2/projects/RAM_er52_tb.vhd
-Z277 FS:/EAP/PLHPSI2/projects/RAM_er52_tb.vhd
+R3
+Z266 8S:/EAP/PLHPSI2/projects/RAM_er52_tb.vhd
+Z267 FS:/EAP/PLHPSI2/projects/RAM_er52_tb.vhd
 l0
 L5 1
 V9TG75W]EMRVK1W?e1nbe=3
 !s100 k;eT_7PP@QDcM]_89W@OT1
-R8
+R7
 32
-Z278 !s110 1641942889
+Z268 !s110 1641942889
 !i10b 1
-Z279 !s108 1641942889.000000
-Z280 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/RAM_er52_tb.vhd|
-Z281 !s107 S:/EAP/PLHPSI2/projects/RAM_er52_tb.vhd|
+Z269 !s108 1641942889.000000
+Z270 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/RAM_er52_tb.vhd|
+Z271 !s107 S:/EAP/PLHPSI2/projects/RAM_er52_tb.vhd|
 !i113 1
 R12
 R13
 Atb
-R0
 R1
+R2
 DEx4 work 16 ram_er52_read_tb 0 22 9TG75W]EMRVK1W?e1nbe=3
 !i122 482
 l24
-L8 48
+Z272 L8 48
 VMEZHBWM>]QaI5VL^P>OF^0
 !s100 9SYW8eZPhB5d6RB??d0Mz2
-R8
+R7
 32
-R278
+R268
 !i10b 1
-R279
-R280
-R281
+R269
+R270
+R271
 !i113 1
 R12
 R13
 Eram_er52_tb
-Z282 w1642013417
-R0
+Z273 w1642013417
 R1
-!i122 489
-R4
-R276
-R277
+R2
+!i122 702
+R3
+R266
+R267
 l0
 L5 1
 VdnaciBYiT]O?=?bJjI]RX3
 !s100 gZ:gIQ_oCV_BV21KZU1:W2
-R8
+R7
 32
-Z283 !s110 1642013507
+Z274 !s110 1661696982
 !i10b 1
-Z284 !s108 1642013507.000000
-Z285 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/RAM_er52_tb.vhd|
-R281
+Z275 !s108 1661696981.000000
+Z276 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/RAM_er52_tb.vhd|
+R271
 !i113 1
 R12
 R13
 Atb
-R0
 R1
+R2
 DEx4 work 11 ram_er52_tb 0 22 dnaciBYiT]O?=?bJjI]RX3
-!i122 489
+!i122 702
 l24
 L8 52
 V8OlWl:OZz1NbHFBnT@]WN2
 !s100 GbdX4AN9mjXGBhWRkzYCT1
-R8
+R7
 32
-R283
+R274
 !i10b 1
-R284
-R285
-R281
+R275
+R276
+R271
 !i113 1
 R12
 R13
 Eram_memory_fill_read_tb
-Z286 w1641935137
-R0
+Z277 w1641935137
 R1
-!i122 478
-R4
-Z287 8S:/EAP/PLHPSI2/projects/RAM_memory_fill_read_tb.vhd
-Z288 FS:/EAP/PLHPSI2/projects/RAM_memory_fill_read_tb.vhd
+R2
+!i122 703
+R3
+Z278 8S:/EAP/PLHPSI2/projects/RAM_memory_fill_read_tb.vhd
+Z279 FS:/EAP/PLHPSI2/projects/RAM_memory_fill_read_tb.vhd
 l0
 L5 1
 VRonXG=V9_S40cH]XI3Xjj0
 !s100 C5RW`TFQfR:FE=1>0EYLa3
-R8
+R7
 32
-Z289 !s110 1641935149
+R274
 !i10b 1
-Z290 !s108 1641935148.000000
-Z291 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/RAM_memory_fill_read_tb.vhd|
-Z292 !s107 S:/EAP/PLHPSI2/projects/RAM_memory_fill_read_tb.vhd|
+Z280 !s108 1661696982.000000
+Z281 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/RAM_memory_fill_read_tb.vhd|
+Z282 !s107 S:/EAP/PLHPSI2/projects/RAM_memory_fill_read_tb.vhd|
 !i113 1
 R12
 R13
 Atb
-R0
 R1
+R2
 DEx4 work 23 ram_memory_fill_read_tb 0 22 RonXG=V9_S40cH]XI3Xjj0
-!i122 478
+!i122 703
 l24
 L8 61
 V[CO6bd:7hek@A^[jl:BYd2
 !s100 Mbj3nO2CB5j<Bl[3[_6Q:1
-R8
+R7
 32
-R289
+R274
 !i10b 1
-R290
-R291
-R292
+R280
+R281
+R282
 !i113 1
 R12
 R13
 Eram_tb
-Z293 w1641933015
-R0
+Z283 w1641488051
 R1
-!i122 467
-R4
-R287
-R288
+R2
+!i122 704
+R3
+Z284 8S:/EAP/PLHPSI2/projects/RAM_tb.vhd
+Z285 FS:/EAP/PLHPSI2/projects/RAM_tb.vhd
 l0
 L5 1
 VIP@[Z=Ne^b^Iok`akCz4z2
 !s100 CN8RfSYnLW@]G^>EYI@_n3
-R8
+R7
 32
-Z294 !s110 1641933019
+R274
 !i10b 1
-Z295 !s108 1641933019.000000
-R291
-R292
+R280
+Z286 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/RAM_tb.vhd|
+Z287 !s107 S:/EAP/PLHPSI2/projects/RAM_tb.vhd|
 !i113 1
 R12
 R13
 Atb
-R0
 R1
+R2
 DEx4 work 6 ram_tb 0 22 IP@[Z=Ne^b^Iok`akCz4z2
-!i122 467
+!i122 704
 l24
-L8 60
-VZ:;99h3WZAhN0c]UEageN2
-!s100 Yo4;7^a60NIV6LlGd6Z^H0
-R8
+R272
+V2izmb8J6lP;gK6jQzMWfz1
+!s100 @JG?N^BC>T=><MzXE`Z8z1
+R7
 32
-R294
+R274
 !i10b 1
-R295
-R291
-R292
+R280
+R286
+R287
 !i113 1
 R12
 R13
 Eregister_16
-Z296 w1631919797
-R0
+Z288 w1631919797
 R1
+R2
 !i122 11
-R120
-Z297 8C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/register_16.vhd
-Z298 FC:/Users/themhz/Desktop/EAP/PLHPSI2/projects/register_16.vhd
+R104
+Z289 8C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/register_16.vhd
+Z290 FC:/Users/themhz/Desktop/EAP/PLHPSI2/projects/register_16.vhd
 l0
-R7
+R6
 V4X7[JfGKni=cM^K^;7XLB0
 !s100 Tm088WZZP=T:0fTVgLfoX3
-R8
+R7
 32
-Z299 !s110 1631920322
+Z291 !s110 1631920322
 !i10b 1
-Z300 !s108 1631920322.000000
-Z301 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/register_16.vhd|
-Z302 !s107 C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/register_16.vhd|
+Z292 !s108 1631920322.000000
+Z293 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/register_16.vhd|
+Z294 !s107 C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/register_16.vhd|
 !i113 1
 R12
 R13
 Abdf_type
-R0
 R1
+R2
 DEx4 work 11 register_16 0 22 4X7[JfGKni=cM^K^;7XLB0
 !i122 11
 l93
 L66 76
 V25DmjGHTF4aN9e9XmlI5C3
 !s100 BS4Z<AP41Gi;i5?MG[B9f1
-R8
+R7
 32
-R299
+R291
 !i10b 1
-R300
-R301
-R302
+R292
+R293
+R294
 !i113 1
 R12
 R13
 Eregister_4
-Z303 w1631917144
-R0
+Z295 w1631917144
 R1
+R2
 !i122 9
-R120
-Z304 8C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/register_4.vhd
-Z305 FC:/Users/themhz/Desktop/EAP/PLHPSI2/projects/register_4.vhd
+R104
+Z296 8C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/register_4.vhd
+Z297 FC:/Users/themhz/Desktop/EAP/PLHPSI2/projects/register_4.vhd
 l0
-R7
+R6
 VJAXEdfenK5689iEATgkOi2
 !s100 [aQdGIMH0zHY3?288bO?S2
-R8
+R7
 32
-Z306 !s110 1631917359
+Z298 !s110 1631917359
 !i10b 1
-Z307 !s108 1631917359.000000
-Z308 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/register_4.vhd|
-Z309 !s107 C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/register_4.vhd|
+Z299 !s108 1631917359.000000
+Z300 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/register_4.vhd|
+Z301 !s107 C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/register_4.vhd|
 !i113 1
 R12
 R13
 Abdf_type
-R0
 R1
+R2
 DEx4 work 10 register_4 0 22 JAXEdfenK5689iEATgkOi2
 !i122 9
 l55
 L42 50
 VjGghe6khK=3c@bVzIam?l2
 !s100 R<RTcbRY@C9[]h^2SmzOb0
-R8
+R7
 32
-R306
+R298
 !i10b 1
-R307
-R308
-R309
+R299
+R300
+R301
 !i113 1
 R12
 R13
 Eregister_8
-Z310 w1631918923
-R0
+Z302 w1631918923
 R1
+R2
 !i122 10
-R120
-Z311 8C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/register_8.vhd
-Z312 FC:/Users/themhz/Desktop/EAP/PLHPSI2/projects/register_8.vhd
+R104
+Z303 8C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/register_8.vhd
+Z304 FC:/Users/themhz/Desktop/EAP/PLHPSI2/projects/register_8.vhd
 l0
-R7
+R6
 V4P^6iVcE]ljdB7F:n>=Q73
 !s100 KUBI?VW>H4U@XBdmn`7n83
-R8
+R7
 32
-Z313 !s110 1631920155
+Z305 !s110 1631920155
 !i10b 1
-Z314 !s108 1631920155.000000
-Z315 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/register_8.vhd|
-Z316 !s107 C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/register_8.vhd|
+Z306 !s108 1631920155.000000
+Z307 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/register_8.vhd|
+Z308 !s107 C:/Users/themhz/Desktop/EAP/PLHPSI2/projects/register_8.vhd|
 !i113 1
 R12
 R13
 Abdf_type
-R0
 R1
+R2
 DEx4 work 10 register_8 0 22 4P^6iVcE]ljdB7F:n>=Q73
 !i122 10
 l69
 L50 52
 Vd4Wo2YjEhRhe`b75MWZkY2
 !s100 W6G7khgam@fdTnO5a_AOf3
-R8
+R7
 32
-R313
+R305
 !i10b 1
-R314
-R315
-R316
+R306
+R307
+R308
 !i113 1
 R12
 R13
 Ereplicate
-Z317 w1639959014
-R0
+Z309 w1639959014
 R1
-!i122 403
-R4
-Z318 8S:/EAP/PLHPSI2/projects/replicate.vhd
-Z319 FS:/EAP/PLHPSI2/projects/replicate.vhd
+R2
+!i122 705
+R3
+Z310 8S:/EAP/PLHPSI2/projects/replicate.vhd
+Z311 FS:/EAP/PLHPSI2/projects/replicate.vhd
 l0
-R7
+R6
 VZa3Ud^em4TTYD7^;6Qlz52
 !s100 h`iG5TZYJf8Zh^oklC_B41
-R8
+R7
 32
-R75
+Z312 !s110 1661696983
 !i10b 1
-R144
-Z320 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/replicate.vhd|
-Z321 !s107 S:/EAP/PLHPSI2/projects/replicate.vhd|
+Z313 !s108 1661696983.000000
+Z314 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/replicate.vhd|
+Z315 !s107 S:/EAP/PLHPSI2/projects/replicate.vhd|
 !i113 1
 R12
 R13
 Abdf_type
-R0
 R1
+R2
 DEx4 work 9 replicate 0 22 Za3Ud^em4TTYD7^;6Qlz52
-!i122 403
+!i122 705
 l38
 L33 35
 VELiQM]4f1>zkL1NRDWG0_3
 !s100 jBiPSCR@UGMK7<d:7X_4@1
-R8
+R7
 32
-R75
+R312
 !i10b 1
-R144
-R320
-R321
+R313
+R314
+R315
 !i113 1
 R12
 R13
 Eripple_adder_8bit
-Z322 w1639866870
-R0
+Z316 w1639866870
 R1
-!i122 387
-R4
-Z323 8S:/EAP/PLHPSI2/projects/ripple_adder_8bit.vhd
-Z324 FS:/EAP/PLHPSI2/projects/ripple_adder_8bit.vhd
+R2
+!i122 706
+R3
+Z317 8S:/EAP/PLHPSI2/projects/ripple_adder_8bit.vhd
+Z318 FS:/EAP/PLHPSI2/projects/ripple_adder_8bit.vhd
 l0
-R7
+R6
 VUDj_lh`oimXNz2SN?>Z8X1
 !s100 Fmf[=aQ[bN1FLX7Nj0SIJ0
-R8
+R7
 32
-R170
+R312
 !i10b 1
-Z325 !s108 1641771115.000000
-Z326 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/ripple_adder_8bit.vhd|
-Z327 !s107 S:/EAP/PLHPSI2/projects/ripple_adder_8bit.vhd|
+R313
+Z319 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/ripple_adder_8bit.vhd|
+Z320 !s107 S:/EAP/PLHPSI2/projects/ripple_adder_8bit.vhd|
 !i113 1
 R12
 R13
 Abdf_type
-R0
 R1
+R2
 DEx4 work 17 ripple_adder_8bit 0 22 UDj_lh`oimXNz2SN?>Z8X1
-!i122 387
+!i122 706
 l57
 L36 91
 V6allL3NBGcBn?UE@n:f?R2
 !s100 7OPBAa_a3ib[GSK2VTCSA3
-R8
+R7
 32
-R170
+R312
 !i10b 1
-R325
-R326
-R327
+R313
+R319
+R320
 !i113 1
 R12
 R13
 Eripple_adder_8bit_tb
-Z328 w1639954156
-R0
+Z321 w1639954156
 R1
-!i122 388
-R4
-Z329 8S:/EAP/PLHPSI2/projects/ripple_adder_8bit_tb.vhd
-Z330 FS:/EAP/PLHPSI2/projects/ripple_adder_8bit_tb.vhd
+R2
+!i122 707
+R3
+Z322 8S:/EAP/PLHPSI2/projects/ripple_adder_8bit_tb.vhd
+Z323 FS:/EAP/PLHPSI2/projects/ripple_adder_8bit_tb.vhd
 l0
 L5 1
 V<Il`Vbg]Xd>BiVS06cY`f2
 !s100 j_hl9jEz>iljSOA6:`hdl1
-R8
+R7
 32
-R170
+Z324 !s110 1661696984
 !i10b 1
-R171
-Z331 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/ripple_adder_8bit_tb.vhd|
-Z332 !s107 S:/EAP/PLHPSI2/projects/ripple_adder_8bit_tb.vhd|
+R313
+Z325 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/ripple_adder_8bit_tb.vhd|
+Z326 !s107 S:/EAP/PLHPSI2/projects/ripple_adder_8bit_tb.vhd|
 !i113 1
 R12
 R13
 Atb
-R0
 R1
+R2
 DEx4 work 20 ripple_adder_8bit_tb 0 22 <Il`Vbg]Xd>BiVS06cY`f2
-!i122 388
+!i122 707
 l23
 L8 24
 V5:jN0HDlY4@?`ngUTLl4@0
 !s100 CF3Em]e7?oLI;dC62WYl<3
-R8
+R7
 32
-R170
+R324
 !i10b 1
-R171
+R313
+R325
+R326
+!i113 1
+R12
+R13
+Esequence_generator
+Z327 w1661694845
+R1
+R2
+!i122 708
+R3
+Z328 8S:/EAP/PLHPSI2/projects/sequence_generator.vhd
+Z329 FS:/EAP/PLHPSI2/projects/sequence_generator.vhd
+l0
+R6
+Vf@Ug7^@d_ObO8NZenQORQ1
+!s100 LRfc<dS66mV[cL]TJ54mh3
+R7
+32
+R324
+!i10b 1
+Z330 !s108 1661696984.000000
+Z331 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/sequence_generator.vhd|
+Z332 !s107 S:/EAP/PLHPSI2/projects/sequence_generator.vhd|
+!i113 1
+R12
+R13
+Abdf_type
+R1
+R2
+DEx4 work 18 sequence_generator 0 22 f@Ug7^@d_ObO8NZenQORQ1
+!i122 708
+l63
+L38 79
+VjcMBH0CTelo:MeD8KC]@L2
+!s100 VERahPhZhj`KUXzb31BR60
+R7
+32
+R324
+!i10b 1
+R330
 R331
 R332
 !i113 1
 R12
 R13
-Esequence_generator
-Z333 w1640818273
-R0
+Esequence_generator_no_devider
+Z333 w1661695219
 R1
-!i122 405
-R4
-Z334 8S:/EAP/PLHPSI2/projects/sequence_generator.vhd
-Z335 FS:/EAP/PLHPSI2/projects/sequence_generator.vhd
+R2
+!i122 709
+R3
+Z334 8S:/EAP/PLHPSI2/projects/sequence_generator_no_devider.vhd
+Z335 FS:/EAP/PLHPSI2/projects/sequence_generator_no_devider.vhd
 l0
+R6
+VYTR;30K1e>0MzCkG<^Cag2
+!s100 id_=@jlE;l93gQNmSbdgS3
 R7
-V@5EDA5[E2=RQT_4FKYRDD2
-!s100 1GbmnF?C7BOC<0D4dZKIK0
-R8
 32
-Z336 !s110 1641771122
+R324
 !i10b 1
-R144
-Z337 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/sequence_generator.vhd|
-Z338 !s107 S:/EAP/PLHPSI2/projects/sequence_generator.vhd|
+R330
+Z336 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/sequence_generator_no_devider.vhd|
+Z337 !s107 S:/EAP/PLHPSI2/projects/sequence_generator_no_devider.vhd|
 !i113 1
 R12
 R13
 Abdf_type
-R0
 R1
-DEx4 work 18 sequence_generator 0 22 @5EDA5[E2=RQT_4FKYRDD2
-!i122 405
+R2
+DEx4 work 29 sequence_generator_no_devider 0 22 YTR;30K1e>0MzCkG<^Cag2
+!i122 709
 l56
 L38 67
-VzeNIlBfmZ_V<WZZ0MDO[E0
-!s100 4Y=TD@njEb^a8VJ0`o]M01
-R8
+V4BkNP=K;[;b;@HYeWfn<e0
+!s100 GH=1lgbYgi>gU2:V1eb<X3
+R7
 32
-R336
+R324
 !i10b 1
-R144
+R330
+R336
 R337
-R338
 !i113 1
 R12
 R13
 Esequence_generator_tb
-Z339 w1641659045
-R0
+Z338 w1661695374
 R1
-!i122 421
-R4
-Z340 8S:/EAP/PLHPSI2/projects/sequence_generator_tb.vhd
-Z341 FS:/EAP/PLHPSI2/projects/sequence_generator_tb.vhd
+R2
+!i122 710
+R3
+Z339 8S:/EAP/PLHPSI2/projects/sequence_generator_tb.vhd
+Z340 FS:/EAP/PLHPSI2/projects/sequence_generator_tb.vhd
 l0
 L5 1
 V=YU>CH0@NIiz:6D@hGS6T3
 !s100 hVcXPSI[9?[EGc=lLBh513
-R8
+R7
 32
-R36
+Z341 !s110 1661696985
 !i10b 1
-R158
-Z342 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/sequence_generator_tb.vhd|
+R330
+Z342 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/sequence_generator_tb.vhd|
 Z343 !s107 S:/EAP/PLHPSI2/projects/sequence_generator_tb.vhd|
 !i113 1
 R12
 R13
 Atb
-R0
 R1
+R2
 DEx4 work 21 sequence_generator_tb 0 22 =YU>CH0@NIiz:6D@hGS6T3
-!i122 421
+!i122 710
 l28
 L8 29
-V7ieI0OB3bYeHa_8?db2Y=2
-!s100 9XCIC;^LkEg1EH236?3?>1
-R8
+V?cYVh=E<Sk4hcLNVibzZz2
+!s100 5aGD_4eWM]FgkmKj>nKa=0
+R7
 32
-R36
+R341
 !i10b 1
-R158
+R330
 R342
 R343
 !i113 1
@@ -2211,288 +2252,288 @@ R12
 R13
 Esimple_cpu
 Z344 w1641647844
-R0
 R1
-!i122 415
-R4
+R2
+!i122 711
+R3
 Z345 8S:/EAP/PLHPSI2/projects/simple_cpu.vhd
 Z346 FS:/EAP/PLHPSI2/projects/simple_cpu.vhd
 l0
-R7
+R6
 VcMAJL4AR[AUQbJ_EQT?lG2
 !s100 hTPlhX8:ZXk?S6mE2BN?n3
-R8
+R7
 32
-Z347 !s110 1641771125
+R341
 !i10b 1
-R116
-Z348 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/simple_cpu.vhd|
+Z347 !s108 1661696985.000000
+Z348 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/simple_cpu.vhd|
 Z349 !s107 S:/EAP/PLHPSI2/projects/simple_cpu.vhd|
 !i113 1
 R12
 R13
 Abdf_type
-R0
 R1
+R2
 DEx4 work 10 simple_cpu 0 22 cMAJL4AR[AUQbJ_EQT?lG2
-!i122 415
+!i122 711
 l218
 L35 383
 VDdoMgA=icBne?iNOYk]SW3
 !s100 c?0=5gC1VATd75MSS928j1
-R8
+R7
 32
-R347
+R341
 !i10b 1
-R116
+R347
 R348
 R349
 !i113 1
 R12
 R13
 Esimple_cpu_tb
-Z350 w1641602441
-R0
+Z350 w1661697208
 R1
-!i122 414
-R4
+R2
+!i122 728
+R3
 Z351 8S:/EAP/PLHPSI2/projects/simple_cpu_tb.vhd
 Z352 FS:/EAP/PLHPSI2/projects/simple_cpu_tb.vhd
 l0
 L5 1
 VXVc0ld;MI:9:JMSECAZ4U3
 !s100 IcZlTCi^gz:Y8O2>PVMV<1
-R8
+R7
 32
-R347
+Z353 !s110 1661698954
 !i10b 1
-R116
-Z353 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/simple_cpu_tb.vhd|
-Z354 !s107 S:/EAP/PLHPSI2/projects/simple_cpu_tb.vhd|
+Z354 !s108 1661698954.000000
+Z355 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/simple_cpu_tb.vhd|
+Z356 !s107 S:/EAP/PLHPSI2/projects/simple_cpu_tb.vhd|
 !i113 1
 R12
 R13
 Atb
-R0
 R1
+R2
 DEx4 work 13 simple_cpu_tb 0 22 XVc0ld;MI:9:JMSECAZ4U3
-!i122 414
+!i122 728
 l24
-R179
-VW3F?akRJ3>5YN8NL>3k[b1
-!s100 nC_jRUkII_US[To1Mc5<;1
-R8
+R161
+VGXmj]0d66:3OJocTZ=]o90
+!s100 5?QQA:N0n@0AYRXhLM=hT1
+R7
 32
-R347
-!i10b 1
-R116
 R353
+!i10b 1
 R354
+R355
+R356
 !i113 1
 R12
 R13
 Esimple_cpu_v2
-Z355 w1641771072
-R0
+Z357 w1661699292
 R1
-!i122 430
-R4
-Z356 8S:/EAP/PLHPSI2/projects/simple_cpu_v2.vhd
-Z357 FS:/EAP/PLHPSI2/projects/simple_cpu_v2.vhd
+R2
+!i122 732
+R3
+Z358 8S:/EAP/PLHPSI2/projects/simple_cpu_v2.vhd
+Z359 FS:/EAP/PLHPSI2/projects/simple_cpu_v2.vhd
 l0
-R7
+R6
 VJ9R88Q^R41VX^<Z@oH<jI2
 !s100 hFW2GO6EJO1EC?Y@d3`SI1
-R8
+R7
 32
-Z358 !s110 1641771131
+Z360 !s110 1661699313
 !i10b 1
-Z359 !s108 1641771131.000000
-Z360 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/simple_cpu_v2.vhd|
-Z361 !s107 S:/EAP/PLHPSI2/projects/simple_cpu_v2.vhd|
+Z361 !s108 1661699313.000000
+Z362 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/simple_cpu_v2.vhd|
+Z363 !s107 S:/EAP/PLHPSI2/projects/simple_cpu_v2.vhd|
 !i113 1
 R12
 R13
 Abdf_type
-R0
 R1
+R2
 DEx4 work 13 simple_cpu_v2 0 22 J9R88Q^R41VX^<Z@oH<jI2
-!i122 430
+!i122 732
 l221
 L35 388
-VH>Pd50HmFdIn_88D71Qbm1
-!s100 =^;S<0kYkL3KPFoKhjJ;J3
-R8
+VEgS5BTT6o=oz??=gOf6IQ3
+!s100 =D@6e7C`n29nd2T34;W5D3
+R7
 32
-R358
-!i10b 1
-R359
 R360
+!i10b 1
 R361
+R362
+R363
 !i113 1
 R12
 R13
 Esplit8
-Z362 w1641491409
-R0
+Z364 w1641491409
 R1
-!i122 419
-R4
-Z363 8S:/EAP/PLHPSI2/projects/split8.vhd
-Z364 FS:/EAP/PLHPSI2/projects/split8.vhd
+R2
+!i122 714
+R3
+Z365 8S:/EAP/PLHPSI2/projects/split8.vhd
+Z366 FS:/EAP/PLHPSI2/projects/split8.vhd
 l0
-R7
+R6
 V:eedL:PC[^Oe_N5cQ[WaX0
 !s100 H3IZ58GSWJ`9gOIgXHfBW1
-R8
+R7
 32
-R157
+Z367 !s110 1661696987
 !i10b 1
-R158
-Z365 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/split8.vhd|
-Z366 !s107 S:/EAP/PLHPSI2/projects/split8.vhd|
+Z368 !s108 1661696986.000000
+Z369 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/split8.vhd|
+Z370 !s107 S:/EAP/PLHPSI2/projects/split8.vhd|
 !i113 1
 R12
 R13
 Abdf_type
-R0
 R1
+R2
 DEx4 work 6 split8 0 22 :eedL:PC[^Oe_N5cQ[WaX0
-!i122 419
+!i122 714
 l40
 L34 61
 VXnHTO?QmWkk8034MNEmk;2
 !s100 T04<DjkM9:Z:HDFP<;E[I3
-R8
+R7
 32
-R157
+R367
 !i10b 1
-R158
-R365
-R366
+R368
+R369
+R370
 !i113 1
 R12
 R13
 Estatus_register
-Z367 w1640821114
-R0
+Z371 w1640821114
 R1
-!i122 406
-R4
-Z368 8S:/EAP/PLHPSI2/projects/status_register.vhd
-Z369 FS:/EAP/PLHPSI2/projects/status_register.vhd
+R2
+!i122 715
+R3
+Z372 8S:/EAP/PLHPSI2/projects/status_register.vhd
+Z373 FS:/EAP/PLHPSI2/projects/status_register.vhd
 l0
-R7
+R6
 V9d<k<cCD?_J9WYAKSglTO1
 !s100 D?@<JOBMS[]lozAcY5I383
-R8
+R7
 32
-R336
+R367
 !i10b 1
-R194
-Z370 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/status_register.vhd|
-Z371 !s107 S:/EAP/PLHPSI2/projects/status_register.vhd|
+Z374 !s108 1661696987.000000
+Z375 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/status_register.vhd|
+Z376 !s107 S:/EAP/PLHPSI2/projects/status_register.vhd|
 !i113 1
 R12
 R13
 Abdf_type
-R0
 R1
+R2
 DEx4 work 15 status_register 0 22 9d<k<cCD?_J9WYAKSglTO1
-!i122 406
+!i122 715
 l54
 L40 38
 VKNI;zjT`CP>>fP378P5VG3
 !s100 bUliPfAKh>[Zk6[:YQGDj2
-R8
-32
-R336
-!i10b 1
-R194
-R370
-R371
-!i113 1
-R12
-R13
-Estatus_register_v2
-Z372 w1641769443
-R0
-R1
-!i122 427
-R4
-Z373 8S:/EAP/PLHPSI2/projects/status_register_v2.vhd
-Z374 FS:/EAP/PLHPSI2/projects/status_register_v2.vhd
-l0
 R7
-VgWPYUY2;bQ^`W1?R_ZFBA0
-!s100 IJicXeYoknC33Qf^Qc<ci1
-R8
 32
-R211
+R367
 !i10b 1
-R164
-Z375 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/status_register_v2.vhd|
-Z376 !s107 S:/EAP/PLHPSI2/projects/status_register_v2.vhd|
-!i113 1
-R12
-R13
-Abdf_type
-R0
-R1
-DEx4 work 18 status_register_v2 0 22 gWPYUY2;bQ^`W1?R_ZFBA0
-!i122 427
-l55
-L41 38
-VT@UI<@@[jIizYQMVaN@=:1
-!s100 i6jk=hEgZoFd2bYV`>1iI1
-R8
-32
-R211
-!i10b 1
-R164
+R374
 R375
 R376
 !i113 1
 R12
 R13
-Ezero_detector
-Z377 w1640822267
-R0
+Estatus_register_v2
+Z377 w1641769443
 R1
-!i122 491
-R4
-Z378 8S:/EAP/PLHPSI2/projects/zero_detector.vhd
-Z379 FS:/EAP/PLHPSI2/projects/zero_detector.vhd
+R2
+!i122 716
+R3
+Z378 8S:/EAP/PLHPSI2/projects/status_register_v2.vhd
+Z379 FS:/EAP/PLHPSI2/projects/status_register_v2.vhd
 l0
+R6
+VgWPYUY2;bQ^`W1?R_ZFBA0
+!s100 IJicXeYoknC33Qf^Qc<ci1
 R7
-V;KZ5==f^6WGhV2fH6XaS13
-!s100 J3nk^=YebVY_?D87jfjjk1
-R8
 32
-Z380 !s110 1661200478
+R367
 !i10b 1
-Z381 !s108 1661200478.000000
-Z382 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|S:/EAP/PLHPSI2/projects/zero_detector.vhd|
-Z383 !s107 S:/EAP/PLHPSI2/projects/zero_detector.vhd|
+R374
+Z380 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/status_register_v2.vhd|
+Z381 !s107 S:/EAP/PLHPSI2/projects/status_register_v2.vhd|
 !i113 1
 R12
 R13
 Abdf_type
-R0
 R1
+R2
+DEx4 work 18 status_register_v2 0 22 gWPYUY2;bQ^`W1?R_ZFBA0
+!i122 716
+l55
+L41 38
+VT@UI<@@[jIizYQMVaN@=:1
+!s100 i6jk=hEgZoFd2bYV`>1iI1
+R7
+32
+R367
+!i10b 1
+R374
+R380
+R381
+!i113 1
+R12
+R13
+Ezero_detector
+Z382 w1640822267
+R1
+R2
+!i122 717
+R3
+Z383 8S:/EAP/PLHPSI2/projects/zero_detector.vhd
+Z384 FS:/EAP/PLHPSI2/projects/zero_detector.vhd
+l0
+R6
+V;KZ5==f^6WGhV2fH6XaS13
+!s100 J3nk^=YebVY_?D87jfjjk1
+R7
+32
+Z385 !s110 1661696988
+!i10b 1
+R374
+Z386 !s90 -reportprogress|300|-work|work|-2002|-explicit|S:/EAP/PLHPSI2/projects/zero_detector.vhd|
+Z387 !s107 S:/EAP/PLHPSI2/projects/zero_detector.vhd|
+!i113 1
+R12
+R13
+Abdf_type
+R1
+R2
 DEx4 work 13 zero_detector 0 22 ;KZ5==f^6WGhV2fH6XaS13
-!i122 491
+!i122 717
 l44
 L40 12
 V<FK2]f[]ncJ7iof=n9TNe0
 !s100 0=O@`E5ECN1FjGlVn?7kJ2
-R8
+R7
 32
-R380
+R385
 !i10b 1
-R381
-R382
-R383
+R374
+R386
+R387
 !i113 1
 R12
 R13

@@ -15,7 +15,7 @@
 
 -- PROGRAM		"Quartus Prime"
 -- VERSION		"Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition"
--- CREATED		"Mon Jan 10 01:31:12 2022"
+-- CREATED		"Sun Aug 28 18:08:12 2022"
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.all; 
@@ -246,8 +246,7 @@ PORT MAP(D0 => Z(0),
 		 Q7 => QB(7));
 
 
-
-b2v_inst1 : decoder_v2
+b2v_decoder_v2 : decoder_v2
 PORT MAP(CLK => CLK,
 		 CE => SYNTHESIZED_WIRE_1,
 		 CLR => SYNTHESIZED_WIRE_27,
@@ -267,6 +266,7 @@ PORT MAP(CLK => CLK,
 		 EN_IN => SYNTHESIZED_WIRE_25,
 		 EN_DA => SYNTHESIZED_WIRE_0,
 		 EN_PC => SYNTHESIZED_WIRE_26);
+
 
 
 b2v_inst10 : replicate
